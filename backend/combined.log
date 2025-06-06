@@ -22510,3 +22510,9 @@ The column `vinted_bot.Notification.groupId` does not exist in the current datab
 2025-06-06T19:45:45.724Z [34mdebug[39m: Waiting for 1299ms
 2025-06-06T19:45:48.132Z [34mdebug[39m: Waiting for 113ms
 2025-06-06T19:45:48.261Z [34mdebug[39m: Waiting for 86ms
+2025-06-06T19:46:03.366Z [33mwarn[39m: Timeout waiting for items on page 2 for profile eb6f4903-0409-4f58-bc7f-9c401b130780. This might mean no items on this page or a page structure change.
+2025-06-06T19:46:03.367Z [32minfo[39m: Completed scraping for profile eb6f4903-0409-4f58-bc7f-9c401b130780. Total items found: 9
+2025-06-06T19:46:03.367Z [32minfo[39m: Scraper status updated:
+2025-06-06T19:46:03.803Z [32minfo[39m: Finished active profiles scraper.
+2025-06-06T19:46:03.804Z [32minfo[39m: Scraper status updated:
+2025-06-06T19:46:03.804Z [32minfo[39m: Scraper status updated:
