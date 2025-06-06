@@ -1,0 +1,137 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String         @id @default(uuid())
+  email         String         @unique
+  password      String
+  name          String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  searchProfiles SearchProfile[]
+  notifications Notification[]
+  actions       Action[]
+}
+
+model Brand {
+  id            Int             @id
+  name          String
+  searchProfiles SearchProfile[]
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+}
+
+model SearchProfile {
+  id              String    @id @default(uuid())
+  name            String
+  keywords        String?
+  category        String?
+  subcategory     String?
+  brandId         Int?
+  brand           Brand?    @relation(fields: [brandId], references: [id])
+  size            String?
+  minPrice        Float?
+  maxPrice        Float?
+  condition       String?
+  color           String?
+  material        String?
+  pattern         String?
+  shippingCountry String?
+  catalogId       String?
+  catalog         String?
+  gender          String?
+  status          String    @default("active")
+  clothingSize    String?
+  shoeSize        String?
+  shoeSizeSystem  String?
+  clothingType    String?
+  season          String?
+  style           String?
+  isActive        Boolean   @default(true)
+  autoActions     AutoAction?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  userId          String
+  user            User      @relation(fields: [userId], references: [id])
+  matches         Match[]
+}
+
+model AutoAction {
+  id              String        @id @default(uuid())
+  autoFavorite    Boolean       @default(false)
+  autoOffer       Boolean       @default(false)
+  autoOfferPrice  Float?
+  autoBuy         Boolean       @default(false)
+  searchProfileId String        @unique
+  searchProfile   SearchProfile @relation(fields: [searchProfileId], references: [id], onDelete: Cascade)
+}
+
+model Match {
+  id              String        @id @default(uuid())
+  listingId       String
+  title           String
+  price           Float
+  imageUrls       String        // JSON array of URLs
+  productUrl      String
+  size            String?
+  brand           String?
+  condition       String?
+  sellerRating    Float?
+  totalPrice      Float?
+  likes           Int    @default(0)
+  status          String        @default("available") // available, sold, deleted
+  matchedAt       DateTime      @default(now())
+  searchProfileId String
+  searchProfile   SearchProfile @relation(fields: [searchProfileId], references: [id], onDelete: Cascade)
+  notifications   Notification[]
+  actions         Action[]
+  priceHistory    PriceHistory[]
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@unique([listingId, searchProfileId])
+}
+
+model PriceHistory {
+  id        String   @id @default(uuid())
+  price     Float
+  timestamp DateTime @default(now())
+  matchId   String
+  match     Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
+
+  @@index([matchId])
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  type      String   // "NEW_MATCH" | "PRICE_DROP" | "ITEM_SOLD" | "ITEM_DELETED" | "ACTION"
+  message   String
+  details   String?  // JSON string of additional notification details
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  matchId   String?
+  match     Match?   @relation(fields: [matchId], references: [id], onDelete: Cascade)
+}
+
+model Action {
+  id        String   @id @default(uuid())
+  type      String   // "FAVORITE" | "OFFER" | "BUY"
+  price     Float?
+  status    String   // "PENDING" | "COMPLETED" | "FAILED"
+  createdAt DateTime @default(now())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  matchId   String
+  match     Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
+} 

@@ -1,0 +1,10142 @@
+[
+  {
+    "id": 4,
+    "name": "Berenice"
+  },
+  {
+    "id": 6,
+    "name": "GAP"
+  },
+  {
+    "id": 9,
+    "name": "New Look"
+  },
+  {
+    "id": 11,
+    "name": "American Vintage"
+  },
+  {
+    "id": 13,
+    "name": "Accessorize"
+  },
+  {
+    "id": 16,
+    "name": "Topshop"
+  },
+  {
+    "id": 17,
+    "name": "Esprit"
+  },
+  {
+    "id": 19,
+    "name": "Chocolate Schubar"
+  },
+  {
+    "id": 22,
+    "name": "Kickers"
+  },
+  {
+    "id": 24,
+    "name": "Bata"
+  },
+  {
+    "id": 25,
+    "name": "Mascara"
+  },
+  {
+    "id": 27,
+    "name": "Roxy"
+  },
+  {
+    "id": 28,
+    "name": "Freeman T. Porter"
+  },
+  {
+    "id": 30,
+    "name": "Diamond Dust"
+  },
+  {
+    "id": 31,
+    "name": "Crazy Factory"
+  },
+  {
+    "id": 32,
+    "name": "Agatha"
+  },
+  {
+    "id": 36,
+    "name": "Morgan"
+  },
+  {
+    "id": 37,
+    "name": "Baby Phat"
+  },
+  {
+    "id": 39,
+    "name": "Jacqueline Riu"
+  },
+  {
+    "id": 40,
+    "name": "Super Mode"
+  },
+  {
+    "id": 42,
+    "name": "Claire's"
+  },
+  {
+    "id": 44,
+    "name": "Timberland"
+  },
+  {
+    "id": 45,
+    "name": "So&Co"
+  },
+  {
+    "id": 46,
+    "name": "Le Temps des Cerises"
+  },
+  {
+    "id": 47,
+    "name": "Bonobo"
+  },
+  {
+    "id": 49,
+    "name": "ASOS"
+  },
+  {
+    "id": 60,
+    "name": "Kiabi"
+  },
+  {
+    "id": 12,
+    "name": "Zara"
+  },
+  {
+    "id": 7,
+    "name": "H&M"
+  },
+  {
+    "id": 53,
+    "name": "Nike"
+  },
+  {
+    "id": 13347,
+    "name": "Orchestra"
+  },
+  {
+    "id": 172724,
+    "name": "Shein"
+  },
+  {
+    "id": 34,
+    "name": "Disney"
+  },
+  {
+    "id": 14,
+    "name": "adidas"
+  },
+  {
+    "id": 43,
+    "name": "Jennyfer"
+  },
+  {
+    "id": 573,
+    "name": "Vintage"
+  },
+  {
+    "id": 144,
+    "name": "Gémo"
+  },
+  {
+    "id": 26,
+    "name": "Camaïeu"
+  },
+  {
+    "id": 16377,
+    "name": "Tape à l'Oeil"
+  },
+  {
+    "id": 3,
+    "name": "Pimkie"
+  },
+  {
+    "id": 571,
+    "name": "Okaïdi"
+  },
+  {
+    "id": 140,
+    "name": "Bershka"
+  },
+  {
+    "id": 15,
+    "name": "Mango"
+  },
+  {
+    "id": 105,
+    "name": "Primark"
+  },
+  {
+    "id": 17143,
+    "name": "Vertbaudet"
+  },
+  {
+    "id": 191646,
+    "name": "Pokémon"
+  },
+  {
+    "id": 3921,
+    "name": "Sergent Major"
+  },
+  {
+    "id": 57,
+    "name": "Cache Cache"
+  },
+  {
+    "id": 386,
+    "name": "Decathlon"
+  },
+  {
+    "id": 10,
+    "name": "Levi's"
+  },
+  {
+    "id": 287243,
+    "name": "Playmobil"
+  },
+  {
+    "id": 5,
+    "name": "Promod"
+  },
+  {
+    "id": 405,
+    "name": "In Extenso"
+  },
+  {
+    "id": 149,
+    "name": "Petit Bateau"
+  },
+  {
+    "id": 174100,
+    "name": "Obaïbi"
+  },
+  {
+    "id": 61,
+    "name": "IKKS"
+  },
+  {
+    "id": 90,
+    "name": "Du Pareil au Même"
+  },
+  {
+    "id": 4690593,
+    "name": "Pull & Bear"
+  },
+  {
+    "id": 92,
+    "name": "TEX"
+  },
+  {
+    "id": 535,
+    "name": "Puma"
+  },
+  {
+    "id": 101,
+    "name": "Etam"
+  },
+  {
+    "id": 2,
+    "name": "Fait main"
+  },
+  {
+    "id": 177,
+    "name": "NAF NAF"
+  },
+  {
+    "id": 2571,
+    "name": "Tissaia"
+  },
+  {
+    "id": 274487,
+    "name": "VTech"
+  },
+  {
+    "id": 41,
+    "name": "Stradivarius"
+  },
+  {
+    "id": 77600,
+    "name": "Nintendo"
+  },
+  {
+    "id": 304,
+    "name": "Lacoste"
+  },
+  {
+    "id": 89162,
+    "name": "Lego"
+  },
+  {
+    "id": 88,
+    "name": "Ralph Lauren"
+  },
+  {
+    "id": 11425,
+    "name": "C&A"
+  },
+  {
+    "id": 2615,
+    "name": "CELIO"
+  },
+  {
+    "id": 94,
+    "name": "Tommy Hilfiger"
+  },
+  {
+    "id": 20,
+    "name": "GUESS"
+  },
+  {
+    "id": 2703,
+    "name": "Jordan"
+  },
+  {
+    "id": 211,
+    "name": "La Halle"
+  },
+  {
+    "id": 54,
+    "name": "Mim"
+  },
+  {
+    "id": 55,
+    "name": "Vero Moda"
+  },
+  {
+    "id": 58,
+    "name": "See U Soon"
+  },
+  {
+    "id": 59,
+    "name": "La Redoute"
+  },
+  {
+    "id": 63,
+    "name": "Lee"
+  },
+  {
+    "id": 64,
+    "name": "KanaBeach"
+  },
+  {
+    "id": 65,
+    "name": "Dickies"
+  },
+  {
+    "id": 66,
+    "name": "Volcom"
+  },
+  {
+    "id": 67,
+    "name": "Cop Copine"
+  },
+  {
+    "id": 71,
+    "name": "Carling"
+  },
+  {
+    "id": 72,
+    "name": "Caroll"
+  },
+  {
+    "id": 75,
+    "name": "Avant Première"
+  },
+  {
+    "id": 76,
+    "name": "redskin"
+  },
+  {
+    "id": 78,
+    "name": "éram"
+  },
+  {
+    "id": 83,
+    "name": "Nothing Else"
+  },
+  {
+    "id": 84,
+    "name": "Baby the Stars Shine bright"
+  },
+  {
+    "id": 87,
+    "name": "eden"
+  },
+  {
+    "id": 89,
+    "name": "SportWay"
+  },
+  {
+    "id": 93,
+    "name": "Abercrombie & Fitch"
+  },
+  {
+    "id": 97,
+    "name": "La Martina"
+  },
+  {
+    "id": 98,
+    "name": "Les 3 Suisses"
+  },
+  {
+    "id": 100,
+    "name": "ONLY"
+  },
+  {
+    "id": 103,
+    "name": "Karl Lagerfeld"
+  },
+  {
+    "id": 104,
+    "name": "Monoprix"
+  },
+  {
+    "id": 106,
+    "name": "Peter Kaiser"
+  },
+  {
+    "id": 108,
+    "name": "bel air"
+  },
+  {
+    "id": 111,
+    "name": "Jonak"
+  },
+  {
+    "id": 112,
+    "name": "New Man"
+  },
+  {
+    "id": 113,
+    "name": "Spot"
+  },
+  {
+    "id": 114,
+    "name": "Xanaka"
+  },
+  {
+    "id": 115,
+    "name": "Sandro"
+  },
+  {
+    "id": 116,
+    "name": "Maje"
+  },
+  {
+    "id": 117,
+    "name": "Claudie Pierlot"
+  },
+  {
+    "id": 118,
+    "name": "minelli"
+  },
+  {
+    "id": 119,
+    "name": "la petite francaise"
+  },
+  {
+    "id": 120,
+    "name": "Hugo Boss"
+  },
+  {
+    "id": 121,
+    "name": "Isabel Marant"
+  },
+  {
+    "id": 123,
+    "name": "kookai"
+  },
+  {
+    "id": 124,
+    "name": "Vogue"
+  },
+  {
+    "id": 126,
+    "name": "an'ge"
+  },
+  {
+    "id": 127,
+    "name": "Yessica"
+  },
+  {
+    "id": 130,
+    "name": "Cindy-H"
+  },
+  {
+    "id": 131,
+    "name": "Atmosphere"
+  },
+  {
+    "id": 132,
+    "name": "Teddy Smith"
+  },
+  {
+    "id": 137,
+    "name": "Zara Trafaluc"
+  },
+  {
+    "id": 139,
+    "name": "Vans"
+  },
+  {
+    "id": 141,
+    "name": "LuLu´s"
+  },
+  {
+    "id": 142,
+    "name": "boohoo"
+  },
+  {
+    "id": 143,
+    "name": "somewhere"
+  },
+  {
+    "id": 145,
+    "name": "DDP"
+  },
+  {
+    "id": 146,
+    "name": "Cheap Monday"
+  },
+  {
+    "id": 147,
+    "name": "Victoria Couture"
+  },
+  {
+    "id": 148,
+    "name": "Un Jour Ailleurs"
+  },
+  {
+    "id": 150,
+    "name": "Montan"
+  },
+  {
+    "id": 151,
+    "name": "La City"
+  },
+  {
+    "id": 153,
+    "name": "Walk And Talk"
+  },
+  {
+    "id": 156,
+    "name": "Iron Fist"
+  },
+  {
+    "id": 158,
+    "name": "Darkside"
+  },
+  {
+    "id": 159,
+    "name": "Quiksilver"
+  },
+  {
+    "id": 160,
+    "name": "Miss Captain"
+  },
+  {
+    "id": 161,
+    "name": "Diesel"
+  },
+  {
+    "id": 162,
+    "name": "Reebok"
+  },
+  {
+    "id": 163,
+    "name": "Best Mountain"
+  },
+  {
+    "id": 164,
+    "name": "Bordello"
+  },
+  {
+    "id": 166,
+    "name": "K Woman"
+  },
+  {
+    "id": 167,
+    "name": "Bilook"
+  },
+  {
+    "id": 170,
+    "name": "April 77"
+  },
+  {
+    "id": 171,
+    "name": "Princesse Tam Tam"
+  },
+  {
+    "id": 172,
+    "name": "Etam Lingerie"
+  },
+  {
+    "id": 173,
+    "name": "Brandy Melville"
+  },
+  {
+    "id": 174,
+    "name": "River Island"
+  },
+  {
+    "id": 175,
+    "name": "Chantal Thomass"
+  },
+  {
+    "id": 176,
+    "name": "Toumaï"
+  },
+  {
+    "id": 178,
+    "name": "Miss coquine"
+  },
+  {
+    "id": 179,
+    "name": "Gerard Darel"
+  },
+  {
+    "id": 180,
+    "name": "Karl Marc John"
+  },
+  {
+    "id": 181,
+    "name": "Liz Claiborne"
+  },
+  {
+    "id": 182,
+    "name": "Sinéquanone"
+  },
+  {
+    "id": 184,
+    "name": "American Eagle"
+  },
+  {
+    "id": 185,
+    "name": "Magnum"
+  },
+  {
+    "id": 186,
+    "name": "ELLE"
+  },
+  {
+    "id": 187,
+    "name": "Supremebeing"
+  },
+  {
+    "id": 188,
+    "name": "version sud"
+  },
+  {
+    "id": 189,
+    "name": "Dorothy Perkins"
+  },
+  {
+    "id": 191,
+    "name": "superdry"
+  },
+  {
+    "id": 192,
+    "name": "Pepe Jeans"
+  },
+  {
+    "id": 195,
+    "name": "André"
+  },
+  {
+    "id": 197,
+    "name": "Lollipops"
+  },
+  {
+    "id": 198,
+    "name": "Texto"
+  },
+  {
+    "id": 199,
+    "name": "Les Tropeziennes"
+  },
+  {
+    "id": 206,
+    "name": "Ekyog"
+  },
+  {
+    "id": 210,
+    "name": "Bizzbee"
+  },
+  {
+    "id": 212,
+    "name": "3 Suisses"
+  },
+  {
+    "id": 213,
+    "name": "ici et maintenant"
+  },
+  {
+    "id": 214,
+    "name": "Napapijri"
+  },
+  {
+    "id": 219,
+    "name": "American Apparel"
+  },
+  {
+    "id": 222,
+    "name": "Kling"
+  },
+  {
+    "id": 224,
+    "name": "Tamaris"
+  },
+  {
+    "id": 227,
+    "name": "Oxbow"
+  },
+  {
+    "id": 228,
+    "name": "San Marina"
+  },
+  {
+    "id": 229,
+    "name": "Vera Lucci"
+  },
+  {
+    "id": 230,
+    "name": "Airness"
+  },
+  {
+    "id": 231,
+    "name": "Sonia Rykiel"
+  },
+  {
+    "id": 232,
+    "name": "New Era"
+  },
+  {
+    "id": 233,
+    "name": "Teenflo"
+  },
+  {
+    "id": 235,
+    "name": "Ellos"
+  },
+  {
+    "id": 236,
+    "name": "Enzo Loco"
+  },
+  {
+    "id": 237,
+    "name": "Jeffrey Campbell"
+  },
+  {
+    "id": 238,
+    "name": "Comptoir des Cotonniers"
+  },
+  {
+    "id": 239,
+    "name": "redial"
+  },
+  {
+    "id": 242,
+    "name": "Ray-Ban"
+  },
+  {
+    "id": 246,
+    "name": "BABY MILO"
+  },
+  {
+    "id": 247,
+    "name": "Tally Weijl"
+  },
+  {
+    "id": 249,
+    "name": "Jet 7"
+  },
+  {
+    "id": 251,
+    "name": "A.P.C."
+  },
+  {
+    "id": 253,
+    "name": "Fenchurch"
+  },
+  {
+    "id": 255,
+    "name": "Calvin Klein"
+  },
+  {
+    "id": 256,
+    "name": "Tout Simplement"
+  },
+  {
+    "id": 257,
+    "name": "MY PINK TEE"
+  },
+  {
+    "id": 258,
+    "name": "G-Star"
+  },
+  {
+    "id": 259,
+    "name": "Wrangler"
+  },
+  {
+    "id": 260,
+    "name": "Salsa"
+  },
+  {
+    "id": 262,
+    "name": "Creeks"
+  },
+  {
+    "id": 263,
+    "name": "Swatch"
+  },
+  {
+    "id": 266,
+    "name": "Denim"
+  },
+  {
+    "id": 268,
+    "name": "Top Studio"
+  },
+  {
+    "id": 270,
+    "name": "Rocket Dog"
+  },
+  {
+    "id": 271,
+    "name": "River Woods"
+  },
+  {
+    "id": 272,
+    "name": "Coq Sportif"
+  },
+  {
+    "id": 273,
+    "name": "Kaporal"
+  },
+  {
+    "id": 274,
+    "name": "Galeries Lafayette"
+  },
+  {
+    "id": 276,
+    "name": "Tailly Weijl"
+  },
+  {
+    "id": 278,
+    "name": "Maison Scotch"
+  },
+  {
+    "id": 280,
+    "name": "Mia soana"
+  },
+  {
+    "id": 284,
+    "name": "Thierry Mugler"
+  },
+  {
+    "id": 287,
+    "name": "Together"
+  },
+  {
+    "id": 290,
+    "name": "tipster"
+  },
+  {
+    "id": 291,
+    "name": "RIP CURL"
+  },
+  {
+    "id": 292,
+    "name": "Renatto Bene"
+  },
+  {
+    "id": 297,
+    "name": "Orsay"
+  },
+  {
+    "id": 299,
+    "name": "Murat"
+  },
+  {
+    "id": 303,
+    "name": "Eastpak"
+  },
+  {
+    "id": 306,
+    "name": "L'emotion"
+  },
+  {
+    "id": 307,
+    "name": "Eleven Paris"
+  },
+  {
+    "id": 308,
+    "name": "Besson"
+  },
+  {
+    "id": 309,
+    "name": "Dr. Martens"
+  },
+  {
+    "id": 310,
+    "name": "Miss Selfridge"
+  },
+  {
+    "id": 311,
+    "name": "Laura Clément"
+  },
+  {
+    "id": 314,
+    "name": "CIMARRON"
+  },
+  {
+    "id": 315,
+    "name": "Modatoi"
+  },
+  {
+    "id": 317,
+    "name": "Daniel Hechter"
+  },
+  {
+    "id": 318,
+    "name": "123"
+  },
+  {
+    "id": 320,
+    "name": "Original Denim"
+  },
+  {
+    "id": 321,
+    "name": "ARMISTICE"
+  },
+  {
+    "id": 322,
+    "name": "Fionella"
+  },
+  {
+    "id": 326,
+    "name": "Paul Frank"
+  },
+  {
+    "id": 327,
+    "name": "Mademoiselle & Vous"
+  },
+  {
+    "id": 328,
+    "name": "Bensimon"
+  },
+  {
+    "id": 329,
+    "name": "Sessun"
+  },
+  {
+    "id": 330,
+    "name": "Phildar"
+  },
+  {
+    "id": 331,
+    "name": "Amisu"
+  },
+  {
+    "id": 333,
+    "name": "Darjeeling"
+  },
+  {
+    "id": 334,
+    "name": "Undiz"
+  },
+  {
+    "id": 335,
+    "name": "Blanc du Nil"
+  },
+  {
+    "id": 336,
+    "name": "Version Originale"
+  },
+  {
+    "id": 337,
+    "name": "Charlise"
+  },
+  {
+    "id": 342,
+    "name": "DIM"
+  },
+  {
+    "id": 343,
+    "name": "Clockhouse"
+  },
+  {
+    "id": 344,
+    "name": "America Today"
+  },
+  {
+    "id": 345,
+    "name": "le coq sportif"
+  },
+  {
+    "id": 346,
+    "name": "Coline"
+  },
+  {
+    "id": 348,
+    "name": "Rare"
+  },
+  {
+    "id": 354,
+    "name": "Oysho"
+  },
+  {
+    "id": 355,
+    "name": "Sloane"
+  },
+  {
+    "id": 357,
+    "name": "Domyos"
+  },
+  {
+    "id": 358,
+    "name": "Banana Moon"
+  },
+  {
+    "id": 359,
+    "name": "Manoukian"
+  },
+  {
+    "id": 361,
+    "name": "Active Wear"
+  },
+  {
+    "id": 362,
+    "name": "Carhartt"
+  },
+  {
+    "id": 363,
+    "name": "paprika"
+  },
+  {
+    "id": 364,
+    "name": "Burberry"
+  },
+  {
+    "id": 365,
+    "name": "Spilan"
+  },
+  {
+    "id": 366,
+    "name": "Custo"
+  },
+  {
+    "id": 369,
+    "name": "Chipie"
+  },
+  {
+    "id": 370,
+    "name": "Longchamp"
+  },
+  {
+    "id": 372,
+    "name": "Marc Jacobs"
+  },
+  {
+    "id": 374,
+    "name": "Cotelac"
+  },
+  {
+    "id": 375,
+    "name": "EDC By Esprit"
+  },
+  {
+    "id": 377,
+    "name": "Yves Saint Laurent"
+  },
+  {
+    "id": 380,
+    "name": "Lollipop"
+  },
+  {
+    "id": 382,
+    "name": "Gold SK"
+  },
+  {
+    "id": 383,
+    "name": "Gerard Pasquier"
+  },
+  {
+    "id": 385,
+    "name": "Liberto"
+  },
+  {
+    "id": 388,
+    "name": "SUD Express"
+  },
+  {
+    "id": 391,
+    "name": "EDEIS."
+  },
+  {
+    "id": 392,
+    "name": "Arthur & Aston"
+  },
+  {
+    "id": 393,
+    "name": "New Yorker"
+  },
+  {
+    "id": 394,
+    "name": "Wesc"
+  },
+  {
+    "id": 395,
+    "name": "CHATTAWAK"
+  },
+  {
+    "id": 400,
+    "name": "Mugler"
+  },
+  {
+    "id": 401,
+    "name": "Galerie Lafayette"
+  },
+  {
+    "id": 402,
+    "name": "Street One"
+  },
+  {
+    "id": 404,
+    "name": "Tsumori Chisato"
+  },
+  {
+    "id": 406,
+    "name": "Couleurs d´ete"
+  },
+  {
+    "id": 407,
+    "name": "Lee Cooper"
+  },
+  {
+    "id": 408,
+    "name": "Tally Weilj"
+  },
+  {
+    "id": 409,
+    "name": "Criminal Damage"
+  },
+  {
+    "id": 413,
+    "name": "Mellow Yellow"
+  },
+  {
+    "id": 416,
+    "name": "Elite"
+  },
+  {
+    "id": 417,
+    "name": "Louis Vuitton"
+  },
+  {
+    "id": 418,
+    "name": "Just Women"
+  },
+  {
+    "id": 421,
+    "name": "Fosco"
+  },
+  {
+    "id": 424,
+    "name": "jsfn"
+  },
+  {
+    "id": 425,
+    "name": "Moa"
+  },
+  {
+    "id": 427,
+    "name": "C'M Paris"
+  },
+  {
+    "id": 428,
+    "name": "reserve naturelle"
+  },
+  {
+    "id": 432,
+    "name": "New Rock"
+  },
+  {
+    "id": 433,
+    "name": "Pentagramme"
+  },
+  {
+    "id": 438,
+    "name": "E Play"
+  },
+  {
+    "id": 441,
+    "name": "Stussy"
+  },
+  {
+    "id": 442,
+    "name": "Hell Bunny"
+  },
+  {
+    "id": 443,
+    "name": "Millenium"
+  },
+  {
+    "id": 446,
+    "name": "Billabong"
+  },
+  {
+    "id": 448,
+    "name": "Amy Gee"
+  },
+  {
+    "id": 449,
+    "name": "Coccinelle"
+  },
+  {
+    "id": 451,
+    "name": "SIX"
+  },
+  {
+    "id": 452,
+    "name": "Shana"
+  },
+  {
+    "id": 453,
+    "name": "camailleu"
+  },
+  {
+    "id": 454,
+    "name": "Marque Italienne"
+  },
+  {
+    "id": 455,
+    "name": "Queen of Darkness"
+  },
+  {
+    "id": 456,
+    "name": "Mercy"
+  },
+  {
+    "id": 460,
+    "name": "Vila"
+  },
+  {
+    "id": 461,
+    "name": "Cyrillus"
+  },
+  {
+    "id": 462,
+    "name": "YENDI"
+  },
+  {
+    "id": 464,
+    "name": "Pickles"
+  },
+  {
+    "id": 465,
+    "name": "inconnu"
+  },
+  {
+    "id": 467,
+    "name": "soleil sucre"
+  },
+  {
+    "id": 468,
+    "name": "Studio pour André"
+  },
+  {
+    "id": 470,
+    "name": "Cacharel"
+  },
+  {
+    "id": 471,
+    "name": "Urban Outfitters"
+  },
+  {
+    "id": 473,
+    "name": "Be You K"
+  },
+  {
+    "id": 475,
+    "name": "Elisabeth Stuart"
+  },
+  {
+    "id": 477,
+    "name": "Yucan"
+  },
+  {
+    "id": 479,
+    "name": "Bali Barret"
+  },
+  {
+    "id": 480,
+    "name": "DIDIER GUERIN"
+  },
+  {
+    "id": 481,
+    "name": "Chanel"
+  },
+  {
+    "id": 482,
+    "name": "Miss June"
+  },
+  {
+    "id": 485,
+    "name": "Yumi"
+  },
+  {
+    "id": 486,
+    "name": "Yves Rocher"
+  },
+  {
+    "id": 487,
+    "name": "stainless steel back"
+  },
+  {
+    "id": 488,
+    "name": "BCBGirls"
+  },
+  {
+    "id": 489,
+    "name": "Eden Park"
+  },
+  {
+    "id": 491,
+    "name": "Desigual"
+  },
+  {
+    "id": 493,
+    "name": "Papaya"
+  },
+  {
+    "id": 495,
+    "name": "Lulu Castagnette"
+  },
+  {
+    "id": 498,
+    "name": "la source"
+  },
+  {
+    "id": 499,
+    "name": "Hello Kitty"
+  },
+  {
+    "id": 500,
+    "name": "Sacha"
+  },
+  {
+    "id": 505,
+    "name": "Mexx"
+  },
+  {
+    "id": 506,
+    "name": "Rica Lewis"
+  },
+  {
+    "id": 507,
+    "name": "Von Zipper"
+  },
+  {
+    "id": 509,
+    "name": "Dorotennis"
+  },
+  {
+    "id": 510,
+    "name": "Kalais"
+  },
+  {
+    "id": 512,
+    "name": "Reqins"
+  },
+  {
+    "id": 513,
+    "name": "M&S Mode"
+  },
+  {
+    "id": 514,
+    "name": "americaine"
+  },
+  {
+    "id": 515,
+    "name": "it Hippie"
+  },
+  {
+    "id": 516,
+    "name": "Urban G"
+  },
+  {
+    "id": 518,
+    "name": "DC Shoes"
+  },
+  {
+    "id": 521,
+    "name": "Zara Basic"
+  },
+  {
+    "id": 522,
+    "name": "Patrice Breal"
+  },
+  {
+    "id": 523,
+    "name": "School Rag"
+  },
+  {
+    "id": 525,
+    "name": "Quechua"
+  },
+  {
+    "id": 527,
+    "name": "JCL"
+  },
+  {
+    "id": 528,
+    "name": "Hublot"
+  },
+  {
+    "id": 529,
+    "name": "Demonia"
+  },
+  {
+    "id": 530,
+    "name": "My Collection"
+  },
+  {
+    "id": 531,
+    "name": "Glossybox"
+  },
+  {
+    "id": 532,
+    "name": "JCL Trends"
+  },
+  {
+    "id": 533,
+    "name": "Accesorize"
+  },
+  {
+    "id": 534,
+    "name": "Clarks"
+  },
+  {
+    "id": 536,
+    "name": "camomilla milano"
+  },
+  {
+    "id": 540,
+    "name": "Relood"
+  },
+  {
+    "id": 541,
+    "name": "Kingsland"
+  },
+  {
+    "id": 543,
+    "name": "b.young"
+  },
+  {
+    "id": 549,
+    "name": "Fde la passion"
+  },
+  {
+    "id": 550,
+    "name": "Miss Sixty"
+  },
+  {
+    "id": 551,
+    "name": "Bee Fly"
+  },
+  {
+    "id": 553,
+    "name": "JUNK Food"
+  },
+  {
+    "id": 555,
+    "name": "Eden Shoes"
+  },
+  {
+    "id": 556,
+    "name": "Little Marcel"
+  },
+  {
+    "id": 557,
+    "name": "Madeleine"
+  },
+  {
+    "id": 560,
+    "name": "HOLLY BRACKEN"
+  },
+  {
+    "id": 561,
+    "name": "ECCO"
+  },
+  {
+    "id": 562,
+    "name": "Drop Dead"
+  },
+  {
+    "id": 564,
+    "name": "Breshka"
+  },
+  {
+    "id": 565,
+    "name": "Grain de Malice"
+  },
+  {
+    "id": 567,
+    "name": "Gucci"
+  },
+  {
+    "id": 569,
+    "name": "Red Soul"
+  },
+  {
+    "id": 575,
+    "name": "Dimension"
+  },
+  {
+    "id": 577,
+    "name": "Romwe"
+  },
+  {
+    "id": 579,
+    "name": "Massimo Dutti"
+  },
+  {
+    "id": 581,
+    "name": "smash"
+  },
+  {
+    "id": 583,
+    "name": "VIPortuguese"
+  },
+  {
+    "id": 585,
+    "name": "Tribord"
+  },
+  {
+    "id": 587,
+    "name": "HOM"
+  },
+  {
+    "id": 589,
+    "name": "Keffieh"
+  },
+  {
+    "id": 591,
+    "name": "Fouganza"
+  },
+  {
+    "id": 593,
+    "name": "Melting Pot"
+  },
+  {
+    "id": 599,
+    "name": "Lefties"
+  },
+  {
+    "id": 601,
+    "name": "Joules"
+  },
+  {
+    "id": 603,
+    "name": "Veja"
+  },
+  {
+    "id": 605,
+    "name": "Vicomte Arthur"
+  },
+  {
+    "id": 607,
+    "name": "Frime Paris"
+  },
+  {
+    "id": 609,
+    "name": "Cable"
+  },
+  {
+    "id": 613,
+    "name": "Miss Creeks"
+  },
+  {
+    "id": 623,
+    "name": "Soft Grey"
+  },
+  {
+    "id": 627,
+    "name": "Palladium"
+  },
+  {
+    "id": 637,
+    "name": "LEVI"
+  },
+  {
+    "id": 639,
+    "name": "JB MARTIN"
+  },
+  {
+    "id": 641,
+    "name": "Rosebud"
+  },
+  {
+    "id": 647,
+    "name": "ALDO"
+  },
+  {
+    "id": 649,
+    "name": "Playboy"
+  },
+  {
+    "id": 651,
+    "name": "Simone Pérèle"
+  },
+  {
+    "id": 653,
+    "name": "Veti"
+  },
+  {
+    "id": 655,
+    "name": "Ikita"
+  },
+  {
+    "id": 663,
+    "name": "René Derhy"
+  },
+  {
+    "id": 665,
+    "name": "Two Angle"
+  },
+  {
+    "id": 669,
+    "name": "Carrera"
+  },
+  {
+    "id": 671,
+    "name": "Dior"
+  },
+  {
+    "id": 673,
+    "name": "Menbur"
+  },
+  {
+    "id": 677,
+    "name": "Agnes b"
+  },
+  {
+    "id": 679,
+    "name": "VANCL"
+  },
+  {
+    "id": 683,
+    "name": "Paris Texas"
+  },
+  {
+    "id": 687,
+    "name": "L'Oréal"
+  },
+  {
+    "id": 689,
+    "name": "Vitamine"
+  },
+  {
+    "id": 693,
+    "name": "motivi"
+  },
+  {
+    "id": 695,
+    "name": "Rose Player"
+  },
+  {
+    "id": 697,
+    "name": "School Ray"
+  },
+  {
+    "id": 701,
+    "name": "pour la victoire"
+  },
+  {
+    "id": 703,
+    "name": "Tex Woman"
+  },
+  {
+    "id": 705,
+    "name": "scottage"
+  },
+  {
+    "id": 711,
+    "name": "Kiko"
+  },
+  {
+    "id": 713,
+    "name": "Khol"
+  },
+  {
+    "id": 717,
+    "name": "Nina Ricci"
+  },
+  {
+    "id": 721,
+    "name": "Eckö"
+  },
+  {
+    "id": 723,
+    "name": "MELISSA"
+  },
+  {
+    "id": 725,
+    "name": "H&M Divided"
+  },
+  {
+    "id": 729,
+    "name": "Caprice"
+  },
+  {
+    "id": 731,
+    "name": "Stardivarius"
+  },
+  {
+    "id": 737,
+    "name": "Kazana"
+  },
+  {
+    "id": 739,
+    "name": "Nardelli"
+  },
+  {
+    "id": 742,
+    "name": "Antoine et lili"
+  },
+  {
+    "id": 744,
+    "name": "Antik Batik"
+  },
+  {
+    "id": 745,
+    "name": "Mark and spencer"
+  },
+  {
+    "id": 753,
+    "name": "Freeman Porter"
+  },
+  {
+    "id": 755,
+    "name": "Pastelle"
+  },
+  {
+    "id": 765,
+    "name": "Zadig & Voltaire"
+  },
+  {
+    "id": 767,
+    "name": "Sailor&Swallow"
+  },
+  {
+    "id": 775,
+    "name": "Franklin & Marshall"
+  },
+  {
+    "id": 779,
+    "name": "French Connection"
+  },
+  {
+    "id": 781,
+    "name": "American Retro"
+  },
+  {
+    "id": 783,
+    "name": "Lundi Bleu"
+  },
+  {
+    "id": 787,
+    "name": "Ellesse"
+  },
+  {
+    "id": 789,
+    "name": "Stephane Gontard"
+  },
+  {
+    "id": 795,
+    "name": "Milanoo"
+  },
+  {
+    "id": 797,
+    "name": "Ted Lapidus"
+  },
+  {
+    "id": 799,
+    "name": "Best Moutain"
+  },
+  {
+    "id": 801,
+    "name": "BLUE BOX"
+  },
+  {
+    "id": 805,
+    "name": "Les Petites Bombes"
+  },
+  {
+    "id": 809,
+    "name": "attentif"
+  },
+  {
+    "id": 813,
+    "name": "Ligne à Suivre"
+  },
+  {
+    "id": 1037,
+    "name": "Les petites parisiennes"
+  },
+  {
+    "id": 1043,
+    "name": "Dolce & Gabbana"
+  },
+  {
+    "id": 1045,
+    "name": "Guess by Marciano"
+  },
+  {
+    "id": 1051,
+    "name": "Ines de la Fressange"
+  },
+  {
+    "id": 1053,
+    "name": "Phaze"
+  },
+  {
+    "id": 1055,
+    "name": "Rare London"
+  },
+  {
+    "id": 1057,
+    "name": "Marionnaud"
+  },
+  {
+    "id": 1061,
+    "name": "Sergio Todzi"
+  },
+  {
+    "id": 1065,
+    "name": "BSTL"
+  },
+  {
+    "id": 1069,
+    "name": "A Petits Points"
+  },
+  {
+    "id": 1071,
+    "name": "Supra"
+  },
+  {
+    "id": 1073,
+    "name": "Belle Women"
+  },
+  {
+    "id": 1075,
+    "name": "Kenzo"
+  },
+  {
+    "id": 1077,
+    "name": "Comptoir des Cottoniers"
+  },
+  {
+    "id": 1091,
+    "name": "La Mode Est À Vous"
+  },
+  {
+    "id": 1093,
+    "name": "Autre Ton"
+  },
+  {
+    "id": 1101,
+    "name": "2 Elles"
+  },
+  {
+    "id": 1107,
+    "name": "Lolita Angels"
+  },
+  {
+    "id": 1111,
+    "name": "Liorina"
+  },
+  {
+    "id": 1115,
+    "name": "Paladium"
+  },
+  {
+    "id": 1117,
+    "name": "Blend"
+  },
+  {
+    "id": 1127,
+    "name": "Elie Saab"
+  },
+  {
+    "id": 1131,
+    "name": "Khaan"
+  },
+  {
+    "id": 1135,
+    "name": "Essentiel"
+  },
+  {
+    "id": 1137,
+    "name": "les envahisseurs"
+  },
+  {
+    "id": 1139,
+    "name": "Good Look"
+  },
+  {
+    "id": 1141,
+    "name": "GAS"
+  },
+  {
+    "id": 1143,
+    "name": "Three Seasons"
+  },
+  {
+    "id": 1149,
+    "name": "DKNY"
+  },
+  {
+    "id": 1151,
+    "name": "Molly Bracken"
+  },
+  {
+    "id": 1153,
+    "name": "Uniqlo"
+  },
+  {
+    "id": 1159,
+    "name": "Zinka Italy"
+  },
+  {
+    "id": 1165,
+    "name": "BaByliss"
+  },
+  {
+    "id": 1167,
+    "name": "Calor"
+  },
+  {
+    "id": 1171,
+    "name": "101 Idees"
+  },
+  {
+    "id": 1179,
+    "name": "Poétic"
+  },
+  {
+    "id": 1185,
+    "name": "Victoria´s Secret"
+  },
+  {
+    "id": 1187,
+    "name": "Paul & Joe Sister"
+  },
+  {
+    "id": 1189,
+    "name": "Fendi"
+  },
+  {
+    "id": 1195,
+    "name": "Asics"
+  },
+  {
+    "id": 1209,
+    "name": "LK Bennett"
+  },
+  {
+    "id": 1211,
+    "name": "TFNC London"
+  },
+  {
+    "id": 1215,
+    "name": "Caramelo"
+  },
+  {
+    "id": 1217,
+    "name": "Extra Me"
+  },
+  {
+    "id": 1219,
+    "name": "Ted Baker"
+  },
+  {
+    "id": 1221,
+    "name": "Lady Dia"
+  },
+  {
+    "id": 1223,
+    "name": "Daisy jee"
+  },
+  {
+    "id": 1229,
+    "name": "Circa"
+  },
+  {
+    "id": 1231,
+    "name": "Dolfie"
+  },
+  {
+    "id": 1233,
+    "name": "red berry"
+  },
+  {
+    "id": 1235,
+    "name": "Gola"
+  },
+  {
+    "id": 1237,
+    "name": "Spring Court"
+  },
+  {
+    "id": 1241,
+    "name": "Cupcake Cult"
+  },
+  {
+    "id": 1243,
+    "name": "Purple Queen"
+  },
+  {
+    "id": 1245,
+    "name": "Made in italy"
+  },
+  {
+    "id": 1247,
+    "name": "ideal"
+  },
+  {
+    "id": 1251,
+    "name": "Insight"
+  },
+  {
+    "id": 1253,
+    "name": "CYBERDOG LONDON"
+  },
+  {
+    "id": 1257,
+    "name": "lauréna"
+  },
+  {
+    "id": 1259,
+    "name": "lipsy"
+  },
+  {
+    "id": 1261,
+    "name": "Xti"
+  },
+  {
+    "id": 1269,
+    "name": "Eclipse"
+  },
+  {
+    "id": 1277,
+    "name": "M.DIA"
+  },
+  {
+    "id": 1279,
+    "name": "MINKA DESIGN"
+  },
+  {
+    "id": 1281,
+    "name": "Pinko"
+  },
+  {
+    "id": 1283,
+    "name": "Maloles"
+  },
+  {
+    "id": 1287,
+    "name": "Athmosphere"
+  },
+  {
+    "id": 1289,
+    "name": "és"
+  },
+  {
+    "id": 1293,
+    "name": "Moody's"
+  },
+  {
+    "id": 1295,
+    "name": "Artengo"
+  },
+  {
+    "id": 1297,
+    "name": "pare gabia"
+  },
+  {
+    "id": 1299,
+    "name": "Last Girl"
+  },
+  {
+    "id": 1301,
+    "name": "Redskins"
+  },
+  {
+    "id": 1303,
+    "name": "Swildens"
+  },
+  {
+    "id": 1305,
+    "name": "Julia"
+  },
+  {
+    "id": 1307,
+    "name": "ASH"
+  },
+  {
+    "id": 1309,
+    "name": "Escandelle"
+  },
+  {
+    "id": 1317,
+    "name": "NIKITA"
+  },
+  {
+    "id": 1325,
+    "name": "Version Feminin"
+  },
+  {
+    "id": 1331,
+    "name": "Only' She"
+  },
+  {
+    "id": 1335,
+    "name": "Beezbe"
+  },
+  {
+    "id": 1339,
+    "name": "Edisac"
+  },
+  {
+    "id": 1347,
+    "name": "Fruit of the Loom"
+  },
+  {
+    "id": 1359,
+    "name": "Noa Noa"
+  },
+  {
+    "id": 1363,
+    "name": "Dsquared2"
+  },
+  {
+    "id": 1371,
+    "name": "Pearl Beach"
+  },
+  {
+    "id": 1373,
+    "name": "Silvian Heach"
+  },
+  {
+    "id": 1377,
+    "name": "Jean-Louis Scherrer"
+  },
+  {
+    "id": 1379,
+    "name": "Paco Rabanne"
+  },
+  {
+    "id": 1383,
+    "name": "George Rech"
+  },
+  {
+    "id": 1389,
+    "name": "mugnai"
+  },
+  {
+    "id": 1391,
+    "name": "Etnies"
+  },
+  {
+    "id": 1393,
+    "name": "Tout L'monde En Parle"
+  },
+  {
+    "id": 1401,
+    "name": "Sisley"
+  },
+  {
+    "id": 1411,
+    "name": "Salsa Jeans"
+  },
+  {
+    "id": 1415,
+    "name": "Pimikie"
+  },
+  {
+    "id": 1421,
+    "name": "Cyberdog"
+  },
+  {
+    "id": 1423,
+    "name": "Marco Tozzi"
+  },
+  {
+    "id": 1427,
+    "name": "Armor-Lux"
+  },
+  {
+    "id": 1431,
+    "name": "Whistles"
+  },
+  {
+    "id": 1433,
+    "name": "ICHI"
+  },
+  {
+    "id": 1435,
+    "name": "She"
+  },
+  {
+    "id": 1437,
+    "name": "Miss coquines"
+  },
+  {
+    "id": 1441,
+    "name": "Emporio Armani"
+  },
+  {
+    "id": 1443,
+    "name": "Céline"
+  },
+  {
+    "id": 1453,
+    "name": "PALME"
+  },
+  {
+    "id": 1457,
+    "name": "Carla Kops"
+  },
+  {
+    "id": 1459,
+    "name": "KIPLING"
+  },
+  {
+    "id": 1465,
+    "name": "Stephan"
+  },
+  {
+    "id": 1467,
+    "name": "Motel"
+  },
+  {
+    "id": 1469,
+    "name": "Bijouterie"
+  },
+  {
+    "id": 1473,
+    "name": "Maybelline"
+  },
+  {
+    "id": 1475,
+    "name": "Rinascimento"
+  },
+  {
+    "id": 1477,
+    "name": "BULA"
+  },
+  {
+    "id": 1483,
+    "name": "Arena"
+  },
+  {
+    "id": 1487,
+    "name": "Sweewë Paris"
+  },
+  {
+    "id": 1495,
+    "name": "Poizen Industries"
+  },
+  {
+    "id": 1497,
+    "name": "Tara Jarmon"
+  },
+  {
+    "id": 1501,
+    "name": "Replay"
+  },
+  {
+    "id": 1503,
+    "name": "Agathe Velmont"
+  },
+  {
+    "id": 1505,
+    "name": "Anniel"
+  },
+  {
+    "id": 1507,
+    "name": "Body One"
+  },
+  {
+    "id": 1509,
+    "name": "Claudia Ghizzani"
+  },
+  {
+    "id": 1511,
+    "name": "Les Lolitas"
+  },
+  {
+    "id": 1515,
+    "name": "Tobi"
+  },
+  {
+    "id": 1517,
+    "name": "Unisa"
+  },
+  {
+    "id": 1519,
+    "name": "Aéropostale"
+  },
+  {
+    "id": 1523,
+    "name": "Bongo"
+  },
+  {
+    "id": 1533,
+    "name": "Attitude"
+  },
+  {
+    "id": 1537,
+    "name": "Complices"
+  },
+  {
+    "id": 1545,
+    "name": "EDC esprit"
+  },
+  {
+    "id": 1547,
+    "name": "G Urban"
+  },
+  {
+    "id": 1555,
+    "name": "Pascal Morabito"
+  },
+  {
+    "id": 1561,
+    "name": "sephora"
+  },
+  {
+    "id": 1563,
+    "name": "ASTUCES"
+  },
+  {
+    "id": 1569,
+    "name": "B&C"
+  },
+  {
+    "id": 1575,
+    "name": "LYNN ADLER"
+  },
+  {
+    "id": 1577,
+    "name": "Christian Audigier"
+  },
+  {
+    "id": 1585,
+    "name": "Tezenis"
+  },
+  {
+    "id": 1587,
+    "name": "Kulte"
+  },
+  {
+    "id": 1591,
+    "name": "Björkvin"
+  },
+  {
+    "id": 1593,
+    "name": "Vanessa Bruno"
+  },
+  {
+    "id": 1595,
+    "name": "Marc Jacob"
+  },
+  {
+    "id": 1597,
+    "name": "Dinh Van"
+  },
+  {
+    "id": 1599,
+    "name": "Baby Shirt"
+  },
+  {
+    "id": 1603,
+    "name": "Alcott"
+  },
+  {
+    "id": 1605,
+    "name": "Aggabarti"
+  },
+  {
+    "id": 1607,
+    "name": "Multiples"
+  },
+  {
+    "id": 1613,
+    "name": "Faded Glory"
+  },
+  {
+    "id": 1621,
+    "name": "Pablo Gerard Darel"
+  },
+  {
+    "id": 1631,
+    "name": "Mitica"
+  },
+  {
+    "id": 1633,
+    "name": "IRO"
+  },
+  {
+    "id": 1635,
+    "name": "By colette"
+  },
+  {
+    "id": 1637,
+    "name": "BSK"
+  },
+  {
+    "id": 1647,
+    "name": "Shamballa"
+  },
+  {
+    "id": 1649,
+    "name": "F.R.I.E.N.D.S"
+  },
+  {
+    "id": 1651,
+    "name": "Superga"
+  },
+  {
+    "id": 1655,
+    "name": "Redoute création"
+  },
+  {
+    "id": 1659,
+    "name": "Armand Basi"
+  },
+  {
+    "id": 1663,
+    "name": "WNS"
+  },
+  {
+    "id": 1667,
+    "name": "Guerlain"
+  },
+  {
+    "id": 1673,
+    "name": "Léa"
+  },
+  {
+    "id": 1679,
+    "name": "Vespa"
+  },
+  {
+    "id": 1681,
+    "name": "Biaggini"
+  },
+  {
+    "id": 1683,
+    "name": "Lauréana"
+  },
+  {
+    "id": 1687,
+    "name": "SisMix"
+  },
+  {
+    "id": 1689,
+    "name": "SAMI"
+  },
+  {
+    "id": 1701,
+    "name": "Hispanitas"
+  },
+  {
+    "id": 1715,
+    "name": "Supre"
+  },
+  {
+    "id": 1717,
+    "name": "Lux"
+  },
+  {
+    "id": 1719,
+    "name": "Jenniyfer"
+  },
+  {
+    "id": 1721,
+    "name": "Non"
+  },
+  {
+    "id": 1723,
+    "name": "LaRedoute création"
+  },
+  {
+    "id": 1727,
+    "name": "U"
+  },
+  {
+    "id": 1729,
+    "name": "Brandy"
+  },
+  {
+    "id": 1737,
+    "name": "Cache chache"
+  },
+  {
+    "id": 1739,
+    "name": "pucca"
+  },
+  {
+    "id": 1745,
+    "name": "Miu Miu"
+  },
+  {
+    "id": 1751,
+    "name": "Living dead souls"
+  },
+  {
+    "id": 1753,
+    "name": "New Style"
+  },
+  {
+    "id": 1755,
+    "name": "Twenty One"
+  },
+  {
+    "id": 1761,
+    "name": "Ed Hardy"
+  },
+  {
+    "id": 1763,
+    "name": "Vera & Lucy"
+  },
+  {
+    "id": 1767,
+    "name": "René Dehry"
+  },
+  {
+    "id": 1771,
+    "name": "Freeman"
+  },
+  {
+    "id": 1773,
+    "name": "Yatt"
+  },
+  {
+    "id": 1775,
+    "name": "New Balance"
+  },
+  {
+    "id": 1783,
+    "name": "Matix"
+  },
+  {
+    "id": 1787,
+    "name": "Charlize"
+  },
+  {
+    "id": 1791,
+    "name": "Khol Legend"
+  },
+  {
+    "id": 1793,
+    "name": "HL creation"
+  },
+  {
+    "id": 1795,
+    "name": "Mystic"
+  },
+  {
+    "id": 1797,
+    "name": "Dchicas"
+  },
+  {
+    "id": 1799,
+    "name": "MADO"
+  },
+  {
+    "id": 1801,
+    "name": "MDN"
+  },
+  {
+    "id": 1803,
+    "name": "Bocage"
+  },
+  {
+    "id": 1805,
+    "name": "Fórmul@"
+  },
+  {
+    "id": 1809,
+    "name": "Milanelli"
+  },
+  {
+    "id": 1817,
+    "name": "Gilly Hicks"
+  },
+  {
+    "id": 1819,
+    "name": "Hothai"
+  },
+  {
+    "id": 1821,
+    "name": "Ici Maintenant"
+  },
+  {
+    "id": 1825,
+    "name": "Zign"
+  },
+  {
+    "id": 1827,
+    "name": "Mim's"
+  },
+  {
+    "id": 1829,
+    "name": "Monoprix Autre Ton"
+  },
+  {
+    "id": 1831,
+    "name": "Kokai"
+  },
+  {
+    "id": 1833,
+    "name": "Perlato"
+  },
+  {
+    "id": 1835,
+    "name": "Jourdan"
+  },
+  {
+    "id": 1837,
+    "name": "Francinel"
+  },
+  {
+    "id": 1839,
+    "name": "Cosmoparis"
+  },
+  {
+    "id": 1845,
+    "name": "Tom Tailor"
+  },
+  {
+    "id": 1847,
+    "name": "Paquetage"
+  },
+  {
+    "id": 1849,
+    "name": "Fashion Express"
+  },
+  {
+    "id": 1853,
+    "name": "Philippe le Bac"
+  },
+  {
+    "id": 1855,
+    "name": "Derhy"
+  },
+  {
+    "id": 1877,
+    "name": "Pineapple"
+  },
+  {
+    "id": 1879,
+    "name": "Rodier"
+  },
+  {
+    "id": 1881,
+    "name": "Chic & Jeune"
+  },
+  {
+    "id": 1893,
+    "name": "Lamarthe"
+  },
+  {
+    "id": 1899,
+    "name": "Manoush"
+  },
+  {
+    "id": 1903,
+    "name": "Banana Republic"
+  },
+  {
+    "id": 1905,
+    "name": "Ernest"
+  },
+  {
+    "id": 1907,
+    "name": "Deby Debo"
+  },
+  {
+    "id": 1913,
+    "name": "Geox"
+  },
+  {
+    "id": 1917,
+    "name": "Sofia Costa"
+  },
+  {
+    "id": 1931,
+    "name": "Chinois"
+  },
+  {
+    "id": 1933,
+    "name": "Gianfranco Ferre"
+  },
+  {
+    "id": 1935,
+    "name": "Matthew Williamson"
+  },
+  {
+    "id": 1937,
+    "name": "Marque anglaise"
+  },
+  {
+    "id": 1941,
+    "name": "Je voudrais être une princesse..."
+  },
+  {
+    "id": 1943,
+    "name": "Hippocampe"
+  },
+  {
+    "id": 1945,
+    "name": "Uniklo"
+  },
+  {
+    "id": 1949,
+    "name": "Eurodif"
+  },
+  {
+    "id": 1951,
+    "name": "MissCoquines"
+  },
+  {
+    "id": 1953,
+    "name": "Halle aux chaussures"
+  },
+  {
+    "id": 1961,
+    "name": "Guy Laroche"
+  },
+  {
+    "id": 1965,
+    "name": "Roberto Cavalli"
+  },
+  {
+    "id": 1967,
+    "name": "no marque"
+  },
+  {
+    "id": 1973,
+    "name": "Blush"
+  },
+  {
+    "id": 1975,
+    "name": "Danity"
+  },
+  {
+    "id": 1977,
+    "name": "The Beatles"
+  },
+  {
+    "id": 1983,
+    "name": "Lola Cruz"
+  },
+  {
+    "id": 1987,
+    "name": "One step"
+  },
+  {
+    "id": 1997,
+    "name": "Jus D´orange"
+  },
+  {
+    "id": 2001,
+    "name": "Corner"
+  },
+  {
+    "id": 2003,
+    "name": "eastpack"
+  },
+  {
+    "id": 2005,
+    "name": "Lili Lovely"
+  },
+  {
+    "id": 2007,
+    "name": "Bellerose"
+  },
+  {
+    "id": 2011,
+    "name": "Cream"
+  },
+  {
+    "id": 2013,
+    "name": "Lavand"
+  },
+  {
+    "id": 2021,
+    "name": "The Kooples"
+  },
+  {
+    "id": 2023,
+    "name": "SEQUOIA"
+  },
+  {
+    "id": 2027,
+    "name": "Chaussea"
+  },
+  {
+    "id": 2029,
+    "name": "COS"
+  },
+  {
+    "id": 2033,
+    "name": "Lancome"
+  },
+  {
+    "id": 2035,
+    "name": "Escada"
+  },
+  {
+    "id": 2037,
+    "name": "Element"
+  },
+  {
+    "id": 2049,
+    "name": "underground"
+  },
+  {
+    "id": 2051,
+    "name": "Joe"
+  },
+  {
+    "id": 2053,
+    "name": "Versace Jeans"
+  },
+  {
+    "id": 2055,
+    "name": "David Jones"
+  },
+  {
+    "id": 2057,
+    "name": "Axara"
+  },
+  {
+    "id": 2061,
+    "name": "Frye"
+  },
+  {
+    "id": 2067,
+    "name": "Papillonne"
+  },
+  {
+    "id": 2069,
+    "name": "Obey"
+  },
+  {
+    "id": 2075,
+    "name": "Elodie Gossuin"
+  },
+  {
+    "id": 2077,
+    "name": "Fishbone"
+  },
+  {
+    "id": 2079,
+    "name": "Réserve naturel"
+  },
+  {
+    "id": 2081,
+    "name": "Agnès Flo"
+  },
+  {
+    "id": 2085,
+    "name": "Bergère de France"
+  },
+  {
+    "id": 2087,
+    "name": "Rosy"
+  },
+  {
+    "id": 2095,
+    "name": "ViVi RiCH"
+  },
+  {
+    "id": 2097,
+    "name": "kosmika"
+  },
+  {
+    "id": 2101,
+    "name": "Ippon Vintage"
+  },
+  {
+    "id": 2109,
+    "name": "Indien Boutique"
+  },
+  {
+    "id": 2113,
+    "name": "Chloé"
+  },
+  {
+    "id": 2123,
+    "name": "Montagut"
+  },
+  {
+    "id": 2125,
+    "name": "Rosebudgirl"
+  },
+  {
+    "id": 2131,
+    "name": "Osley"
+  },
+  {
+    "id": 2133,
+    "name": "Raph Lauren"
+  },
+  {
+    "id": 2137,
+    "name": "Kiwi"
+  },
+  {
+    "id": 2145,
+    "name": "DOC MARTEENS"
+  },
+  {
+    "id": 2153,
+    "name": "Lolita Lempika"
+  },
+  {
+    "id": 2155,
+    "name": "Essie"
+  },
+  {
+    "id": 2157,
+    "name": "BnK"
+  },
+  {
+    "id": 2165,
+    "name": "Liu Jo"
+  },
+  {
+    "id": 2167,
+    "name": "Goeland"
+  },
+  {
+    "id": 2169,
+    "name": "Johann"
+  },
+  {
+    "id": 2183,
+    "name": "I love"
+  },
+  {
+    "id": 2185,
+    "name": "redoute"
+  },
+  {
+    "id": 2187,
+    "name": "Everlast"
+  },
+  {
+    "id": 2189,
+    "name": "Le Phare De La Baleine"
+  },
+  {
+    "id": 2191,
+    "name": "Sepia"
+  },
+  {
+    "id": 2193,
+    "name": "Lonsdale"
+  },
+  {
+    "id": 2195,
+    "name": "Take Two"
+  },
+  {
+    "id": 2201,
+    "name": "Marché."
+  },
+  {
+    "id": 2203,
+    "name": "Fashion"
+  },
+  {
+    "id": 2213,
+    "name": "Sapotille"
+  },
+  {
+    "id": 2217,
+    "name": "3 suisse collection"
+  },
+  {
+    "id": 2225,
+    "name": "Vero Cuoio"
+  },
+  {
+    "id": 2227,
+    "name": "Freegun"
+  },
+  {
+    "id": 2239,
+    "name": "UGG"
+  },
+  {
+    "id": 2241,
+    "name": "Miss OK!"
+  },
+  {
+    "id": 2251,
+    "name": "Pieces"
+  },
+  {
+    "id": 2253,
+    "name": "Bijou Brigitte"
+  },
+  {
+    "id": 2255,
+    "name": "Panzeri"
+  },
+  {
+    "id": 2257,
+    "name": "Impact"
+  },
+  {
+    "id": 2261,
+    "name": "Royal Wear"
+  },
+  {
+    "id": 2269,
+    "name": "No Excuse"
+  },
+  {
+    "id": 2273,
+    "name": "Like Style"
+  },
+  {
+    "id": 2279,
+    "name": "Efratis"
+  },
+  {
+    "id": 2281,
+    "name": "LTB"
+  },
+  {
+    "id": 2283,
+    "name": "Pinkie"
+  },
+  {
+    "id": 2287,
+    "name": "Next"
+  },
+  {
+    "id": 2289,
+    "name": "monday jeans"
+  },
+  {
+    "id": 2291,
+    "name": "Killah"
+  },
+  {
+    "id": 2293,
+    "name": "Versace"
+  },
+  {
+    "id": 2301,
+    "name": "XDYE"
+  },
+  {
+    "id": 2313,
+    "name": "Rebook"
+  },
+  {
+    "id": 2317,
+    "name": "Eldys"
+  },
+  {
+    "id": 2319,
+    "name": "The North Face"
+  },
+  {
+    "id": 2323,
+    "name": "les petites"
+  },
+  {
+    "id": 2327,
+    "name": "Choies"
+  },
+  {
+    "id": 2335,
+    "name": "kesslord"
+  },
+  {
+    "id": 2343,
+    "name": "pimky"
+  },
+  {
+    "id": 2349,
+    "name": "Casadei"
+  },
+  {
+    "id": 2353,
+    "name": "I am"
+  },
+  {
+    "id": 2355,
+    "name": "Barbara Bui"
+  },
+  {
+    "id": 2359,
+    "name": "Parallèle"
+  },
+  {
+    "id": 2363,
+    "name": "The Fab Shoes"
+  },
+  {
+    "id": 2365,
+    "name": "Sun Valley"
+  },
+  {
+    "id": 2369,
+    "name": "Balenciaga"
+  },
+  {
+    "id": 2371,
+    "name": "Givenchy"
+  },
+  {
+    "id": 2373,
+    "name": "version original"
+  },
+  {
+    "id": 2375,
+    "name": "I.Code"
+  },
+  {
+    "id": 2377,
+    "name": "Akoz"
+  },
+  {
+    "id": 2379,
+    "name": "Tropézienne"
+  },
+  {
+    "id": 2381,
+    "name": "Ne sais plus"
+  },
+  {
+    "id": 2383,
+    "name": "CoolCat"
+  },
+  {
+    "id": 2387,
+    "name": "Ludivine"
+  },
+  {
+    "id": 2389,
+    "name": "Lois"
+  },
+  {
+    "id": 2391,
+    "name": "Saint James"
+  },
+  {
+    "id": 2405,
+    "name": "Classic Tricot"
+  },
+  {
+    "id": 2413,
+    "name": "Sanrio"
+  },
+  {
+    "id": 2421,
+    "name": "Sabrina"
+  },
+  {
+    "id": 2423,
+    "name": "Remixx"
+  },
+  {
+    "id": 2435,
+    "name": "Prim I Am"
+  },
+  {
+    "id": 2439,
+    "name": "Disneyland"
+  },
+  {
+    "id": 2441,
+    "name": "Miss Louna"
+  },
+  {
+    "id": 2449,
+    "name": "Why not?"
+  },
+  {
+    "id": 2451,
+    "name": "Eatspak"
+  },
+  {
+    "id": 2453,
+    "name": "Accesories"
+  },
+  {
+    "id": 2459,
+    "name": "La Fée Marabouté"
+  },
+  {
+    "id": 2467,
+    "name": "Bala Boosté"
+  },
+  {
+    "id": 2483,
+    "name": "ZAPA"
+  },
+  {
+    "id": 2489,
+    "name": "Longboard"
+  },
+  {
+    "id": 2493,
+    "name": "Pylones"
+  },
+  {
+    "id": 2495,
+    "name": "Créateur"
+  },
+  {
+    "id": 2499,
+    "name": "Onado"
+  },
+  {
+    "id": 2501,
+    "name": "Trente Trois"
+  },
+  {
+    "id": 2507,
+    "name": "Light in the Box"
+  },
+  {
+    "id": 2511,
+    "name": "Cache cahce"
+  },
+  {
+    "id": 2515,
+    "name": "H&M Sport"
+  },
+  {
+    "id": 2519,
+    "name": "70sup"
+  },
+  {
+    "id": 2525,
+    "name": "Soggo"
+  },
+  {
+    "id": 2527,
+    "name": "Zilae"
+  },
+  {
+    "id": 2529,
+    "name": "Jack daniel's"
+  },
+  {
+    "id": 2531,
+    "name": "ASSOS"
+  },
+  {
+    "id": 2537,
+    "name": "Une chose a part"
+  },
+  {
+    "id": 2549,
+    "name": "Carol"
+  },
+  {
+    "id": 2553,
+    "name": "VACHON"
+  },
+  {
+    "id": 2569,
+    "name": "Le Linge De Julie"
+  },
+  {
+    "id": 2573,
+    "name": "BlendShe"
+  },
+  {
+    "id": 2575,
+    "name": "CASIO"
+  },
+  {
+    "id": 2579,
+    "name": "Reiss"
+  },
+  {
+    "id": 2585,
+    "name": "André Manoukian"
+  },
+  {
+    "id": 2589,
+    "name": "Enza Nucci"
+  },
+  {
+    "id": 2591,
+    "name": "E-you"
+  },
+  {
+    "id": 2597,
+    "name": "Hyppocampe"
+  },
+  {
+    "id": 2603,
+    "name": "Bally"
+  },
+  {
+    "id": 2605,
+    "name": "OXMO"
+  },
+  {
+    "id": 2607,
+    "name": "Lucy"
+  },
+  {
+    "id": 2611,
+    "name": "LULUMARY"
+  },
+  {
+    "id": 2613,
+    "name": "smiley"
+  },
+  {
+    "id": 2635,
+    "name": "Marithé et François Girbaud"
+  },
+  {
+    "id": 2651,
+    "name": "Ellos ( La redoute )"
+  },
+  {
+    "id": 2659,
+    "name": "Upla"
+  },
+  {
+    "id": 2661,
+    "name": "Aigle"
+  },
+  {
+    "id": 2665,
+    "name": "Clavin Klein"
+  },
+  {
+    "id": 2667,
+    "name": "Lola"
+  },
+  {
+    "id": 2681,
+    "name": "The Rolling Stones"
+  },
+  {
+    "id": 2689,
+    "name": "Hard Rock Café"
+  },
+  {
+    "id": 2699,
+    "name": "gravis"
+  },
+  {
+    "id": 2701,
+    "name": "marque inconnue"
+  },
+  {
+    "id": 2709,
+    "name": "Nixon"
+  },
+  {
+    "id": 2711,
+    "name": "Passionata"
+  },
+  {
+    "id": 2713,
+    "name": "Swarovski"
+  },
+  {
+    "id": 2717,
+    "name": "Dayaday"
+  },
+  {
+    "id": 2719,
+    "name": "Auchan"
+  },
+  {
+    "id": 2727,
+    "name": "Monday"
+  },
+  {
+    "id": 2743,
+    "name": "Raiders"
+  },
+  {
+    "id": 2749,
+    "name": "Cecil"
+  },
+  {
+    "id": 2751,
+    "name": "Lantis"
+  },
+  {
+    "id": 2755,
+    "name": "LUSA"
+  },
+  {
+    "id": 2759,
+    "name": "le redoute"
+  },
+  {
+    "id": 2761,
+    "name": "American River"
+  },
+  {
+    "id": 2763,
+    "name": "Trend"
+  },
+  {
+    "id": 2765,
+    "name": "Buggy"
+  },
+  {
+    "id": 2767,
+    "name": "loona"
+  },
+  {
+    "id": 2769,
+    "name": "Solola"
+  },
+  {
+    "id": 2771,
+    "name": "DISMERO"
+  },
+  {
+    "id": 2775,
+    "name": "Feiyue"
+  },
+  {
+    "id": 2781,
+    "name": "Holister"
+  },
+  {
+    "id": 2783,
+    "name": "Asian Style"
+  },
+  {
+    "id": 2785,
+    "name": "CHERRY"
+  },
+  {
+    "id": 2787,
+    "name": "Cherokee"
+  },
+  {
+    "id": 2793,
+    "name": "Com8"
+  },
+  {
+    "id": 2799,
+    "name": "Affaire De Style"
+  },
+  {
+    "id": 2801,
+    "name": "Arche"
+  },
+  {
+    "id": 2805,
+    "name": "Pas à pas"
+  },
+  {
+    "id": 2809,
+    "name": "Suredelle"
+  },
+  {
+    "id": 2811,
+    "name": "suncoo"
+  },
+  {
+    "id": 2815,
+    "name": "ModCloth"
+  },
+  {
+    "id": 2823,
+    "name": "Hexagona"
+  },
+  {
+    "id": 2827,
+    "name": "Lancel"
+  },
+  {
+    "id": 2829,
+    "name": "Bourgeois"
+  },
+  {
+    "id": 2847,
+    "name": "JOLINA"
+  },
+  {
+    "id": 2851,
+    "name": "VICES-VERSO"
+  },
+  {
+    "id": 2853,
+    "name": "All Star"
+  },
+  {
+    "id": 2855,
+    "name": "Golddigga"
+  },
+  {
+    "id": 2863,
+    "name": "Le comptoir des cotonniers"
+  },
+  {
+    "id": 2873,
+    "name": "Valege"
+  },
+  {
+    "id": 2877,
+    "name": "folia"
+  },
+  {
+    "id": 2879,
+    "name": "Clara Vitti"
+  },
+  {
+    "id": 2883,
+    "name": "Savanah"
+  },
+  {
+    "id": 2885,
+    "name": "QUEEN VIVI"
+  },
+  {
+    "id": 2895,
+    "name": "Chupa Chups"
+  },
+  {
+    "id": 2899,
+    "name": "Zamba"
+  },
+  {
+    "id": 2901,
+    "name": "Dolce & Rosa"
+  },
+  {
+    "id": 2907,
+    "name": "La Bottine Souriante"
+  },
+  {
+    "id": 2909,
+    "name": "jean"
+  },
+  {
+    "id": 2917,
+    "name": "sara"
+  },
+  {
+    "id": 2923,
+    "name": "juju s´amuse"
+  },
+  {
+    "id": 2929,
+    "name": "Fred Perry"
+  },
+  {
+    "id": 2935,
+    "name": "Elizabeth Stuart"
+  },
+  {
+    "id": 2937,
+    "name": "Pastry"
+  },
+  {
+    "id": 2953,
+    "name": "Tdc"
+  },
+  {
+    "id": 2955,
+    "name": "Airwalk"
+  },
+  {
+    "id": 2961,
+    "name": "Zinka"
+  },
+  {
+    "id": 2963,
+    "name": "Christian Lacroix"
+  },
+  {
+    "id": 2965,
+    "name": "Ideal shoes"
+  },
+  {
+    "id": 2969,
+    "name": "Monshowroom"
+  },
+  {
+    "id": 2971,
+    "name": "Le Temps des Cerise"
+  },
+  {
+    "id": 2973,
+    "name": "Bullrot"
+  },
+  {
+    "id": 2975,
+    "name": "Von Dutch"
+  },
+  {
+    "id": 2993,
+    "name": "Blink"
+  },
+  {
+    "id": 3001,
+    "name": "C'M"
+  },
+  {
+    "id": 3005,
+    "name": "Pako Litto"
+  },
+  {
+    "id": 3009,
+    "name": "urban"
+  },
+  {
+    "id": 3011,
+    "name": "Kiliwatch"
+  },
+  {
+    "id": 3013,
+    "name": "Sai wear"
+  },
+  {
+    "id": 3015,
+    "name": "dvs"
+  },
+  {
+    "id": 3025,
+    "name": "Des Petits Hauts"
+  },
+  {
+    "id": 3031,
+    "name": "S.Oliver"
+  },
+  {
+    "id": 3033,
+    "name": "Lili Mercredi"
+  },
+  {
+    "id": 3035,
+    "name": "Obsessive"
+  },
+  {
+    "id": 3047,
+    "name": "VIK"
+  },
+  {
+    "id": 3049,
+    "name": "Fascinate"
+  },
+  {
+    "id": 3055,
+    "name": "Pleaser"
+  },
+  {
+    "id": 3057,
+    "name": "Cosmo"
+  },
+  {
+    "id": 3061,
+    "name": "Nabaiji"
+  },
+  {
+    "id": 3063,
+    "name": "ENGLAND "
+  },
+  {
+    "id": 3067,
+    "name": "Guru"
+  },
+  {
+    "id": 3075,
+    "name": "belle woman"
+  },
+  {
+    "id": 3085,
+    "name": "Christina"
+  },
+  {
+    "id": 3087,
+    "name": "OPI"
+  },
+  {
+    "id": 3091,
+    "name": "C'est beau la vie"
+  },
+  {
+    "id": 3095,
+    "name": "Glamour"
+  },
+  {
+    "id": 3107,
+    "name": "BELSTAR"
+  },
+  {
+    "id": 3115,
+    "name": "Josephine"
+  },
+  {
+    "id": 3119,
+    "name": "Emma Pernelle"
+  },
+  {
+    "id": 3123,
+    "name": "ALIBEY"
+  },
+  {
+    "id": 3133,
+    "name": "Caprice de Fille"
+  },
+  {
+    "id": 3135,
+    "name": "Emilie collection."
+  },
+  {
+    "id": 3145,
+    "name": "Poti Pati"
+  },
+  {
+    "id": 3147,
+    "name": "Magasin indépendant"
+  },
+  {
+    "id": 3149,
+    "name": "Fox"
+  },
+  {
+    "id": 3151,
+    "name": "Cannelle"
+  },
+  {
+    "id": 3153,
+    "name": "H-Landers"
+  },
+  {
+    "id": 3159,
+    "name": "Leg Avenue"
+  },
+  {
+    "id": 3161,
+    "name": "point zéro"
+  },
+  {
+    "id": 3165,
+    "name": "Nishe"
+  },
+  {
+    "id": 3171,
+    "name": "Badgley Mischka"
+  },
+  {
+    "id": 3177,
+    "name": "Pataugas"
+  },
+  {
+    "id": 3181,
+    "name": "Sergio Tacchini"
+  },
+  {
+    "id": 3189,
+    "name": "BeezBee"
+  },
+  {
+    "id": 3191,
+    "name": "One Direction"
+  },
+  {
+    "id": 3193,
+    "name": "Gaastra"
+  },
+  {
+    "id": 3195,
+    "name": "Giovanni"
+  },
+  {
+    "id": 3197,
+    "name": "Wild Diva"
+  },
+  {
+    "id": 3199,
+    "name": "Sfera"
+  },
+  {
+    "id": 3203,
+    "name": "Birkenstock"
+  },
+  {
+    "id": 3209,
+    "name": "Top Or"
+  },
+  {
+    "id": 3213,
+    "name": "Publicité"
+  },
+  {
+    "id": 3219,
+    "name": "DELICIOUS"
+  },
+  {
+    "id": 3223,
+    "name": "Manfield"
+  },
+  {
+    "id": 3225,
+    "name": "Ne sais pas"
+  },
+  {
+    "id": 3229,
+    "name": "Intuition"
+  },
+  {
+    "id": 3235,
+    "name": "JOOP!"
+  },
+  {
+    "id": 3245,
+    "name": "NKY"
+  },
+  {
+    "id": 3253,
+    "name": "Iron first"
+  },
+  {
+    "id": 3255,
+    "name": "Little Mistress"
+  },
+  {
+    "id": 3261,
+    "name": "Adolfo Dominguez"
+  },
+  {
+    "id": 3263,
+    "name": "Méliné"
+  },
+  {
+    "id": 3273,
+    "name": "By Zoe'"
+  },
+  {
+    "id": 3275,
+    "name": "Emily The Strange"
+  },
+  {
+    "id": 3277,
+    "name": "Binome"
+  },
+  {
+    "id": 3279,
+    "name": "Yesstyle"
+  },
+  {
+    "id": 3283,
+    "name": "DMN"
+  },
+  {
+    "id": 3293,
+    "name": "Armand Thiery"
+  },
+  {
+    "id": 3301,
+    "name": "Indéfini"
+  },
+  {
+    "id": 3303,
+    "name": "DAMART"
+  },
+  {
+    "id": 3305,
+    "name": "Les Jolies"
+  },
+  {
+    "id": 3307,
+    "name": "Indéfinie"
+  },
+  {
+    "id": 3313,
+    "name": "Pilot"
+  },
+  {
+    "id": 3333,
+    "name": "2Two"
+  },
+  {
+    "id": 3335,
+    "name": "Lily shoes"
+  },
+  {
+    "id": 3339,
+    "name": "Evian"
+  },
+  {
+    "id": 3343,
+    "name": "Frime"
+  },
+  {
+    "id": 3349,
+    "name": "DYNAMITE"
+  },
+  {
+    "id": 3361,
+    "name": "Tripp NYC"
+  },
+  {
+    "id": 3365,
+    "name": "Shool Rag"
+  },
+  {
+    "id": 3369,
+    "name": "Bamboo"
+  },
+  {
+    "id": 3371,
+    "name": "Bisou's Project"
+  },
+  {
+    "id": 3383,
+    "name": "Jules"
+  },
+  {
+    "id": 3387,
+    "name": "TUK"
+  },
+  {
+    "id": 3393,
+    "name": "Blanco"
+  },
+  {
+    "id": 3399,
+    "name": "Cubus"
+  },
+  {
+    "id": 3403,
+    "name": "Parfois"
+  },
+  {
+    "id": 3405,
+    "name": "Les filles à la vanille"
+  },
+  {
+    "id": 3407,
+    "name": "Lessly"
+  },
+  {
+    "id": 3413,
+    "name": "Bruce Field"
+  },
+  {
+    "id": 3417,
+    "name": "ORFEO NEGRO"
+  },
+  {
+    "id": 3431,
+    "name": "Repetto"
+  },
+  {
+    "id": 3433,
+    "name": "Style"
+  },
+  {
+    "id": 3441,
+    "name": "Pacha"
+  },
+  {
+    "id": 3447,
+    "name": "Marc by Marc Jacobs"
+  },
+  {
+    "id": 3451,
+    "name": "RWD"
+  },
+  {
+    "id": 3455,
+    "name": "Roberto Botella"
+  },
+  {
+    "id": 3461,
+    "name": "C&C confidential"
+  },
+  {
+    "id": 3463,
+    "name": "Biscote"
+  },
+  {
+    "id": 3465,
+    "name": "Redial Jeans"
+  },
+  {
+    "id": 3471,
+    "name": "Tally Weill"
+  },
+  {
+    "id": 3473,
+    "name": "Animal"
+  },
+  {
+    "id": 3475,
+    "name": "Ulla Popken"
+  },
+  {
+    "id": 3477,
+    "name": "1060 Clothes"
+  },
+  {
+    "id": 3479,
+    "name": "Bella Jones"
+  },
+  {
+    "id": 3481,
+    "name": "Miss RJ"
+  },
+  {
+    "id": 3483,
+    "name": "Chic Et Jeune"
+  },
+  {
+    "id": 3487,
+    "name": "Globe"
+  },
+  {
+    "id": 3501,
+    "name": "SanSelle"
+  },
+  {
+    "id": 3507,
+    "name": "Lollipos"
+  },
+  {
+    "id": 3509,
+    "name": "ID by ME"
+  },
+  {
+    "id": 3515,
+    "name": "Miss Loona"
+  },
+  {
+    "id": 3525,
+    "name": "Sweet"
+  },
+  {
+    "id": 3527,
+    "name": "Vince Camuto"
+  },
+  {
+    "id": 3535,
+    "name": "Andree"
+  },
+  {
+    "id": 3539,
+    "name": "Miss Avant Premiere"
+  },
+  {
+    "id": 3541,
+    "name": "Caramel"
+  },
+  {
+    "id": 3545,
+    "name": "Viahero"
+  },
+  {
+    "id": 3549,
+    "name": "opio"
+  },
+  {
+    "id": 3555,
+    "name": "Diabless"
+  },
+  {
+    "id": 3557,
+    "name": "raxmax"
+  },
+  {
+    "id": 3559,
+    "name": "Tequila Solo"
+  },
+  {
+    "id": 3563,
+    "name": "Wonders"
+  },
+  {
+    "id": 3571,
+    "name": "SomWhere"
+  },
+  {
+    "id": 3573,
+    "name": "Prada"
+  },
+  {
+    "id": 3589,
+    "name": "Kilibbi"
+  },
+  {
+    "id": 3591,
+    "name": "64"
+  },
+  {
+    "id": 3593,
+    "name": "Kocca"
+  },
+  {
+    "id": 3607,
+    "name": "Sister Jane"
+  },
+  {
+    "id": 3615,
+    "name": "Sasha"
+  },
+  {
+    "id": 3621,
+    "name": "Min"
+  },
+  {
+    "id": 3627,
+    "name": "U.S Polo"
+  },
+  {
+    "id": 3629,
+    "name": "Zalando"
+  },
+  {
+    "id": 3633,
+    "name": "Belle"
+  },
+  {
+    "id": 3637,
+    "name": "Freesoul"
+  },
+  {
+    "id": 3647,
+    "name": "Art"
+  },
+  {
+    "id": 3649,
+    "name": "Lolipops"
+  },
+  {
+    "id": 3655,
+    "name": "Choklate"
+  },
+  {
+    "id": 3661,
+    "name": "camieu"
+  },
+  {
+    "id": 3663,
+    "name": "Richelieu"
+  },
+  {
+    "id": 3675,
+    "name": "non définie"
+  },
+  {
+    "id": 3677,
+    "name": "Charles Jourdan"
+  },
+  {
+    "id": 3681,
+    "name": "chicago Bulls"
+  },
+  {
+    "id": 3685,
+    "name": "Excess"
+  },
+  {
+    "id": 3693,
+    "name": "Straboski"
+  },
+  {
+    "id": 3697,
+    "name": "ba&sh"
+  },
+  {
+    "id": 3701,
+    "name": "Instinct De Mode"
+  },
+  {
+    "id": 3703,
+    "name": "M&G"
+  },
+  {
+    "id": 3719,
+    "name": "Kilky"
+  },
+  {
+    "id": 3727,
+    "name": "Carrefour"
+  },
+  {
+    "id": 3747,
+    "name": "XX by Mexx"
+  },
+  {
+    "id": 3749,
+    "name": "Kiaby"
+  },
+  {
+    "id": 3757,
+    "name": "Burton of London"
+  },
+  {
+    "id": 3761,
+    "name": "Charles & Keith"
+  },
+  {
+    "id": 3765,
+    "name": "Rétro shoes"
+  },
+  {
+    "id": 3769,
+    "name": "Brans"
+  },
+  {
+    "id": 3771,
+    "name": "Hookahey"
+  },
+  {
+    "id": 3777,
+    "name": "Bleu Citron"
+  },
+  {
+    "id": 3781,
+    "name": "Elue par nous"
+  },
+  {
+    "id": 3783,
+    "name": "Fashion Studio"
+  },
+  {
+    "id": 3787,
+    "name": "Chilli Pepper"
+  },
+  {
+    "id": 3799,
+    "name": "Schott"
+  },
+  {
+    "id": 3801,
+    "name": "*Save the Queen!*"
+  },
+  {
+    "id": 3813,
+    "name": "Garcia"
+  },
+  {
+    "id": 3819,
+    "name": "Cavalli"
+  },
+  {
+    "id": 3829,
+    "name": "Camille et Lucie"
+  },
+  {
+    "id": 3835,
+    "name": "LUDD"
+  },
+  {
+    "id": 3837,
+    "name": "Coton Du Monde"
+  },
+  {
+    "id": 3845,
+    "name": "Urban Behavior"
+  },
+  {
+    "id": 3851,
+    "name": "Catisa"
+  },
+  {
+    "id": 3853,
+    "name": "Scarlet Roose"
+  },
+  {
+    "id": 3855,
+    "name": "Je sais plus"
+  },
+  {
+    "id": 3857,
+    "name": "Mac Douglas"
+  },
+  {
+    "id": 3861,
+    "name": "Miss JCL"
+  },
+  {
+    "id": 3863,
+    "name": "Lafayette Accessoires"
+  },
+  {
+    "id": 3869,
+    "name": "Pourquoi Pas"
+  },
+  {
+    "id": 3877,
+    "name": "Truly Madly Deeply"
+  },
+  {
+    "id": 3885,
+    "name": "Atlas"
+  },
+  {
+    "id": 3889,
+    "name": "Punkrose"
+  },
+  {
+    "id": 3891,
+    "name": "believe"
+  },
+  {
+    "id": 3893,
+    "name": "Defi Mode"
+  },
+  {
+    "id": 3895,
+    "name": "Bodyline"
+  },
+  {
+    "id": 3913,
+    "name": "MONTAN Paris"
+  },
+  {
+    "id": 3915,
+    "name": "bhatti"
+  },
+  {
+    "id": 3927,
+    "name": "Robe"
+  },
+  {
+    "id": 3935,
+    "name": "Pylone"
+  },
+  {
+    "id": 3945,
+    "name": "Batela"
+  },
+  {
+    "id": 3947,
+    "name": "Tresor"
+  },
+  {
+    "id": 3951,
+    "name": "Jofrati"
+  },
+  {
+    "id": 3953,
+    "name": "Blanc Nature"
+  },
+  {
+    "id": 3955,
+    "name": "histoire d'or"
+  },
+  {
+    "id": 3959,
+    "name": "lolita espeleta"
+  },
+  {
+    "id": 3975,
+    "name": "soggo collection"
+  },
+  {
+    "id": 3985,
+    "name": "Diplodocus"
+  },
+  {
+    "id": 3987,
+    "name": "Keds"
+  },
+  {
+    "id": 3993,
+    "name": "MAC"
+  },
+  {
+    "id": 3995,
+    "name": "Fifilles Paris"
+  },
+  {
+    "id": 3997,
+    "name": "ZOEtee's"
+  },
+  {
+    "id": 4001,
+    "name": "Gotcha"
+  },
+  {
+    "id": 4019,
+    "name": "Sergio Rossi"
+  },
+  {
+    "id": 4021,
+    "name": "JULIE"
+  },
+  {
+    "id": 4023,
+    "name": "Zoe"
+  },
+  {
+    "id": 4027,
+    "name": "Nickelodeon"
+  },
+  {
+    "id": 4029,
+    "name": "Belcci Fashion"
+  },
+  {
+    "id": 4033,
+    "name": "Roshi"
+  },
+  {
+    "id": 4039,
+    "name": "bikini bar"
+  },
+  {
+    "id": 4045,
+    "name": "Old Navy"
+  },
+  {
+    "id": 4047,
+    "name": "Culture Vintage"
+  },
+  {
+    "id": 4051,
+    "name": "gussaci"
+  },
+  {
+    "id": 4055,
+    "name": "Pantashop"
+  },
+  {
+    "id": 4057,
+    "name": "Oxxyzen"
+  },
+  {
+    "id": 4071,
+    "name": "Closer By Chaussea"
+  },
+  {
+    "id": 4079,
+    "name": "Vanessa's secret"
+  },
+  {
+    "id": 4085,
+    "name": "NOA JOE"
+  },
+  {
+    "id": 4087,
+    "name": "Pinky"
+  },
+  {
+    "id": 4091,
+    "name": "Celsior"
+  },
+  {
+    "id": 4095,
+    "name": "CHIMPANZEE"
+  },
+  {
+    "id": 4103,
+    "name": "Baboo"
+  },
+  {
+    "id": 4105,
+    "name": "Dakine"
+  },
+  {
+    "id": 4113,
+    "name": "TinTin"
+  },
+  {
+    "id": 4115,
+    "name": "Complice"
+  },
+  {
+    "id": 4123,
+    "name": "Tisa"
+  },
+  {
+    "id": 4125,
+    "name": "Requins"
+  },
+  {
+    "id": 4129,
+    "name": "Jean Paul Gaultier"
+  },
+  {
+    "id": 4143,
+    "name": "Coton"
+  },
+  {
+    "id": 4149,
+    "name": "Cherry Koko"
+  },
+  {
+    "id": 4153,
+    "name": "My Little Box"
+  },
+  {
+    "id": 4155,
+    "name": "Charlotte Russe"
+  },
+  {
+    "id": 4157,
+    "name": "Soie Pour Soi"
+  },
+  {
+    "id": 4159,
+    "name": "Thomas Sabo"
+  },
+  {
+    "id": 4163,
+    "name": "Aridza Bross"
+  },
+  {
+    "id": 4171,
+    "name": "Texier"
+  },
+  {
+    "id": 4173,
+    "name": "Pins and Needles"
+  },
+  {
+    "id": 4177,
+    "name": "Jeff Gallano"
+  },
+  {
+    "id": 4179,
+    "name": "mogano"
+  },
+  {
+    "id": 4181,
+    "name": "Miista"
+  },
+  {
+    "id": 4183,
+    "name": "Seven"
+  },
+  {
+    "id": 4189,
+    "name": "Golden Paradise"
+  },
+  {
+    "id": 4195,
+    "name": "Jimmy Choo"
+  },
+  {
+    "id": 4197,
+    "name": "Special Blend"
+  },
+  {
+    "id": 4201,
+    "name": "Anti-Flirt"
+  },
+  {
+    "id": 4209,
+    "name": "Wasted"
+  },
+  {
+    "id": 4213,
+    "name": "Triver Flight"
+  },
+  {
+    "id": 4217,
+    "name": "SHOES"
+  },
+  {
+    "id": 4245,
+    "name": "Koah"
+  },
+  {
+    "id": 4263,
+    "name": "New York Company"
+  },
+  {
+    "id": 4269,
+    "name": "Christian Louboutin"
+  },
+  {
+    "id": 4271,
+    "name": "Karen Millen"
+  },
+  {
+    "id": 4273,
+    "name": "Polo Ralph Lauren"
+  },
+  {
+    "id": 4275,
+    "name": "I love Paris"
+  },
+  {
+    "id": 4277,
+    "name": "Manigance"
+  },
+  {
+    "id": 4279,
+    "name": "IXON"
+  },
+  {
+    "id": 4283,
+    "name": "Lolita Lempicka"
+  },
+  {
+    "id": 4285,
+    "name": "via ulivi"
+  },
+  {
+    "id": 4287,
+    "name": "Total look"
+  },
+  {
+    "id": 4305,
+    "name": "BDG"
+  },
+  {
+    "id": 4311,
+    "name": "LM LULU"
+  },
+  {
+    "id": 4313,
+    "name": "Nasty Gal"
+  },
+  {
+    "id": 4317,
+    "name": "Strebosk"
+  },
+  {
+    "id": 4321,
+    "name": "one more milk"
+  },
+  {
+    "id": 4325,
+    "name": "O'Neill"
+  },
+  {
+    "id": 4327,
+    "name": "TBS"
+  },
+  {
+    "id": 4331,
+    "name": "Struggles"
+  },
+  {
+    "id": 4333,
+    "name": "Rue Princesse"
+  },
+  {
+    "id": 4335,
+    "name": "Fornarina"
+  },
+  {
+    "id": 4339,
+    "name": "Canelle"
+  },
+  {
+    "id": 4347,
+    "name": "OFFICE"
+  },
+  {
+    "id": 4351,
+    "name": "Poivre Blanc"
+  },
+  {
+    "id": 4355,
+    "name": "Rolling stones"
+  },
+  {
+    "id": 4371,
+    "name": "Zinda"
+  },
+  {
+    "id": 4375,
+    "name": "Paco Herrero"
+  },
+  {
+    "id": 4379,
+    "name": "Nicole"
+  },
+  {
+    "id": 4383,
+    "name": "Nais"
+  },
+  {
+    "id": 4395,
+    "name": "Seven Seconds"
+  },
+  {
+    "id": 4401,
+    "name": "Azzaro"
+  },
+  {
+    "id": 4405,
+    "name": "beshka"
+  },
+  {
+    "id": 4409,
+    "name": "Diwa"
+  },
+  {
+    "id": 4417,
+    "name": "Eva & Lola"
+  },
+  {
+    "id": 4419,
+    "name": "IVIVI"
+  },
+  {
+    "id": 4425,
+    "name": "Come Be"
+  },
+  {
+    "id": 4433,
+    "name": "Summer Hill"
+  },
+  {
+    "id": 4435,
+    "name": "Lafuma"
+  },
+  {
+    "id": 4437,
+    "name": "Bilitis"
+  },
+  {
+    "id": 4441,
+    "name": "Fye"
+  },
+  {
+    "id": 4443,
+    "name": "Bebe"
+  },
+  {
+    "id": 4451,
+    "name": "Carole"
+  },
+  {
+    "id": 4463,
+    "name": "Missoni"
+  },
+  {
+    "id": 4465,
+    "name": "Geffen"
+  },
+  {
+    "id": 4471,
+    "name": "Edwin"
+  },
+  {
+    "id": 4481,
+    "name": "Black Bat"
+  },
+  {
+    "id": 4483,
+    "name": "Lafayette Collection"
+  },
+  {
+    "id": 4487,
+    "name": "Pourchet"
+  },
+  {
+    "id": 4495,
+    "name": "Kimchi & Blue"
+  },
+  {
+    "id": 4497,
+    "name": "Soohie"
+  },
+  {
+    "id": 4507,
+    "name": "Tod's"
+  },
+  {
+    "id": 4515,
+    "name": "Melanie"
+  },
+  {
+    "id": 4517,
+    "name": "Katana"
+  },
+  {
+    "id": 4527,
+    "name": "REDWOOD"
+  },
+  {
+    "id": 4529,
+    "name": "C&Confidential"
+  },
+  {
+    "id": 4535,
+    "name": "La Fiancée du Mekong"
+  },
+  {
+    "id": 4541,
+    "name": "Colcci"
+  },
+  {
+    "id": 4545,
+    "name": "The Mountain"
+  },
+  {
+    "id": 4547,
+    "name": "YMCMB"
+  },
+  {
+    "id": 4549,
+    "name": "loris angel"
+  },
+  {
+    "id": 4559,
+    "name": "Tom Ford"
+  },
+  {
+    "id": 4561,
+    "name": "Kothai"
+  },
+  {
+    "id": 4565,
+    "name": "Avirex"
+  },
+  {
+    "id": 4567,
+    "name": "r"
+  },
+  {
+    "id": 4569,
+    "name": "kanoé"
+  },
+  {
+    "id": 4571,
+    "name": "THENA"
+  },
+  {
+    "id": 4573,
+    "name": "sam edelman"
+  },
+  {
+    "id": 4575,
+    "name": "Outfitters Nation"
+  },
+  {
+    "id": 4581,
+    "name": "Harcourt"
+  },
+  {
+    "id": 4587,
+    "name": "Fille à Suivre"
+  },
+  {
+    "id": 4591,
+    "name": "Skunkfunk"
+  },
+  {
+    "id": 4599,
+    "name": "Go Sport"
+  },
+  {
+    "id": 4601,
+    "name": "DEHA"
+  },
+  {
+    "id": 4603,
+    "name": "Ventilo La Colline"
+  },
+  {
+    "id": 4611,
+    "name": "S.T.A.M.P.S"
+  },
+  {
+    "id": 4619,
+    "name": "dolce et Rosa"
+  },
+  {
+    "id": 4623,
+    "name": "THC"
+  },
+  {
+    "id": 4625,
+    "name": "Jay Jays"
+  },
+  {
+    "id": 4635,
+    "name": "Soleil"
+  },
+  {
+    "id": 4637,
+    "name": "Hoss"
+  },
+  {
+    "id": 4647,
+    "name": "Blancheporte"
+  },
+  {
+    "id": 4651,
+    "name": "Monsoon"
+  },
+  {
+    "id": 4665,
+    "name": "Pilgrim"
+  },
+  {
+    "id": 4669,
+    "name": "Abaco"
+  },
+  {
+    "id": 4679,
+    "name": "Infinie Passion"
+  },
+  {
+    "id": 4681,
+    "name": "mademoiselle DDP"
+  },
+  {
+    "id": 4685,
+    "name": "bain de nuit"
+  },
+  {
+    "id": 4691,
+    "name": "Eres"
+  },
+  {
+    "id": 4703,
+    "name": "Beatles"
+  },
+  {
+    "id": 4705,
+    "name": "Kukuxumusu"
+  },
+  {
+    "id": 4711,
+    "name": "Devred"
+  },
+  {
+    "id": 4715,
+    "name": "Halle aux vêtements"
+  },
+  {
+    "id": 4723,
+    "name": "marque inconnu"
+  },
+  {
+    "id": 4727,
+    "name": "Sprox"
+  },
+  {
+    "id": 4729,
+    "name": "Louis pion"
+  },
+  {
+    "id": 4731,
+    "name": "Nirvana"
+  },
+  {
+    "id": 4733,
+    "name": "Kurt Geiger"
+  },
+  {
+    "id": 4737,
+    "name": "VERA ET LUCY"
+  },
+  {
+    "id": 4739,
+    "name": "Zokka"
+  },
+  {
+    "id": 4749,
+    "name": "Bench"
+  },
+  {
+    "id": 4751,
+    "name": "Monokuro Boo"
+  },
+  {
+    "id": 4755,
+    "name": "Paul & Joe"
+  },
+  {
+    "id": 4757,
+    "name": "Le Bourget"
+  },
+  {
+    "id": 4759,
+    "name": "Revers Jean"
+  },
+  {
+    "id": 4767,
+    "name": "Miss Sissi"
+  },
+  {
+    "id": 4769,
+    "name": "Just Mila"
+  },
+  {
+    "id": 4771,
+    "name": "Opullence"
+  },
+  {
+    "id": 4773,
+    "name": "Casino"
+  },
+  {
+    "id": 4783,
+    "name": "bizzbe"
+  },
+  {
+    "id": 4785,
+    "name": "Hermès"
+  },
+  {
+    "id": 4787,
+    "name": "Bella Women"
+  },
+  {
+    "id": 4789,
+    "name": "Ravel"
+  },
+  {
+    "id": 4793,
+    "name": "xuly bët"
+  },
+  {
+    "id": 4805,
+    "name": "Dumond"
+  },
+  {
+    "id": 4813,
+    "name": "Bobbies"
+  },
+  {
+    "id": 4819,
+    "name": "Illusion"
+  },
+  {
+    "id": 4831,
+    "name": "anais"
+  },
+  {
+    "id": 4851,
+    "name": "sexy dressing"
+  },
+  {
+    "id": 4857,
+    "name": "Jad"
+  },
+  {
+    "id": 4865,
+    "name": "Tout Compte Fait"
+  },
+  {
+    "id": 4867,
+    "name": "THE EARTH COLLECTION "
+  },
+  {
+    "id": 4869,
+    "name": "Lola Espeleta"
+  },
+  {
+    "id": 4871,
+    "name": "Bluewax"
+  },
+  {
+    "id": 4873,
+    "name": "VIA UNO"
+  },
+  {
+    "id": 4875,
+    "name": "Maty"
+  },
+  {
+    "id": 4885,
+    "name": "Jose Saenz"
+  },
+  {
+    "id": 4899,
+    "name": "okanagan"
+  },
+  {
+    "id": 4901,
+    "name": "Juicy Couture"
+  },
+  {
+    "id": 4903,
+    "name": "Miss K"
+  },
+  {
+    "id": 4915,
+    "name": "Red or Dead"
+  },
+  {
+    "id": 4921,
+    "name": "Effet péi"
+  },
+  {
+    "id": 4923,
+    "name": "Ecote"
+  },
+  {
+    "id": 4927,
+    "name": "Daphnea"
+  },
+  {
+    "id": 4943,
+    "name": "fantaisie"
+  },
+  {
+    "id": 4947,
+    "name": "Oasis"
+  },
+  {
+    "id": 4975,
+    "name": "La Fraise"
+  },
+  {
+    "id": 4977,
+    "name": "S'nob"
+  },
+  {
+    "id": 4981,
+    "name": "Toni Pons"
+  },
+  {
+    "id": 4983,
+    "name": "Free People"
+  },
+  {
+    "id": 4985,
+    "name": "ringspun"
+  },
+  {
+    "id": 4987,
+    "name": "ZANZEA"
+  },
+  {
+    "id": 4991,
+    "name": "Jennika"
+  },
+  {
+    "id": 4993,
+    "name": "Agatha Ruiz de la Prada"
+  },
+  {
+    "id": 4995,
+    "name": "Soöruz"
+  },
+  {
+    "id": 4997,
+    "name": "Gianni Conti"
+  },
+  {
+    "id": 5001,
+    "name": "Clio Blue"
+  },
+  {
+    "id": 5011,
+    "name": "Calzedonia"
+  },
+  {
+    "id": 5013,
+    "name": "Acne"
+  },
+  {
+    "id": 5033,
+    "name": "Miss Anna"
+  },
+  {
+    "id": 5037,
+    "name": "mode machine"
+  },
+  {
+    "id": 5041,
+    "name": "FREE LANCE"
+  },
+  {
+    "id": 5061,
+    "name": "Swamee"
+  },
+  {
+    "id": 5063,
+    "name": "Terranova"
+  },
+  {
+    "id": 5083,
+    "name": "Pandora"
+  },
+  {
+    "id": 5085,
+    "name": "XX Jeans"
+  },
+  {
+    "id": 5087,
+    "name": "Pura Lopez"
+  },
+  {
+    "id": 5097,
+    "name": "Temp Des Cerises"
+  },
+  {
+    "id": 5101,
+    "name": "Balmain"
+  },
+  {
+    "id": 5105,
+    "name": "Alicia Shoes"
+  },
+  {
+    "id": 5113,
+    "name": "Beryl"
+  },
+  {
+    "id": 5115,
+    "name": "Annabel Winship"
+  },
+  {
+    "id": 5125,
+    "name": "Feminity"
+  },
+  {
+    "id": 5129,
+    "name": "Lila Rose"
+  },
+  {
+    "id": 5135,
+    "name": "Estee Lauder"
+  },
+  {
+    "id": 5143,
+    "name": "Inside"
+  },
+  {
+    "id": 5147,
+    "name": "Orcelly"
+  },
+  {
+    "id": 5149,
+    "name": "Cultura"
+  },
+  {
+    "id": 5151,
+    "name": "7 For All Mankind"
+  },
+  {
+    "id": 5163,
+    "name": "Comptoirs des cotonniers"
+  },
+  {
+    "id": 5165,
+    "name": "Mado Marcel"
+  },
+  {
+    "id": 5173,
+    "name": "Fossil"
+  },
+  {
+    "id": 5189,
+    "name": "BCBGeneration"
+  },
+  {
+    "id": 5191,
+    "name": "Indochine"
+  },
+  {
+    "id": 5209,
+    "name": "Tati"
+  },
+  {
+    "id": 5211,
+    "name": "Marc Labat"
+  },
+  {
+    "id": 5217,
+    "name": "J&L"
+  },
+  {
+    "id": 5225,
+    "name": "Armand Ventilo"
+  },
+  {
+    "id": 5231,
+    "name": "moow"
+  },
+  {
+    "id": 5233,
+    "name": "Faust"
+  },
+  {
+    "id": 5235,
+    "name": "Donaldson"
+  },
+  {
+    "id": 5245,
+    "name": "Kenzy"
+  },
+  {
+    "id": 5251,
+    "name": "Jaune Rouge"
+  },
+  {
+    "id": 5257,
+    "name": "Lanvin"
+  },
+  {
+    "id": 5277,
+    "name": "Bleu de SYM"
+  },
+  {
+    "id": 5291,
+    "name": "FILA"
+  },
+  {
+    "id": 5295,
+    "name": "Chose Promise"
+  },
+  {
+    "id": 5299,
+    "name": "Hippie Market"
+  },
+  {
+    "id": 5305,
+    "name": "Sourpuss"
+  },
+  {
+    "id": 5307,
+    "name": "cosmos"
+  },
+  {
+    "id": 5311,
+    "name": "Max C London"
+  },
+  {
+    "id": 5313,
+    "name": "divers"
+  },
+  {
+    "id": 5321,
+    "name": "Timex"
+  },
+  {
+    "id": 5323,
+    "name": "misako"
+  },
+  {
+    "id": 5325,
+    "name": "Décodélire"
+  },
+  {
+    "id": 5327,
+    "name": "Pastille Menthe"
+  },
+  {
+    "id": 5329,
+    "name": "Women's Secret"
+  },
+  {
+    "id": 5331,
+    "name": "Diddl"
+  },
+  {
+    "id": 5355,
+    "name": "non défini"
+  },
+  {
+    "id": 5359,
+    "name": "Imitation Guess"
+  },
+  {
+    "id": 5365,
+    "name": "Seafolly"
+  },
+  {
+    "id": 5369,
+    "name": "Phard"
+  },
+  {
+    "id": 5375,
+    "name": "Emamoda"
+  },
+  {
+    "id": 5389,
+    "name": "Good Luck"
+  },
+  {
+    "id": 5399,
+    "name": "Sarah Wayne"
+  },
+  {
+    "id": 5405,
+    "name": "Club Med"
+  },
+  {
+    "id": 5407,
+    "name": "d-stiag"
+  },
+  {
+    "id": 5413,
+    "name": "sixty"
+  },
+  {
+    "id": 5415,
+    "name": "Jane Norman"
+  },
+  {
+    "id": 5417,
+    "name": "Charlie Joe"
+  },
+  {
+    "id": 5427,
+    "name": "Lili La Tigresse"
+  },
+  {
+    "id": 5457,
+    "name": "Bettie Page"
+  },
+  {
+    "id": 5461,
+    "name": "Raven"
+  },
+  {
+    "id": 5463,
+    "name": "John Baner"
+  },
+  {
+    "id": 5465,
+    "name": "André Studio"
+  },
+  {
+    "id": 5469,
+    "name": "Fanplusfriend"
+  },
+  {
+    "id": 5477,
+    "name": "french touch"
+  },
+  {
+    "id": 5483,
+    "name": "Max Mara"
+  },
+  {
+    "id": 5487,
+    "name": "Canyon"
+  },
+  {
+    "id": 5489,
+    "name": "Goa"
+  },
+  {
+    "id": 5491,
+    "name": "Pulsar"
+  },
+  {
+    "id": 5493,
+    "name": "La Fee Maraboutee"
+  },
+  {
+    "id": 5495,
+    "name": "Place du Jour"
+  },
+  {
+    "id": 5497,
+    "name": "Tokidoki"
+  },
+  {
+    "id": 5501,
+    "name": "Petite Mendigote"
+  },
+  {
+    "id": 5527,
+    "name": "Gina Tricot"
+  },
+  {
+    "id": 5531,
+    "name": "Minkpink"
+  },
+  {
+    "id": 5539,
+    "name": "Chaussland"
+  },
+  {
+    "id": 5553,
+    "name": "Graceland"
+  },
+  {
+    "id": 5555,
+    "name": "Belluci"
+  },
+  {
+    "id": 5557,
+    "name": "Pakros"
+  },
+  {
+    "id": 5561,
+    "name": "AZAKA"
+  },
+  {
+    "id": 5567,
+    "name": "Hippy Market"
+  },
+  {
+    "id": 5575,
+    "name": "Pierre Cardin"
+  },
+  {
+    "id": 5585,
+    "name": "Giorgio"
+  },
+  {
+    "id": 5591,
+    "name": "Luna"
+  },
+  {
+    "id": 5599,
+    "name": "Kalenji"
+  },
+  {
+    "id": 5603,
+    "name": "Everlife"
+  },
+  {
+    "id": 5605,
+    "name": "Diabolik"
+  },
+  {
+    "id": 5613,
+    "name": "Jolyvia"
+  },
+  {
+    "id": 5617,
+    "name": "Galix"
+  },
+  {
+    "id": 5631,
+    "name": "My Lovely jean"
+  },
+  {
+    "id": 5643,
+    "name": "Jordana"
+  },
+  {
+    "id": 5657,
+    "name": "achete au japon"
+  },
+  {
+    "id": 5659,
+    "name": "Gat Rimon"
+  },
+  {
+    "id": 5663,
+    "name": "Pablo de Gerard Darel"
+  },
+  {
+    "id": 5675,
+    "name": "Okaou"
+  },
+  {
+    "id": 5677,
+    "name": "oneil"
+  },
+  {
+    "id": 5679,
+    "name": "Double Jeu"
+  },
+  {
+    "id": 5681,
+    "name": "Beaugency"
+  },
+  {
+    "id": 5701,
+    "name": "Havaianas"
+  },
+  {
+    "id": 5711,
+    "name": "wap doo wap"
+  },
+  {
+    "id": 5715,
+    "name": "BELLOS"
+  },
+  {
+    "id": 5723,
+    "name": "Mitchell & Ness"
+  },
+  {
+    "id": 5725,
+    "name": "Majestic"
+  },
+  {
+    "id": 5731,
+    "name": "Batta"
+  },
+  {
+    "id": 5735,
+    "name": "Nota Bene"
+  },
+  {
+    "id": 5739,
+    "name": "Walt Disney"
+  },
+  {
+    "id": 5741,
+    "name": "Denim Life by pimkie"
+  },
+  {
+    "id": 5747,
+    "name": "Paul Mausner"
+  },
+  {
+    "id": 5757,
+    "name": "Voyelles"
+  },
+  {
+    "id": 5761,
+    "name": "Pierre Hardy"
+  },
+  {
+    "id": 5767,
+    "name": "Voodoo"
+  },
+  {
+    "id": 5777,
+    "name": "Madonna"
+  },
+  {
+    "id": 5781,
+    "name": "Carla Shoes"
+  },
+  {
+    "id": 5789,
+    "name": "Moodbyme"
+  },
+  {
+    "id": 5791,
+    "name": "Ella"
+  },
+  {
+    "id": 5807,
+    "name": "Rudy's"
+  },
+  {
+    "id": 5815,
+    "name": "Meltin Pot"
+  },
+  {
+    "id": 5829,
+    "name": "Boyfriend"
+  },
+  {
+    "id": 5831,
+    "name": "Stone Aged"
+  },
+  {
+    "id": 5833,
+    "name": "aqua leather"
+  },
+  {
+    "id": 5835,
+    "name": "Hurley"
+  },
+  {
+    "id": 5843,
+    "name": "goldigga"
+  },
+  {
+    "id": 5845,
+    "name": "Vert De Rage"
+  },
+  {
+    "id": 5851,
+    "name": "Zebra"
+  },
+  {
+    "id": 5863,
+    "name": "ZENANA OUTFITTERS"
+  },
+  {
+    "id": 5871,
+    "name": "Steve Madden"
+  },
+  {
+    "id": 5875,
+    "name": "Saï"
+  },
+  {
+    "id": 5879,
+    "name": "Cortefiel"
+  },
+  {
+    "id": 5915,
+    "name": "Missy Bitsy"
+  },
+  {
+    "id": 5919,
+    "name": "Salamender"
+  },
+  {
+    "id": 5921,
+    "name": "Speedo"
+  },
+  {
+    "id": 5929,
+    "name": "Ice Watch"
+  },
+  {
+    "id": 5933,
+    "name": "Izzue"
+  },
+  {
+    "id": 5935,
+    "name": "Mado et les Autres"
+  },
+  {
+    "id": 5939,
+    "name": "Supergirl"
+  },
+  {
+    "id": 5941,
+    "name": "Cabaneli"
+  },
+  {
+    "id": 5949,
+    "name": "Gabor"
+  },
+  {
+    "id": 5953,
+    "name": "Pierre Lang"
+  },
+  {
+    "id": 5959,
+    "name": "la bagagerie"
+  },
+  {
+    "id": 5969,
+    "name": "SOHO"
+  },
+  {
+    "id": 5975,
+    "name": "Cerruti 1881"
+  },
+  {
+    "id": 5977,
+    "name": "Nike Air"
+  },
+  {
+    "id": 5981,
+    "name": "Fruit rouge"
+  },
+  {
+    "id": 5987,
+    "name": "Clarins"
+  },
+  {
+    "id": 5993,
+    "name": "Jefferson"
+  },
+  {
+    "id": 5997,
+    "name": "Firefly"
+  },
+  {
+    "id": 6005,
+    "name": "Michael Kors"
+  },
+  {
+    "id": 6009,
+    "name": "Printemps"
+  },
+  {
+    "id": 6011,
+    "name": "Brice"
+  },
+  {
+    "id": 6015,
+    "name": "Les Cakes de Bertrand"
+  },
+  {
+    "id": 6017,
+    "name": "Bisou d'eve"
+  },
+  {
+    "id": 6023,
+    "name": "ikebana"
+  },
+  {
+    "id": 6025,
+    "name": "Gold'n"
+  },
+  {
+    "id": 6029,
+    "name": "Colisée de Sacha"
+  },
+  {
+    "id": 6033,
+    "name": "CATWALK"
+  },
+  {
+    "id": 6035,
+    "name": "Disneyland paris"
+  },
+  {
+    "id": 6037,
+    "name": "yearling"
+  },
+  {
+    "id": 6039,
+    "name": "Tamiko"
+  },
+  {
+    "id": 6045,
+    "name": "Carvela"
+  },
+  {
+    "id": 6047,
+    "name": "Alain FIGARET"
+  },
+  {
+    "id": 6051,
+    "name": "Briefing"
+  },
+  {
+    "id": 6055,
+    "name": "La Scarpa"
+  },
+  {
+    "id": 6059,
+    "name": "Costello"
+  },
+  {
+    "id": 6063,
+    "name": "By Laetitia"
+  },
+  {
+    "id": 6075,
+    "name": "Gant"
+  },
+  {
+    "id": 6077,
+    "name": "Carmen Steffens"
+  },
+  {
+    "id": 6085,
+    "name": "Tropeziennes"
+  },
+  {
+    "id": 6101,
+    "name": "Andy Warhol"
+  },
+  {
+    "id": 6111,
+    "name": "Eva"
+  },
+  {
+    "id": 6127,
+    "name": "Ciclon"
+  },
+  {
+    "id": 6151,
+    "name": "Captain Tortue"
+  },
+  {
+    "id": 6155,
+    "name": "Active Wear (La Redoute)"
+  },
+  {
+    "id": 6161,
+    "name": "Polo Jeans Company, Ralph Lauren"
+  },
+  {
+    "id": 6185,
+    "name": "Cerruti"
+  },
+  {
+    "id": 6195,
+    "name": "Schuh"
+  },
+  {
+    "id": 6203,
+    "name": "Ruby Gloom"
+  },
+  {
+    "id": 6207,
+    "name": "Italy"
+  },
+  {
+    "id": 6209,
+    "name": "Timomo"
+  },
+  {
+    "id": 6211,
+    "name": "Ken"
+  },
+  {
+    "id": 6213,
+    "name": "Carven"
+  },
+  {
+    "id": 6215,
+    "name": "SPOT - La Halle"
+  },
+  {
+    "id": 6219,
+    "name": "PATRICK GERARD "
+  },
+  {
+    "id": 6235,
+    "name": "Nat & Nin"
+  },
+  {
+    "id": 6237,
+    "name": "Pertini"
+  },
+  {
+    "id": 6239,
+    "name": "Eva Tralala"
+  },
+  {
+    "id": 6245,
+    "name": "Antonnelle"
+  },
+  {
+    "id": 6249,
+    "name": "Aerosoles"
+  },
+  {
+    "id": 6269,
+    "name": "Inconnnue"
+  },
+  {
+    "id": 6283,
+    "name": "Rainbow"
+  },
+  {
+    "id": 6285,
+    "name": "Erotokritos"
+  },
+  {
+    "id": 6313,
+    "name": "city hunter"
+  },
+  {
+    "id": 6317,
+    "name": "gazoil"
+  },
+  {
+    "id": 6319,
+    "name": "Et Compagnie"
+  },
+  {
+    "id": 6321,
+    "name": "Sable Chaud"
+  },
+  {
+    "id": 6327,
+    "name": "Feud"
+  },
+  {
+    "id": 6333,
+    "name": "Retro"
+  },
+  {
+    "id": 6339,
+    "name": "Nannini"
+  },
+  {
+    "id": 6355,
+    "name": "Rendez-Vous Paris"
+  },
+  {
+    "id": 6357,
+    "name": "Bronx"
+  },
+  {
+    "id": 6359,
+    "name": "Hard Rock"
+  },
+  {
+    "id": 6369,
+    "name": "HÖGL"
+  },
+  {
+    "id": 6373,
+    "name": "DOROTENIS."
+  },
+  {
+    "id": 6375,
+    "name": "Diane von Fürstenberg"
+  },
+  {
+    "id": 6383,
+    "name": "Jérôme Dreyfuss"
+  },
+  {
+    "id": 6387,
+    "name": "Rosa & Rose"
+  },
+  {
+    "id": 6389,
+    "name": "OAKWOOD"
+  },
+  {
+    "id": 6393,
+    "name": "Fresh Made"
+  },
+  {
+    "id": 6397,
+    "name": "Obsession"
+  },
+  {
+    "id": 6427,
+    "name": "Like-You"
+  },
+  {
+    "id": 6433,
+    "name": "River Skin"
+  },
+  {
+    "id": 6437,
+    "name": "1001 Shoes"
+  },
+  {
+    "id": 6451,
+    "name": "Et Dieu Créa La Femme"
+  },
+  {
+    "id": 6469,
+    "name": "Custo Barcelona"
+  },
+  {
+    "id": 6477,
+    "name": "Ebay"
+  },
+  {
+    "id": 6479,
+    "name": "Arizona"
+  },
+  {
+    "id": 6483,
+    "name": "Even&Odd"
+  },
+  {
+    "id": 6487,
+    "name": "alive"
+  },
+  {
+    "id": 6491,
+    "name": "R95th"
+  },
+  {
+    "id": 6499,
+    "name": "Internet"
+  },
+  {
+    "id": 6517,
+    "name": "Betty Boop"
+  },
+  {
+    "id": 6521,
+    "name": "Marc B."
+  },
+  {
+    "id": 6523,
+    "name": "Diverses"
+  },
+  {
+    "id": 6535,
+    "name": "Lazy Oaf"
+  },
+  {
+    "id": 6539,
+    "name": "Moncler"
+  },
+  {
+    "id": 6551,
+    "name": "Hoyvoy"
+  },
+  {
+    "id": 6553,
+    "name": "CafèNoir"
+  },
+  {
+    "id": 6569,
+    "name": "Max Azria"
+  },
+  {
+    "id": 6581,
+    "name": "marque chinoise"
+  },
+  {
+    "id": 6587,
+    "name": "Pacific Company"
+  },
+  {
+    "id": 6595,
+    "name": "Fée de la passion"
+  },
+  {
+    "id": 6599,
+    "name": "Solange"
+  },
+  {
+    "id": 6607,
+    "name": "Camper"
+  },
+  {
+    "id": 6615,
+    "name": "Rieker"
+  },
+  {
+    "id": 6617,
+    "name": "Nine West"
+  },
+  {
+    "id": 6621,
+    "name": "María Jaén"
+  },
+  {
+    "id": 6645,
+    "name": "CASTELBAJAC"
+  },
+  {
+    "id": 6661,
+    "name": "CASSIS"
+  },
+  {
+    "id": 6665,
+    "name": "Pikolinos"
+  },
+  {
+    "id": 6671,
+    "name": "Coco Perla"
+  },
+  {
+    "id": 6709,
+    "name": "Mr men little miss"
+  },
+  {
+    "id": 6717,
+    "name": "Carole Richard"
+  },
+  {
+    "id": 6719,
+    "name": "Denim & Co."
+  },
+  {
+    "id": 6721,
+    "name": "Coach"
+  },
+  {
+    "id": 6731,
+    "name": "Fiorella di Verdi"
+  },
+  {
+    "id": 6735,
+    "name": "am christine"
+  },
+  {
+    "id": 6739,
+    "name": "Weekend"
+  },
+  {
+    "id": 6741,
+    "name": "Abyss"
+  },
+  {
+    "id": 6747,
+    "name": "Taxxo"
+  },
+  {
+    "id": 6755,
+    "name": "Mossimo Supply Co."
+  },
+  {
+    "id": 6757,
+    "name": "Fame"
+  },
+  {
+    "id": 6763,
+    "name": "Blondie"
+  },
+  {
+    "id": 6765,
+    "name": "silence + noise"
+  },
+  {
+    "id": 6767,
+    "name": "Lov'it"
+  },
+  {
+    "id": 6775,
+    "name": "Skalli"
+  },
+  {
+    "id": 6777,
+    "name": "BK"
+  },
+  {
+    "id": 6781,
+    "name": "B-Attitude"
+  },
+  {
+    "id": 6785,
+    "name": "St-Martins"
+  },
+  {
+    "id": 6787,
+    "name": "Evita"
+  },
+  {
+    "id": 6793,
+    "name": "Aubade"
+  },
+  {
+    "id": 6795,
+    "name": "Playa"
+  },
+  {
+    "id": 6801,
+    "name": "Firetrap"
+  },
+  {
+    "id": 6809,
+    "name": "amilly"
+  },
+  {
+    "id": 6815,
+    "name": "Christine Laure"
+  },
+  {
+    "id": 6819,
+    "name": "Persun"
+  },
+  {
+    "id": 6821,
+    "name": "Stunny"
+  },
+  {
+    "id": 6827,
+    "name": "Extyn"
+  },
+  {
+    "id": 6835,
+    "name": "Miss Dynam"
+  },
+  {
+    "id": 6837,
+    "name": "Le Printemps"
+  },
+  {
+    "id": 6839,
+    "name": "Taillissime"
+  },
+  {
+    "id": 6847,
+    "name": "Gabriella Vincenza"
+  },
+  {
+    "id": 6853,
+    "name": "Friperie"
+  },
+  {
+    "id": 6855,
+    "name": "North Star"
+  },
+  {
+    "id": 6865,
+    "name": "Metalika"
+  },
+  {
+    "id": 6869,
+    "name": "PMK"
+  },
+  {
+    "id": 6877,
+    "name": "Chokolate"
+  },
+  {
+    "id": 6893,
+    "name": "Nolita"
+  },
+  {
+    "id": 6901,
+    "name": "FIMO"
+  },
+  {
+    "id": 6907,
+    "name": "Flavio"
+  },
+  {
+    "id": 6923,
+    "name": "Sweewë"
+  },
+  {
+    "id": 6937,
+    "name": "Wrung"
+  },
+  {
+    "id": 6939,
+    "name": "J&L Paris"
+  },
+  {
+    "id": 6943,
+    "name": "Smiley World"
+  },
+  {
+    "id": 6951,
+    "name": "The Divine Factory"
+  },
+  {
+    "id": 6955,
+    "name": "Dainese"
+  },
+  {
+    "id": 6957,
+    "name": "Caroline Lisfranc"
+  },
+  {
+    "id": 6965,
+    "name": "Reminiscence"
+  },
+  {
+    "id": 6973,
+    "name": "Ferrari"
+  },
+  {
+    "id": 6987,
+    "name": "the free banana"
+  },
+  {
+    "id": 6989,
+    "name": "Pelle Pelle"
+  },
+  {
+    "id": 7001,
+    "name": "R2Banjo"
+  },
+  {
+    "id": 7005,
+    "name": "Angel"
+  },
+  {
+    "id": 7009,
+    "name": "cuir"
+  },
+  {
+    "id": 7011,
+    "name": "Scenic"
+  },
+  {
+    "id": 7023,
+    "name": "BS JEANS"
+  },
+  {
+    "id": 7027,
+    "name": "Kezza"
+  },
+  {
+    "id": 7037,
+    "name": "Arthur et Aston"
+  },
+  {
+    "id": 7043,
+    "name": "Y.O.U"
+  },
+  {
+    "id": 7045,
+    "name": "fiorelli"
+  },
+  {
+    "id": 7049,
+    "name": "Bodybloom"
+  },
+  {
+    "id": 7071,
+    "name": "WOMAN"
+  },
+  {
+    "id": 7081,
+    "name": "Crea Concept"
+  },
+  {
+    "id": 7083,
+    "name": "et vous"
+  },
+  {
+    "id": 7089,
+    "name": "Mavi"
+  },
+  {
+    "id": 7103,
+    "name": "Dead Threads"
+  },
+  {
+    "id": 7105,
+    "name": "Pronovias"
+  },
+  {
+    "id": 7119,
+    "name": "Marlboro Classics"
+  },
+  {
+    "id": 7121,
+    "name": "Friday's Project"
+  },
+  {
+    "id": 7125,
+    "name": "Patrizia Pepe"
+  },
+  {
+    "id": 7137,
+    "name": "Bonprix"
+  },
+  {
+    "id": 7147,
+    "name": "Miso"
+  },
+  {
+    "id": 7149,
+    "name": "Pollini"
+  },
+  {
+    "id": 7153,
+    "name": "black mode"
+  },
+  {
+    "id": 7159,
+    "name": "pssy"
+  },
+  {
+    "id": 7161,
+    "name": "victoria couture hello kitty"
+  },
+  {
+    "id": 7165,
+    "name": "Tisaia"
+  },
+  {
+    "id": 7167,
+    "name": "Manguun"
+  },
+  {
+    "id": 7171,
+    "name": "TFNC"
+  },
+  {
+    "id": 7183,
+    "name": "NEW AGE "
+  },
+  {
+    "id": 7185,
+    "name": "Kenvelo"
+  },
+  {
+    "id": 7203,
+    "name": "be only"
+  },
+  {
+    "id": 7209,
+    "name": "Miss Fanny"
+  },
+  {
+    "id": 7217,
+    "name": "Buffalo London"
+  },
+  {
+    "id": 7219,
+    "name": "Teen's Moving"
+  },
+  {
+    "id": 7225,
+    "name": "Neko WEAR"
+  },
+  {
+    "id": 7227,
+    "name": "Noe"
+  },
+  {
+    "id": 7229,
+    "name": "Rivaldi"
+  },
+  {
+    "id": 7267,
+    "name": "Victoire"
+  },
+  {
+    "id": 7279,
+    "name": "Revlon"
+  },
+  {
+    "id": 7295,
+    "name": "Bonpoint"
+  },
+  {
+    "id": 7299,
+    "name": "U.S. POLO ASSN."
+  },
+  {
+    "id": 7303,
+    "name": "Mitchell and Ness"
+  },
+  {
+    "id": 7311,
+    "name": "UNKNOWN"
+  },
+  {
+    "id": 7317,
+    "name": "Sparkle & Fade"
+  },
+  {
+    "id": 7319,
+    "name": "Paraboot"
+  },
+  {
+    "id": 7323,
+    "name": "Mamatayoe"
+  },
+  {
+    "id": 7361,
+    "name": "Influx"
+  },
+  {
+    "id": 7365,
+    "name": "chiné"
+  },
+  {
+    "id": 7371,
+    "name": "Colours of the World"
+  },
+  {
+    "id": 7387,
+    "name": "Decontract by Veti"
+  },
+  {
+    "id": 7405,
+    "name": "Georges Rech"
+  },
+  {
+    "id": 7415,
+    "name": "Antonelle"
+  },
+  {
+    "id": 7419,
+    "name": "Fleur De Sel"
+  },
+  {
+    "id": 7425,
+    "name": "Collectif clothing."
+  },
+  {
+    "id": 7427,
+    "name": "Chevalier"
+  },
+  {
+    "id": 7431,
+    "name": "Olivier Strelli"
+  },
+  {
+    "id": 7441,
+    "name": "Warehouse"
+  },
+  {
+    "id": 7451,
+    "name": "Lewinger"
+  },
+  {
+    "id": 7453,
+    "name": "MISS UNITED (Blue Box)"
+  },
+  {
+    "id": 7465,
+    "name": "Fred"
+  },
+  {
+    "id": 7467,
+    "name": "JODHPUR"
+  },
+  {
+    "id": 7471,
+    "name": "Dolls"
+  },
+  {
+    "id": 7487,
+    "name": "Heyraud"
+  },
+  {
+    "id": 7517,
+    "name": "Hirica"
+  },
+  {
+    "id": 7531,
+    "name": "LOVIE"
+  },
+  {
+    "id": 7533,
+    "name": "Traffic People"
+  },
+  {
+    "id": 7543,
+    "name": "BERHSKA"
+  },
+  {
+    "id": 7545,
+    "name": "Princesse Nomade"
+  },
+  {
+    "id": 7559,
+    "name": "Ünküt"
+  },
+  {
+    "id": 7563,
+    "name": "auncune"
+  },
+  {
+    "id": 7569,
+    "name": "Daxon"
+  },
+  {
+    "id": 7571,
+    "name": "Miss Softy"
+  },
+  {
+    "id": 7607,
+    "name": "B you K"
+  },
+  {
+    "id": 7609,
+    "name": "Sinister"
+  },
+  {
+    "id": 7613,
+    "name": "Accessoire Diffusion"
+  },
+  {
+    "id": 7617,
+    "name": "Punk Rave"
+  },
+  {
+    "id": 7621,
+    "name": "Coquines"
+  },
+  {
+    "id": 7629,
+    "name": "Hummel"
+  },
+  {
+    "id": 7631,
+    "name": "10"
+  },
+  {
+    "id": 7647,
+    "name": "Review"
+  },
+  {
+    "id": 7651,
+    "name": "OVS"
+  },
+  {
+    "id": 7653,
+    "name": "Valensi"
+  },
+  {
+    "id": 7657,
+    "name": "Bleu bonheur"
+  },
+  {
+    "id": 7659,
+    "name": "H"
+  },
+  {
+    "id": 7661,
+    "name": "tammy"
+  },
+  {
+    "id": 7669,
+    "name": "True fashion"
+  },
+  {
+    "id": 7671,
+    "name": "Skelanimals"
+  },
+  {
+    "id": 7675,
+    "name": "Le petit baigneur"
+  },
+  {
+    "id": 7683,
+    "name": "Hells Bells"
+  },
+  {
+    "id": 7689,
+    "name": "cojean"
+  },
+  {
+    "id": 7693,
+    "name": "Lois Jeans"
+  },
+  {
+    "id": 7703,
+    "name": "Petite boutique"
+  },
+  {
+    "id": 7707,
+    "name": "U Collection"
+  },
+  {
+    "id": 7713,
+    "name": "Deeluxe"
+  },
+  {
+    "id": 7725,
+    "name": "Sweety"
+  },
+  {
+    "id": 7729,
+    "name": "Apricot"
+  },
+  {
+    "id": 7749,
+    "name": "Daysie"
+  },
+  {
+    "id": 7751,
+    "name": "Allison et Sacha"
+  },
+  {
+    "id": 7753,
+    "name": "Very Denim"
+  },
+  {
+    "id": 7767,
+    "name": "Trendyland"
+  },
+  {
+    "id": 7769,
+    "name": "Royal bleu"
+  },
+  {
+    "id": 7777,
+    "name": "City by JLC"
+  },
+  {
+    "id": 7785,
+    "name": "Mc Lem"
+  },
+  {
+    "id": 7797,
+    "name": "Les temps des cerises"
+  },
+  {
+    "id": 7809,
+    "name": "FUCHSIA"
+  },
+  {
+    "id": 7811,
+    "name": "Flamant Rose"
+  },
+  {
+    "id": 7835,
+    "name": "Catimini"
+  },
+  {
+    "id": 7837,
+    "name": "Rock a gogo"
+  },
+  {
+    "id": 7851,
+    "name": "Cosmopolitan"
+  },
+  {
+    "id": 7855,
+    "name": "Besson chaussure"
+  },
+  {
+    "id": 7857,
+    "name": "Pesaro"
+  },
+  {
+    "id": 7863,
+    "name": "Un Deux Trois"
+  },
+  {
+    "id": 7879,
+    "name": "3suisse"
+  },
+  {
+    "id": 7881,
+    "name": "Carla Giannini"
+  },
+  {
+    "id": 7901,
+    "name": "Bragard"
+  },
+  {
+    "id": 7905,
+    "name": "L&B"
+  },
+  {
+    "id": 7909,
+    "name": "Betty London"
+  },
+  {
+    "id": 7931,
+    "name": "Addict"
+  },
+  {
+    "id": 7935,
+    "name": "Paris mode"
+  },
+  {
+    "id": 7951,
+    "name": "Délishoes"
+  },
+  {
+    "id": 7973,
+    "name": "Champion"
+  },
+  {
+    "id": 7983,
+    "name": "New Park"
+  },
+  {
+    "id": 7991,
+    "name": "Talon"
+  },
+  {
+    "id": 8001,
+    "name": "Osmose"
+  },
+  {
+    "id": 8041,
+    "name": "Miss Fashion"
+  },
+  {
+    "id": 8091,
+    "name": "National Liberty"
+  },
+  {
+    "id": 8097,
+    "name": "Parada"
+  },
+  {
+    "id": 8099,
+    "name": "Lili Girl"
+  },
+  {
+    "id": 8109,
+    "name": "italienne"
+  },
+  {
+    "id": 8111,
+    "name": "Cabanelli"
+  },
+  {
+    "id": 8131,
+    "name": "Giorgio Armani"
+  },
+  {
+    "id": 8133,
+    "name": "heine"
+  },
+  {
+    "id": 8139,
+    "name": "kappa"
+  },
+  {
+    "id": 8147,
+    "name": "Quelle"
+  },
+  {
+    "id": 8153,
+    "name": "Follow Me"
+  },
+  {
+    "id": 8175,
+    "name": "Cink-Me"
+  },
+  {
+    "id": 8177,
+    "name": "Laura Ashley"
+  },
+  {
+    "id": 8179,
+    "name": "Kawasaki"
+  },
+  {
+    "id": 8183,
+    "name": "Miss"
+  },
+  {
+    "id": 8187,
+    "name": "Kelly"
+  },
+  {
+    "id": 8189,
+    "name": "Nanucci"
+  },
+  {
+    "id": 8201,
+    "name": "Golden Days"
+  },
+  {
+    "id": 8205,
+    "name": "milla"
+  },
+  {
+    "id": 8207,
+    "name": "Sketchers"
+  },
+  {
+    "id": 8209,
+    "name": "Besson Chaussures"
+  },
+  {
+    "id": 8227,
+    "name": "Lulu Love"
+  },
+  {
+    "id": 8231,
+    "name": "Lola Jones"
+  },
+  {
+    "id": 8233,
+    "name": "Texas"
+  },
+  {
+    "id": 8251,
+    "name": "Bleeding Star"
+  },
+  {
+    "id": 8253,
+    "name": "RAS"
+  },
+  {
+    "id": 8259,
+    "name": "L'etrange noel de Mr Jack"
+  },
+  {
+    "id": 8269,
+    "name": "Hilfiger"
+  },
+  {
+    "id": 8271,
+    "name": "Princesse"
+  },
+  {
+    "id": 8275,
+    "name": "venise"
+  },
+  {
+    "id": 8279,
+    "name": "SONIA"
+  },
+  {
+    "id": 8299,
+    "name": "Enzoria"
+  },
+  {
+    "id": 8321,
+    "name": "Fournier"
+  },
+  {
+    "id": 8323,
+    "name": "Anna Field"
+  },
+  {
+    "id": 8335,
+    "name": "colin stuart"
+  },
+  {
+    "id": 8341,
+    "name": "Requin"
+  },
+  {
+    "id": 8343,
+    "name": "BULLBOXER"
+  },
+  {
+    "id": 8355,
+    "name": "C et A"
+  },
+  {
+    "id": 8357,
+    "name": "Milm"
+  },
+  {
+    "id": 8363,
+    "name": "Denim Collection"
+  },
+  {
+    "id": 8377,
+    "name": "Ligne Maternité"
+  },
+  {
+    "id": 8387,
+    "name": "JUMP"
+  },
+  {
+    "id": 8405,
+    "name": "RIU"
+  },
+  {
+    "id": 8413,
+    "name": "Tara"
+  },
+  {
+    "id": 8425,
+    "name": "Gallantry"
+  },
+  {
+    "id": 8431,
+    "name": "Hawk"
+  },
+  {
+    "id": 8433,
+    "name": "derek heart"
+  },
+  {
+    "id": 8435,
+    "name": "kannabeach"
+  },
+  {
+    "id": 8459,
+    "name": "Hunter"
+  },
+  {
+    "id": 8465,
+    "name": "Vanity Fair"
+  },
+  {
+    "id": 8467,
+    "name": "Killibi"
+  },
+  {
+    "id": 8475,
+    "name": "Pons Quintana"
+  },
+  {
+    "id": 8477,
+    "name": "Bien Bleu"
+  },
+  {
+    "id": 8511,
+    "name": "fugitive"
+  },
+  {
+    "id": 8515,
+    "name": "Express"
+  },
+  {
+    "id": 8545,
+    "name": "Extenso"
+  },
+  {
+    "id": 8549,
+    "name": "Loréana"
+  },
+  {
+    "id": 8573,
+    "name": "Jodphur"
+  },
+  {
+    "id": 8575,
+    "name": "Senes"
+  },
+  {
+    "id": 8599,
+    "name": "Snoopy"
+  },
+  {
+    "id": 8611,
+    "name": "Oshyo"
+  },
+  {
+    "id": 8621,
+    "name": "YOKII BONES"
+  },
+  {
+    "id": 8623,
+    "name": "Blossom"
+  },
+  {
+    "id": 8625,
+    "name": "Mighty Fine"
+  },
+  {
+    "id": 8651,
+    "name": "Boozzy"
+  },
+  {
+    "id": 8655,
+    "name": "Macy's"
+  },
+  {
+    "id": 8657,
+    "name": "Vostik"
+  },
+  {
+    "id": 8685,
+    "name": "coréenne"
+  },
+  {
+    "id": 8693,
+    "name": "Graine de malice"
+  },
+  {
+    "id": 8697,
+    "name": "Claude Gérard"
+  },
+  {
+    "id": 8711,
+    "name": "Mont saint michel"
+  },
+  {
+    "id": 8715,
+    "name": "Umbro"
+  },
+  {
+    "id": 8719,
+    "name": "DUNE"
+  },
+  {
+    "id": 8723,
+    "name": "Stella Forest"
+  },
+  {
+    "id": 8727,
+    "name": "verra lucci"
+  },
+  {
+    "id": 8729,
+    "name": "Trussardi"
+  },
+  {
+    "id": 8745,
+    "name": "SALVATORE"
+  },
+  {
+    "id": 8747,
+    "name": "Jashu"
+  },
+  {
+    "id": 8757,
+    "name": "Bay"
+  },
+  {
+    "id": 8761,
+    "name": "Zara Man"
+  },
+  {
+    "id": 8785,
+    "name": "Wendy"
+  },
+  {
+    "id": 8787,
+    "name": "Aston's"
+  },
+  {
+    "id": 8797,
+    "name": "Superman"
+  },
+  {
+    "id": 8799,
+    "name": "American People"
+  },
+  {
+    "id": 8805,
+    "name": "Ober"
+  },
+  {
+    "id": 8821,
+    "name": "Gold & Silver"
+  },
+  {
+    "id": 8825,
+    "name": "Cashmere"
+  },
+  {
+    "id": 8833,
+    "name": "Nvavto"
+  },
+  {
+    "id": 8859,
+    "name": "Audley"
+  },
+  {
+    "id": 8883,
+    "name": "emo.i"
+  },
+  {
+    "id": 8901,
+    "name": "JON KAFE"
+  },
+  {
+    "id": 8903,
+    "name": "OLIVIER GRANT"
+  },
+  {
+    "id": 8951,
+    "name": "Lea Fashion"
+  },
+  {
+    "id": 8971,
+    "name": "Ethina"
+  },
+  {
+    "id": 8993,
+    "name": "Coolway"
+  },
+  {
+    "id": 9015,
+    "name": "Accessories"
+  },
+  {
+    "id": 9039,
+    "name": "ADC"
+  },
+  {
+    "id": 9047,
+    "name": "Vintage college"
+  },
+  {
+    "id": 9049,
+    "name": "WANABEE"
+  },
+  {
+    "id": 9075,
+    "name": "True Religion"
+  },
+  {
+    "id": 9081,
+    "name": "Barbie"
+  },
+  {
+    "id": 9093,
+    "name": "SUGARHILL"
+  },
+  {
+    "id": 9121,
+    "name": "Manie"
+  },
+  {
+    "id": 9139,
+    "name": "oXs"
+  },
+  {
+    "id": 9141,
+    "name": "Laklook"
+  },
+  {
+    "id": 9143,
+    "name": "Tom joules"
+  },
+  {
+    "id": 9145,
+    "name": "Aucun"
+  },
+  {
+    "id": 9147,
+    "name": "Camaie"
+  },
+  {
+    "id": 9151,
+    "name": "LONDRES"
+  },
+  {
+    "id": 9189,
+    "name": "Vet Affaire"
+  },
+  {
+    "id": 9211,
+    "name": "Haribo"
+  },
+  {
+    "id": 9243,
+    "name": "Cabanelli Milano"
+  },
+  {
+    "id": 9249,
+    "name": "Lovely Sud"
+  },
+  {
+    "id": 9281,
+    "name": "my industry"
+  },
+  {
+    "id": 9285,
+    "name": "Influence"
+  },
+  {
+    "id": 9287,
+    "name": "Jean-Charles de Castelbajac"
+  },
+  {
+    "id": 9291,
+    "name": "Marta Marzotto"
+  },
+  {
+    "id": 9323,
+    "name": "Tally Well"
+  },
+  {
+    "id": 9351,
+    "name": "Tolentino"
+  },
+  {
+    "id": 9373,
+    "name": "halle au chaussures"
+  },
+  {
+    "id": 9389,
+    "name": "Gallice"
+  },
+  {
+    "id": 9397,
+    "name": "Mogul"
+  },
+  {
+    "id": 9443,
+    "name": "Punto Bene"
+  },
+  {
+    "id": 9453,
+    "name": "Scarlet Roos"
+  },
+  {
+    "id": 9459,
+    "name": "Ernesto De Barcelona"
+  },
+  {
+    "id": 9461,
+    "name": "Marypaz"
+  },
+  {
+    "id": 9465,
+    "name": "Blue Rags"
+  },
+  {
+    "id": 9467,
+    "name": "Plume"
+  },
+  {
+    "id": 9473,
+    "name": "caprice de filles"
+  },
+  {
+    "id": 9525,
+    "name": "Rusty"
+  },
+  {
+    "id": 9583,
+    "name": "Yamaha"
+  },
+  {
+    "id": 9589,
+    "name": "CHRISTELLE"
+  },
+  {
+    "id": 9623,
+    "name": "Carharrt"
+  },
+  {
+    "id": 9629,
+    "name": "Mim collection"
+  },
+  {
+    "id": 9653,
+    "name": "Foot Locker"
+  },
+  {
+    "id": 9665,
+    "name": "atrai"
+  },
+  {
+    "id": 9667,
+    "name": "Shiny"
+  },
+  {
+    "id": 9685,
+    "name": "Kawazaki"
+  },
+  {
+    "id": 9713,
+    "name": "Fairly"
+  },
+  {
+    "id": 9723,
+    "name": "made in France"
+  },
+  {
+    "id": 9727,
+    "name": "Les 3 suisses collection"
+  },
+  {
+    "id": 9733,
+    "name": "Tadzo"
+  },
+  {
+    "id": 9769,
+    "name": "pas de taille"
+  },
+  {
+    "id": 9771,
+    "name": "Cypres"
+  },
+  {
+    "id": 9791,
+    "name": "collection limité"
+  },
+  {
+    "id": 9799,
+    "name": "Intimissimi"
+  },
+  {
+    "id": 9801,
+    "name": "colombia"
+  },
+  {
+    "id": 9835,
+    "name": "Victoria Secret"
+  },
+  {
+    "id": 9839,
+    "name": "C'Kenza"
+  },
+  {
+    "id": 9841,
+    "name": "Agathe"
+  },
+  {
+    "id": 9847,
+    "name": "Golden Day"
+  },
+  {
+    "id": 9849,
+    "name": "Stadivarius"
+  },
+  {
+    "id": 9861,
+    "name": "France Arno"
+  },
+  {
+    "id": 9877,
+    "name": "metroplastique"
+  },
+  {
+    "id": 9879,
+    "name": "AZARA"
+  },
+  {
+    "id": 9921,
+    "name": "Dag Adom"
+  },
+  {
+    "id": 9927,
+    "name": "Ish creation"
+  },
+  {
+    "id": 9931,
+    "name": "terre de marin"
+  },
+  {
+    "id": 9939,
+    "name": "Terre de Marins"
+  },
+  {
+    "id": 9947,
+    "name": "Club L"
+  },
+  {
+    "id": 9953,
+    "name": "DCJ"
+  },
+  {
+    "id": 9961,
+    "name": "Helena Sorel"
+  },
+  {
+    "id": 9963,
+    "name": "Regard"
+  },
+  {
+    "id": 9969,
+    "name": "Beandbe"
+  },
+  {
+    "id": 9973,
+    "name": "Jeune créateur"
+  },
+  {
+    "id": 9975,
+    "name": "Myma"
+  },
+  {
+    "id": 10007,
+    "name": "P&Y"
+  },
+  {
+    "id": 10039,
+    "name": "Capitaine tortue"
+  },
+  {
+    "id": 10041,
+    "name": "Muji"
+  },
+  {
+    "id": 10047,
+    "name": "Serge Blanco"
+  },
+  {
+    "id": 10057,
+    "name": "SyStyle"
+  },
+  {
+    "id": 10073,
+    "name": "Love"
+  },
+  {
+    "id": 10105,
+    "name": "Triumph"
+  },
+  {
+    "id": 10109,
+    "name": "ATOMIK"
+  },
+  {
+    "id": 10121,
+    "name": "Cotton On"
+  },
+  {
+    "id": 10125,
+    "name": "paris style"
+  },
+  {
+    "id": 10127,
+    "name": "Miss America"
+  },
+  {
+    "id": 10137,
+    "name": "monsieur madame"
+  },
+  {
+    "id": 10141,
+    "name": "Mói"
+  },
+  {
+    "id": 10147,
+    "name": "Corsica"
+  },
+  {
+    "id": 10151,
+    "name": "FlashLights"
+  },
+  {
+    "id": 10157,
+    "name": "Avene"
+  },
+  {
+    "id": 10187,
+    "name": "Reserved"
+  },
+  {
+    "id": 10191,
+    "name": "Freddy"
+  },
+  {
+    "id": 10227,
+    "name": "St James"
+  },
+  {
+    "id": 10249,
+    "name": "C'N'C Costume National"
+  },
+  {
+    "id": 10261,
+    "name": "Jumex"
+  },
+  {
+    "id": 10265,
+    "name": "Target"
+  },
+  {
+    "id": 10271,
+    "name": "Sinlyshoes"
+  },
+  {
+    "id": 10275,
+    "name": "X"
+  },
+  {
+    "id": 10277,
+    "name": "Queenie"
+  },
+  {
+    "id": 10283,
+    "name": "Mage"
+  },
+  {
+    "id": 10299,
+    "name": "Carbone"
+  },
+  {
+    "id": 10319,
+    "name": "Original"
+  },
+  {
+    "id": 10323,
+    "name": "Gaudi"
+  },
+  {
+    "id": 10325,
+    "name": "Eleven"
+  },
+  {
+    "id": 10335,
+    "name": "Bo'aime"
+  },
+  {
+    "id": 10353,
+    "name": "Poti Pota"
+  },
+  {
+    "id": 10357,
+    "name": "Energetix"
+  },
+  {
+    "id": 10361,
+    "name": "Marc orian"
+  },
+  {
+    "id": 10375,
+    "name": "Myose"
+  },
+  {
+    "id": 10385,
+    "name": "Burlesk"
+  },
+  {
+    "id": 10395,
+    "name": "Sweet Miss"
+  },
+  {
+    "id": 10401,
+    "name": "Zoo York"
+  },
+  {
+    "id": 10417,
+    "name": "See You Soon"
+  },
+  {
+    "id": 10419,
+    "name": "Spirit"
+  },
+  {
+    "id": 10423,
+    "name": "Pulsion"
+  },
+  {
+    "id": 10427,
+    "name": "Klub'er"
+  },
+  {
+    "id": 10429,
+    "name": "Café Théatre"
+  },
+  {
+    "id": 10433,
+    "name": "Jones New York"
+  },
+  {
+    "id": 10437,
+    "name": "Carla Selvone"
+  },
+  {
+    "id": 10439,
+    "name": "Yankees"
+  },
+  {
+    "id": 10441,
+    "name": "Adishatz"
+  },
+  {
+    "id": 10447,
+    "name": "Selected"
+  },
+  {
+    "id": 10453,
+    "name": "Friponne"
+  },
+  {
+    "id": 10459,
+    "name": "MADISON & CO"
+  },
+  {
+    "id": 10471,
+    "name": "Official Marshall"
+  },
+  {
+    "id": 10509,
+    "name": "By Joos"
+  },
+  {
+    "id": 10511,
+    "name": "Wet Seal"
+  },
+  {
+    "id": 10529,
+    "name": "KOR@KOR"
+  },
+  {
+    "id": 10541,
+    "name": "Grace & Mila"
+  },
+  {
+    "id": 10555,
+    "name": "Roxy - Quiksilver"
+  },
+  {
+    "id": 10587,
+    "name": "West Coast"
+  },
+  {
+    "id": 10605,
+    "name": "Armani Collezioni"
+  },
+  {
+    "id": 10613,
+    "name": "John Galliano"
+  },
+  {
+    "id": 10617,
+    "name": "CC"
+  },
+  {
+    "id": 10621,
+    "name": "Campus"
+  },
+  {
+    "id": 10623,
+    "name": "ERNEST LE GAMIN"
+  },
+  {
+    "id": 10627,
+    "name": "Retro Jeans"
+  },
+  {
+    "id": 10635,
+    "name": "Chassé Croisé"
+  },
+  {
+    "id": 10637,
+    "name": "richy shoes"
+  },
+  {
+    "id": 10647,
+    "name": "Azuleros"
+  },
+  {
+    "id": 10697,
+    "name": "MONTOTO"
+  },
+  {
+    "id": 10701,
+    "name": "Stereo Panda"
+  },
+  {
+    "id": 10725,
+    "name": "Zeta Moda"
+  },
+  {
+    "id": 10747,
+    "name": "MONKEE GENES"
+  },
+  {
+    "id": 10763,
+    "name": "Paul Smith"
+  },
+  {
+    "id": 10775,
+    "name": "Giuseppe Zanotti"
+  },
+  {
+    "id": 10781,
+    "name": "Dry Docks"
+  },
+  {
+    "id": 10785,
+    "name": "Les bonnes copines"
+  },
+  {
+    "id": 10801,
+    "name": "Couleur Pourpre"
+  },
+  {
+    "id": 10817,
+    "name": "Creem"
+  },
+  {
+    "id": 10831,
+    "name": "Emilio Pucci"
+  },
+  {
+    "id": 10849,
+    "name": "Julie Guerlande"
+  },
+  {
+    "id": 10851,
+    "name": "Un monde en Or"
+  },
+  {
+    "id": 10853,
+    "name": "Hard rock couture"
+  },
+  {
+    "id": 10863,
+    "name": "Simple city"
+  },
+  {
+    "id": 10901,
+    "name": "MiZiA Paris"
+  },
+  {
+    "id": 10935,
+    "name": "ONLY JEANS"
+  },
+  {
+    "id": 10975,
+    "name": "Jean Paul gauthier"
+  },
+  {
+    "id": 10981,
+    "name": "Torrente Jeans"
+  },
+  {
+    "id": 10989,
+    "name": "moto"
+  },
+  {
+    "id": 10999,
+    "name": "C.H.Creation"
+  },
+  {
+    "id": 11089,
+    "name": "Sipecusa"
+  },
+  {
+    "id": 11101,
+    "name": "Peace and Love"
+  },
+  {
+    "id": 11111,
+    "name": "Airstep"
+  },
+  {
+    "id": 11131,
+    "name": "Mickey Mouse"
+  },
+  {
+    "id": 11135,
+    "name": "Des Filles à la Vanillé"
+  },
+  {
+    "id": 11175,
+    "name": "S de style"
+  },
+  {
+    "id": 11199,
+    "name": "Nike Air Jordan"
+  },
+  {
+    "id": 11209,
+    "name": "Athena"
+  },
+  {
+    "id": 11211,
+    "name": "Roxy Life"
+  },
+  {
+    "id": 11215,
+    "name": "Chinoix"
+  },
+  {
+    "id": 11235,
+    "name": "Sport"
+  },
+  {
+    "id": 11247,
+    "name": "Côté Femme"
+  },
+  {
+    "id": 11249,
+    "name": "Ritelle"
+  },
+  {
+    "id": 11265,
+    "name": "Esther"
+  },
+  {
+    "id": 11273,
+    "name": "Religion"
+  },
+  {
+    "id": 11275,
+    "name": "SWS"
+  },
+  {
+    "id": 11283,
+    "name": "AWS"
+  },
+  {
+    "id": 11325,
+    "name": "SKOAH"
+  },
+  {
+    "id": 11343,
+    "name": "RVCA"
+  },
+  {
+    "id": 11345,
+    "name": "air max"
+  },
+  {
+    "id": 11349,
+    "name": "Wrung Lady"
+  },
+  {
+    "id": 11377,
+    "name": "UCLA"
+  },
+  {
+    "id": 11413,
+    "name": "JC"
+  },
+  {
+    "id": 11419,
+    "name": "Butterfly"
+  },
+  {
+    "id": 11421,
+    "name": "Springfield"
+  },
+  {
+    "id": 11423,
+    "name": "Victoria"
+  },
+  {
+    "id": 11427,
+    "name": "eigth miles"
+  },
+  {
+    "id": 11439,
+    "name": "Torrente"
+  },
+  {
+    "id": 11441,
+    "name": "Les Feux de la Mode"
+  },
+  {
+    "id": 11443,
+    "name": "Bellucci"
+  },
+  {
+    "id": 11445,
+    "name": "Converse"
+  },
+  {
+    "id": 11447,
+    "name": "Best Montain"
+  },
+  {
+    "id": 11449,
+    "name": "Ark & Co."
+  },
+  {
+    "id": 11451,
+    "name": "Krisp"
+  },
+  {
+    "id": 11455,
+    "name": "Missjolia"
+  },
+  {
+    "id": 11469,
+    "name": "Burton"
+  },
+  {
+    "id": 11471,
+    "name": "Les Trois Mats"
+  },
+  {
+    "id": 11475,
+    "name": "Karston"
+  },
+  {
+    "id": 11491,
+    "name": "Alberto Fermani"
+  },
+  {
+    "id": 11493,
+    "name": "Hollister"
+  },
+  {
+    "id": 11499,
+    "name": "Heritage"
+  },
+  {
+    "id": 11503,
+    "name": "Alice"
+  },
+  {
+    "id": 11511,
+    "name": "Emotion"
+  },
+  {
+    "id": 11513,
+    "name": "Koton"
+  },
+  {
+    "id": 11517,
+    "name": "Laurence C"
+  },
+  {
+    "id": 11521,
+    "name": "Marithé Francois Girbaud"
+  },
+  {
+    "id": 11527,
+    "name": "Tex by Max Azria"
+  },
+  {
+    "id": 11543,
+    "name": "Audrey"
+  },
+  {
+    "id": 11555,
+    "name": "Marilyn Monroe"
+  },
+  {
+    "id": 11557,
+    "name": "Vegas"
+  },
+  {
+    "id": 11571,
+    "name": "Friis & Company"
+  },
+  {
+    "id": 11589,
+    "name": "Decontract"
+  },
+  {
+    "id": 11595,
+    "name": "Sarenza"
+  },
+  {
+    "id": 11601,
+    "name": "Paris Hilton"
+  },
+  {
+    "id": 11603,
+    "name": "Just Addict"
+  },
+  {
+    "id": 11605,
+    "name": "micky"
+  },
+  {
+    "id": 11607,
+    "name": "Amicco"
+  },
+  {
+    "id": 11621,
+    "name": "Revers"
+  },
+  {
+    "id": 11623,
+    "name": "St. Bernard"
+  },
+  {
+    "id": 11625,
+    "name": "Scooter"
+  },
+  {
+    "id": 11633,
+    "name": "marque espagnole"
+  },
+  {
+    "id": 11637,
+    "name": "Who.A.U"
+  },
+  {
+    "id": 11639,
+    "name": "Strawberry"
+  },
+  {
+    "id": 11651,
+    "name": "Wilady"
+  },
+  {
+    "id": 11655,
+    "name": "Darling"
+  },
+  {
+    "id": 11659,
+    "name": "Quartz"
+  },
+  {
+    "id": 11663,
+    "name": "Restyle"
+  },
+  {
+    "id": 11675,
+    "name": "Dahlia"
+  },
+  {
+    "id": 11679,
+    "name": "MNG"
+  },
+  {
+    "id": 11715,
+    "name": "socco"
+  },
+  {
+    "id": 11721,
+    "name": "Sarah World"
+  },
+  {
+    "id": 11731,
+    "name": "Lancaster"
+  },
+  {
+    "id": 11743,
+    "name": "The Simpsons"
+  },
+  {
+    "id": 11763,
+    "name": "Young Spirit"
+  },
+  {
+    "id": 11765,
+    "name": "Episode"
+  },
+  {
+    "id": 11769,
+    "name": "Yumi Mazao"
+  },
+  {
+    "id": 11793,
+    "name": "Florence"
+  },
+  {
+    "id": 11797,
+    "name": "mosnova"
+  },
+  {
+    "id": 11823,
+    "name": "Éva et Lola"
+  },
+  {
+    "id": 11833,
+    "name": "Paris"
+  },
+  {
+    "id": 11845,
+    "name": "Papaye Et Goyave"
+  },
+  {
+    "id": 11855,
+    "name": "psssy"
+  },
+  {
+    "id": 11871,
+    "name": "Cabaneli Milano"
+  },
+  {
+    "id": 11893,
+    "name": "Coco et Abricot"
+  },
+  {
+    "id": 11897,
+    "name": "Mustang"
+  },
+  {
+    "id": 11917,
+    "name": "f"
+  },
+  {
+    "id": 11919,
+    "name": "Marwa"
+  },
+  {
+    "id": 11923,
+    "name": "Chabrand"
+  },
+  {
+    "id": 11925,
+    "name": "Moschino"
+  },
+  {
+    "id": 11943,
+    "name": "Crocs"
+  },
+  {
+    "id": 11961,
+    "name": "Poupée de Soie"
+  },
+  {
+    "id": 11963,
+    "name": "Irregular Choice"
+  },
+  {
+    "id": 11967,
+    "name": "le tanneur"
+  },
+  {
+    "id": 11973,
+    "name": "Urban Surface"
+  },
+  {
+    "id": 11981,
+    "name": "Jinx"
+  },
+  {
+    "id": 11985,
+    "name": "Little miss sunshine"
+  },
+  {
+    "id": 11987,
+    "name": "picky-poo"
+  },
+  {
+    "id": 12003,
+    "name": "Devianne"
+  },
+  {
+    "id": 12009,
+    "name": "Mine de rien"
+  },
+  {
+    "id": 12011,
+    "name": "Object"
+  },
+  {
+    "id": 12015,
+    "name": "R. Display"
+  },
+  {
+    "id": 12017,
+    "name": "Féminine"
+  },
+  {
+    "id": 12021,
+    "name": "Queshua"
+  },
+  {
+    "id": 12025,
+    "name": "Sanche de la Rosa"
+  },
+  {
+    "id": 12033,
+    "name": "FERRE"
+  },
+  {
+    "id": 12039,
+    "name": "Ventilo"
+  },
+  {
+    "id": 12041,
+    "name": "Gsus"
+  },
+  {
+    "id": 12059,
+    "name": "Diva"
+  },
+  {
+    "id": 12061,
+    "name": "Borgia"
+  },
+  {
+    "id": 12063,
+    "name": "Edeis ( La Redoute )"
+  },
+  {
+    "id": 12079,
+    "name": "Fiorucci"
+  },
+  {
+    "id": 12091,
+    "name": "Topway"
+  },
+  {
+    "id": 12093,
+    "name": "Morellato"
+  },
+  {
+    "id": 12099,
+    "name": "UK Custom Plugs"
+  },
+  {
+    "id": 12101,
+    "name": "VIP"
+  },
+  {
+    "id": 12125,
+    "name": "Malboro"
+  },
+  {
+    "id": 12133,
+    "name": "Codhor"
+  },
+  {
+    "id": 12161,
+    "name": "Atelier image"
+  },
+  {
+    "id": 12185,
+    "name": "CASTING "
+  },
+  {
+    "id": 12187,
+    "name": "little Miss"
+  },
+  {
+    "id": 12191,
+    "name": "Emonite"
+  },
+  {
+    "id": 12197,
+    "name": "froggy"
+  },
+  {
+    "id": 12205,
+    "name": "Chevignon"
+  },
+  {
+    "id": 12209,
+    "name": "Halles aux Chaussures"
+  },
+  {
+    "id": 12221,
+    "name": "Blanc Bleu"
+  },
+  {
+    "id": 12223,
+    "name": "Monki"
+  },
+  {
+    "id": 12235,
+    "name": "Southpole"
+  },
+  {
+    "id": 12237,
+    "name": "Bleu Turquoise"
+  },
+  {
+    "id": 12243,
+    "name": "Vynil Fraise"
+  },
+  {
+    "id": 12249,
+    "name": "New York & Company"
+  },
+  {
+    "id": 12251,
+    "name": "Marni"
+  },
+  {
+    "id": 12253,
+    "name": "Delicious Angel"
+  },
+  {
+    "id": 12259,
+    "name": "open up"
+  },
+  {
+    "id": 12263,
+    "name": "EFlag"
+  },
+  {
+    "id": 12273,
+    "name": "contre vents et marées"
+  },
+  {
+    "id": 12283,
+    "name": "léa kanth"
+  },
+  {
+    "id": 12289,
+    "name": "Emma & Ella"
+  },
+  {
+    "id": 12293,
+    "name": "Mangue"
+  },
+  {
+    "id": 12299,
+    "name": "Coyote girls"
+  },
+  {
+    "id": 12303,
+    "name": "leslly"
+  },
+  {
+    "id": 12311,
+    "name": "Velvet"
+  },
+  {
+    "id": 12317,
+    "name": "REPORT"
+  },
+  {
+    "id": 12321,
+    "name": "a little market"
+  },
+  {
+    "id": 12331,
+    "name": "Patrick Blanc"
+  },
+  {
+    "id": 12333,
+    "name": "hector et lola"
+  },
+  {
+    "id": 12365,
+    "name": "Prédilection"
+  },
+  {
+    "id": 12369,
+    "name": "Scarlatine"
+  },
+  {
+    "id": 12373,
+    "name": "Justin Bieber"
+  },
+  {
+    "id": 12377,
+    "name": "SWEAR"
+  },
+  {
+    "id": 12379,
+    "name": "Comptoir des parisiennes"
+  },
+  {
+    "id": 12383,
+    "name": "ella & moi"
+  },
+  {
+    "id": 12403,
+    "name": "Bonaventure"
+  },
+  {
+    "id": 12409,
+    "name": "Un Matin D'été"
+  },
+  {
+    "id": 12411,
+    "name": "Fashion Union"
+  },
+  {
+    "id": 12423,
+    "name": "April Evil"
+  },
+  {
+    "id": 12427,
+    "name": "Animale"
+  },
+  {
+    "id": 12429,
+    "name": "Clarisse"
+  },
+  {
+    "id": 12431,
+    "name": "Exquily"
+  },
+  {
+    "id": 12451,
+    "name": "myma paris"
+  },
+  {
+    "id": 12461,
+    "name": "Allyson"
+  },
+  {
+    "id": 12465,
+    "name": "Kani"
+  },
+  {
+    "id": 12469,
+    "name": "G"
+  },
+  {
+    "id": 12475,
+    "name": "ludivine passion"
+  },
+  {
+    "id": 12477,
+    "name": "Vera Pelle"
+  },
+  {
+    "id": 12489,
+    "name": "Gino Ventori"
+  },
+  {
+    "id": 12501,
+    "name": "Akteo"
+  },
+  {
+    "id": 12505,
+    "name": "Two"
+  },
+  {
+    "id": 12507,
+    "name": "Calimero"
+  },
+  {
+    "id": 12513,
+    "name": "INSPIRATIONS"
+  },
+  {
+    "id": 12517,
+    "name": "TSW sportswear"
+  },
+  {
+    "id": 12523,
+    "name": "Ilario Ferucci"
+  },
+  {
+    "id": 12527,
+    "name": "minnetonka"
+  },
+  {
+    "id": 12531,
+    "name": "Esperance Paris"
+  },
+  {
+    "id": 12535,
+    "name": "EGO"
+  },
+  {
+    "id": 12543,
+    "name": "Stylist pick"
+  },
+  {
+    "id": 12555,
+    "name": "Paule Ka"
+  },
+  {
+    "id": 12557,
+    "name": "GOOD SHEEP"
+  },
+  {
+    "id": 12561,
+    "name": "H&M L.O.G.G."
+  },
+  {
+    "id": 12563,
+    "name": "TATOOSH "
+  },
+  {
+    "id": 12565,
+    "name": "J&D Paris"
+  },
+  {
+    "id": 12567,
+    "name": "Buffalo"
+  },
+  {
+    "id": 12579,
+    "name": "Akiza"
+  },
+  {
+    "id": 12593,
+    "name": "Hell Bells"
+  },
+  {
+    "id": 12595,
+    "name": "FAGUO"
+  },
+  {
+    "id": 12601,
+    "name": "nana baila"
+  },
+  {
+    "id": 12605,
+    "name": "Trois ronds"
+  },
+  {
+    "id": 12611,
+    "name": "J denim"
+  },
+  {
+    "id": 12619,
+    "name": "tentation"
+  },
+  {
+    "id": 12635,
+    "name": "Fabio Lucci"
+  },
+  {
+    "id": 12639,
+    "name": "Courrèges"
+  },
+  {
+    "id": 12645,
+    "name": "Gadea"
+  },
+  {
+    "id": 12657,
+    "name": "Black Pistols"
+  },
+  {
+    "id": 12677,
+    "name": "hypocampe"
+  },
+  {
+    "id": 12683,
+    "name": "mod ecran"
+  },
+  {
+    "id": 12685,
+    "name": "Canda"
+  },
+  {
+    "id": 12687,
+    "name": "Black De La Rosa"
+  },
+  {
+    "id": 12689,
+    "name": "Vidi Studio"
+  },
+  {
+    "id": 12691,
+    "name": "Savannah"
+  },
+  {
+    "id": 12693,
+    "name": "CORLEONE"
+  },
+  {
+    "id": 12703,
+    "name": "Olly Gan"
+  },
+  {
+    "id": 12705,
+    "name": "Birkin"
+  },
+  {
+    "id": 12707,
+    "name": "Peace and Lol"
+  },
+  {
+    "id": 12713,
+    "name": "Upper West"
+  },
+  {
+    "id": 12721,
+    "name": "Jorge Bischoff"
+  },
+  {
+    "id": 12723,
+    "name": "Etro"
+  },
+  {
+    "id": 12729,
+    "name": "bouche a bouche"
+  },
+  {
+    "id": 12737,
+    "name": "edc"
+  },
+  {
+    "id": 12739,
+    "name": "Abercrombie"
+  },
+  {
+    "id": 12741,
+    "name": "Alain Manoukian"
+  },
+  {
+    "id": 12747,
+    "name": "Bellfield"
+  },
+  {
+    "id": 12751,
+    "name": "Piper Maru"
+  },
+  {
+    "id": 12753,
+    "name": "Agora"
+  },
+  {
+    "id": 12755,
+    "name": "Artisanat"
+  },
+  {
+    "id": 12773,
+    "name": "SHK Mode"
+  },
+  {
+    "id": 12775,
+    "name": "Persol"
+  },
+  {
+    "id": 12791,
+    "name": "XC-Xacaret"
+  },
+  {
+    "id": 12805,
+    "name": "Kipsta"
+  },
+  {
+    "id": 12813,
+    "name": "Forever 21"
+  },
+  {
+    "id": 12817,
+    "name": "Guiness"
+  },
+  {
+    "id": 12819,
+    "name": "Bershk"
+  },
+  {
+    "id": 12823,
+    "name": "E-watch"
+  },
+  {
+    "id": 12825,
+    "name": "ESTWEST"
+  },
+  {
+    "id": 12827,
+    "name": "Miss Olaya"
+  },
+  {
+    "id": 12845,
+    "name": "voile Bretagne"
+  },
+  {
+    "id": 12855,
+    "name": "OFFICIAL US. MARSHALL"
+  },
+  {
+    "id": 12859,
+    "name": "Giorgia"
+  },
+  {
+    "id": 12861,
+    "name": "Non connue"
+  },
+  {
+    "id": 12869,
+    "name": "Dorothée bis"
+  },
+  {
+    "id": 12873,
+    "name": "Luxe Collection"
+  },
+  {
+    "id": 12875,
+    "name": "Mona"
+  },
+  {
+    "id": 12881,
+    "name": "Arian"
+  },
+  {
+    "id": 12883,
+    "name": "Dressing de Jola"
+  },
+  {
+    "id": 12893,
+    "name": "Sarah B."
+  },
+  {
+    "id": 12895,
+    "name": "Sixth June"
+  },
+  {
+    "id": 12901,
+    "name": "Pier olivier"
+  },
+  {
+    "id": 12909,
+    "name": "Dolce Vita"
+  },
+  {
+    "id": 12933,
+    "name": "5ème saison"
+  },
+  {
+    "id": 12945,
+    "name": "Barts"
+  },
+  {
+    "id": 12947,
+    "name": "tosca blue"
+  },
+  {
+    "id": 12949,
+    "name": "AMERICAN College"
+  },
+  {
+    "id": 12955,
+    "name": "taily weiJL"
+  },
+  {
+    "id": 12965,
+    "name": "Naïs-013"
+  },
+  {
+    "id": 12981,
+    "name": "Liebeskind"
+  },
+  {
+    "id": 12985,
+    "name": "Pepper rose"
+  },
+  {
+    "id": 12987,
+    "name": "HF"
+  },
+  {
+    "id": 12989,
+    "name": "Gold and silver"
+  },
+  {
+    "id": 12993,
+    "name": "Dépêche mode"
+  },
+  {
+    "id": 12997,
+    "name": "Francoise Saget"
+  },
+  {
+    "id": 13005,
+    "name": "Fratelli Rossetti"
+  },
+  {
+    "id": 13007,
+    "name": "Sunders"
+  },
+  {
+    "id": 13009,
+    "name": "Relook"
+  },
+  {
+    "id": 13023,
+    "name": "Pecca"
+  },
+  {
+    "id": 13025,
+    "name": "Juju & Christine"
+  },
+  {
+    "id": 13029,
+    "name": "Blind Date"
+  },
+  {
+    "id": 13031,
+    "name": "Baba Nuki"
+  },
+  {
+    "id": 13045,
+    "name": "HHG"
+  },
+  {
+    "id": 13049,
+    "name": "Leclerc"
+  },
+  {
+    "id": 13053,
+    "name": "cks"
+  },
+  {
+    "id": 13057,
+    "name": "Castro"
+  },
+  {
+    "id": 13059,
+    "name": "Leana"
+  },
+  {
+    "id": 13077,
+    "name": "NY"
+  },
+  {
+    "id": 13081,
+    "name": "Loana"
+  },
+  {
+    "id": 13083,
+    "name": "Eternel"
+  },
+  {
+    "id": 13085,
+    "name": "Maner"
+  },
+  {
+    "id": 13087,
+    "name": "pepe jean"
+  },
+  {
+    "id": 13091,
+    "name": "Creatrice"
+  },
+  {
+    "id": 13097,
+    "name": "b.p.c"
+  },
+  {
+    "id": 13099,
+    "name": "pim"
+  },
+  {
+    "id": 13105,
+    "name": "Rien"
+  },
+  {
+    "id": 13111,
+    "name": "electre"
+  },
+  {
+    "id": 13133,
+    "name": "Point Mariage"
+  },
+  {
+    "id": 13139,
+    "name": "Jean Patrick"
+  },
+  {
+    "id": 13141,
+    "name": "Shivas"
+  },
+  {
+    "id": 13145,
+    "name": "Andres Sarda"
+  },
+  {
+    "id": 13147,
+    "name": "Les Folies d'Harry"
+  },
+  {
+    "id": 13155,
+    "name": "DC"
+  },
+  {
+    "id": 13163,
+    "name": "abercombie"
+  },
+  {
+    "id": 13165,
+    "name": "LONDON"
+  },
+  {
+    "id": 13171,
+    "name": "Roland Garros"
+  },
+  {
+    "id": 13175,
+    "name": "Zoé Bonbon"
+  },
+  {
+    "id": 13185,
+    "name": "Nümph"
+  },
+  {
+    "id": 13189,
+    "name": "JBC"
+  },
+  {
+    "id": 13195,
+    "name": "Paul Franck"
+  },
+  {
+    "id": 13197,
+    "name": "Oakley"
+  },
+  {
+    "id": 13201,
+    "name": "Avidita"
+  },
+  {
+    "id": 13217,
+    "name": "Dress Code"
+  },
+  {
+    "id": 13219,
+    "name": "Terre des Marins"
+  },
+  {
+    "id": 13227,
+    "name": "Esmara"
+  },
+  {
+    "id": 13229,
+    "name": "Sophie Mode"
+  },
+  {
+    "id": 13233,
+    "name": "Disturbia"
+  },
+  {
+    "id": 13237,
+    "name": "Lo!"
+  },
+  {
+    "id": 13239,
+    "name": "Living Dead Soul"
+  },
+  {
+    "id": 13247,
+    "name": "Tilber"
+  },
+  {
+    "id": 13251,
+    "name": "Chantal Rosner"
+  },
+  {
+    "id": 13261,
+    "name": "Jenifer"
+  },
+  {
+    "id": 13279,
+    "name": "Miss Li"
+  },
+  {
+    "id": 13289,
+    "name": "aquaverde"
+  },
+  {
+    "id": 13305,
+    "name": "Les Fées de Bengale"
+  },
+  {
+    "id": 13309,
+    "name": "Cimaron"
+  },
+  {
+    "id": 13313,
+    "name": "bouton rouge"
+  },
+  {
+    "id": 13325,
+    "name": "MCK"
+  },
+  {
+    "id": 13329,
+    "name": "Lotus"
+  },
+  {
+    "id": 13335,
+    "name": "On n'est pas des anges"
+  },
+  {
+    "id": 13339,
+    "name": "Caché"
+  },
+  {
+    "id": 13353,
+    "name": "Orcanta"
+  },
+  {
+    "id": 13359,
+    "name": "Mr. Gugu & Miss Go"
+  },
+  {
+    "id": 13365,
+    "name": "Vera Bradley"
+  },
+  {
+    "id": 13369,
+    "name": "ECKO RED"
+  },
+  {
+    "id": 13375,
+    "name": "Your Feet Look Gorgeous"
+  },
+  {
+    "id": 13379,
+    "name": "BLOCH"
+  },
+  {
+    "id": 13383,
+    "name": "Play In"
+  },
+  {
+    "id": 13385,
+    "name": "Vs. Miss"
+  },
+  {
+    "id": 13391,
+    "name": "JD"
+  },
+  {
+    "id": 13393,
+    "name": "US"
+  },
+  {
+    "id": 13397,
+    "name": "By Monshowroom"
+  },
+  {
+    "id": 13407,
+    "name": "Noppies"
+  },
+  {
+    "id": 13411,
+    "name": "on parle de vous Paris"
+  },
+  {
+    "id": 13423,
+    "name": "69 Slam"
+  },
+  {
+    "id": 13425,
+    "name": "Lara Woman"
+  },
+  {
+    "id": 13435,
+    "name": "Color Of California"
+  },
+  {
+    "id": 13437,
+    "name": "Salvatore Ferragamo"
+  },
+  {
+    "id": 13443,
+    "name": "bersh"
+  },
+  {
+    "id": 13445,
+    "name": "Été comme Hiver"
+  },
+  {
+    "id": 13449,
+    "name": "VERSION FEMININE"
+  },
+  {
+    "id": 13457,
+    "name": "OXO"
+  },
+  {
+    "id": 13473,
+    "name": "Papa pique et maman coud"
+  },
+  {
+    "id": 13475,
+    "name": "Timeless"
+  },
+  {
+    "id": 13483,
+    "name": "Les secrets de Vanessa"
+  },
+  {
+    "id": 13485,
+    "name": "Nici"
+  },
+  {
+    "id": 13495,
+    "name": "Gallerie Lafayette"
+  },
+  {
+    "id": 13509,
+    "name": "sasio"
+  },
+  {
+    "id": 13519,
+    "name": "Festina"
+  },
+  {
+    "id": 13523,
+    "name": "Segura"
+  },
+  {
+    "id": 13531,
+    "name": "Identity"
+  },
+  {
+    "id": 13537,
+    "name": "Robert Friedman"
+  },
+  {
+    "id": 13553,
+    "name": "Auren"
+  },
+  {
+    "id": 13555,
+    "name": "Protest"
+  },
+  {
+    "id": 13559,
+    "name": "Faith"
+  },
+  {
+    "id": 13565,
+    "name": "Péché d'Amour"
+  },
+  {
+    "id": 13569,
+    "name": "Comme une Femme"
+  },
+  {
+    "id": 13573,
+    "name": "scenic beachwear"
+  },
+  {
+    "id": 13581,
+    "name": "Carmens"
+  },
+  {
+    "id": 13591,
+    "name": "dkode"
+  },
+  {
+    "id": 13597,
+    "name": "San"
+  },
+  {
+    "id": 13605,
+    "name": "yaya"
+  },
+  {
+    "id": 13607,
+    "name": "Naf"
+  },
+  {
+    "id": 13611,
+    "name": "AlpineStar"
+  },
+  {
+    "id": 13613,
+    "name": "Timezone"
+  },
+  {
+    "id": 13617,
+    "name": "New London"
+  },
+  {
+    "id": 13621,
+    "name": "Threadless"
+  },
+  {
+    "id": 13625,
+    "name": "SuiteBlanco"
+  },
+  {
+    "id": 13627,
+    "name": "Briko"
+  },
+  {
+    "id": 13633,
+    "name": "Coraline"
+  },
+  {
+    "id": 13635,
+    "name": "les petits hauts"
+  },
+  {
+    "id": 13637,
+    "name": "ESPACE"
+  },
+  {
+    "id": 13641,
+    "name": "LOFT"
+  },
+  {
+    "id": 13645,
+    "name": "Etirel"
+  },
+  {
+    "id": 13647,
+    "name": "Rivers island"
+  },
+  {
+    "id": 13649,
+    "name": "Deichmann"
+  },
+  {
+    "id": 13667,
+    "name": "Azurelle"
+  },
+  {
+    "id": 13675,
+    "name": "MLD"
+  },
+  {
+    "id": 13681,
+    "name": "canada"
+  },
+  {
+    "id": 13683,
+    "name": "lord richards"
+  },
+  {
+    "id": 13687,
+    "name": "LEAVA "
+  },
+  {
+    "id": 13695,
+    "name": "Morgane"
+  },
+  {
+    "id": 13699,
+    "name": "Duolynx"
+  },
+  {
+    "id": 13703,
+    "name": "M&M's"
+  },
+  {
+    "id": 13707,
+    "name": "NoName"
+  },
+  {
+    "id": 13727,
+    "name": "Lotto"
+  },
+  {
+    "id": 13731,
+    "name": "sms"
+  },
+  {
+    "id": 13733,
+    "name": "Mexicana"
+  },
+  {
+    "id": 13741,
+    "name": "Collier"
+  },
+  {
+    "id": 13743,
+    "name": "Scotch & Soda"
+  },
+  {
+    "id": 13761,
+    "name": "TSI"
+  },
+  {
+    "id": 13765,
+    "name": "Co2"
+  },
+  {
+    "id": 13771,
+    "name": "Mudo"
+  },
+  {
+    "id": 13777,
+    "name": "Come 8"
+  },
+  {
+    "id": 13779,
+    "name": "O'lala"
+  },
+  {
+    "id": 13787,
+    "name": "Pepe Jeans London"
+  },
+  {
+    "id": 13789,
+    "name": "veste"
+  },
+  {
+    "id": 13791,
+    "name": "Hardcore Session"
+  },
+  {
+    "id": 13799,
+    "name": "Wvk"
+  },
+  {
+    "id": 13801,
+    "name": "Imperial"
+  },
+  {
+    "id": 13803,
+    "name": "Anesia"
+  },
+  {
+    "id": 13805,
+    "name": "Kustom"
+  },
+  {
+    "id": 13807,
+    "name": "F&F"
+  },
+  {
+    "id": 13809,
+    "name": "Sublevel"
+  },
+  {
+    "id": 13813,
+    "name": "Wed'ze"
+  },
+  {
+    "id": 13817,
+    "name": "Shearling"
+  },
+  {
+    "id": 13823,
+    "name": "rue 21"
+  },
+  {
+    "id": 13845,
+    "name": "Vue Sur Mer"
+  },
+  {
+    "id": 13851,
+    "name": "Espagnole"
+  },
+  {
+    "id": 13855,
+    "name": "Confetti"
+  },
+  {
+    "id": 13859,
+    "name": "Clair's"
+  },
+  {
+    "id": 13865,
+    "name": "Sandra B."
+  },
+  {
+    "id": 13883,
+    "name": "Charlott' Lingerie"
+  },
+  {
+    "id": 13891,
+    "name": "Emergence"
+  },
+  {
+    "id": 13893,
+    "name": "Stella McCartney"
+  },
+  {
+    "id": 13897,
+    "name": "Bp Zone"
+  },
+  {
+    "id": 13913,
+    "name": "i&m"
+  },
+  {
+    "id": 13919,
+    "name": "Uttam London"
+  },
+  {
+    "id": 13925,
+    "name": "JCDC"
+  },
+  {
+    "id": 13935,
+    "name": "Mally"
+  },
+  {
+    "id": 13937,
+    "name": "BOXEUR DES RUES"
+  },
+  {
+    "id": 13939,
+    "name": "Marie Sixtine"
+  },
+  {
+    "id": 13941,
+    "name": "k1x"
+  },
+  {
+    "id": 13951,
+    "name": "Too Much"
+  },
+  {
+    "id": 13953,
+    "name": "Mondaca"
+  },
+  {
+    "id": 13955,
+    "name": "Lush"
+  },
+  {
+    "id": 13957,
+    "name": "Marque Canadienne"
+  },
+  {
+    "id": 13959,
+    "name": "Double Agent"
+  },
+  {
+    "id": 13989,
+    "name": "Karl Kani"
+  },
+  {
+    "id": 13997,
+    "name": "Strada Paris"
+  },
+  {
+    "id": 13999,
+    "name": "Tom & Eva"
+  },
+  {
+    "id": 14007,
+    "name": "néant"
+  },
+  {
+    "id": 14009,
+    "name": "Biche de Bere"
+  },
+  {
+    "id": 14011,
+    "name": "buxy"
+  },
+  {
+    "id": 14023,
+    "name": "SYM"
+  },
+  {
+    "id": 14025,
+    "name": "miss maggie"
+  },
+  {
+    "id": 14027,
+    "name": "Roumegoux et Gilles"
+  },
+  {
+    "id": 14031,
+    "name": "AmarilloLimon"
+  },
+  {
+    "id": 14041,
+    "name": "Barbara Rihl"
+  },
+  {
+    "id": 14045,
+    "name": "Osiris"
+  },
+  {
+    "id": 14047,
+    "name": "l"
+  },
+  {
+    "id": 14059,
+    "name": "Ann Tuil"
+  },
+  {
+    "id": 14061,
+    "name": "Terre et Mer"
+  },
+  {
+    "id": 14077,
+    "name": "Giordano"
+  },
+  {
+    "id": 14087,
+    "name": "Clyda"
+  },
+  {
+    "id": 14091,
+    "name": "H&R London"
+  },
+  {
+    "id": 14101,
+    "name": "Costume National"
+  },
+  {
+    "id": 14135,
+    "name": "karmaloop"
+  },
+  {
+    "id": 14147,
+    "name": "Capt'n Tortue"
+  },
+  {
+    "id": 14151,
+    "name": "Herschel"
+  },
+  {
+    "id": 14153,
+    "name": "CERANITY "
+  },
+  {
+    "id": 14165,
+    "name": "Khann"
+  },
+  {
+    "id": 14177,
+    "name": "Ravi Famous"
+  },
+  {
+    "id": 14181,
+    "name": "Diamant"
+  },
+  {
+    "id": 14185,
+    "name": "HUF"
+  },
+  {
+    "id": 14189,
+    "name": "Hylton"
+  },
+  {
+    "id": 14191,
+    "name": "Charbell"
+  },
+  {
+    "id": 14197,
+    "name": "Babouche"
+  },
+  {
+    "id": 14199,
+    "name": "Natura"
+  },
+  {
+    "id": 14205,
+    "name": "Caro"
+  },
+  {
+    "id": 14215,
+    "name": "Agatha velmont"
+  },
+  {
+    "id": 14217,
+    "name": "Vivienne Westwood"
+  },
+  {
+    "id": 14221,
+    "name": "Reals Jeans"
+  },
+  {
+    "id": 14223,
+    "name": "BINICCI PARIS"
+  },
+  {
+    "id": 14227,
+    "name": "Wonder Woman"
+  },
+  {
+    "id": 14229,
+    "name": "Lavorazione Artigiana"
+  },
+  {
+    "id": 14231,
+    "name": "Mam'Zelle"
+  },
+  {
+    "id": 14233,
+    "name": "Maison Martin Margiela"
+  },
+  {
+    "id": 14247,
+    "name": "Freesia"
+  },
+  {
+    "id": 14259,
+    "name": "Coco"
+  },
+  {
+    "id": 14265,
+    "name": "Scapa Sport"
+  },
+  {
+    "id": 14269,
+    "name": "Villaret"
+  },
+  {
+    "id": 14271,
+    "name": "Real"
+  },
+  {
+    "id": 14273,
+    "name": "HPK"
+  },
+  {
+    "id": 14277,
+    "name": "Miss Miss by Valentina"
+  },
+  {
+    "id": 14281,
+    "name": "Marshall"
+  },
+  {
+    "id": 14289,
+    "name": "Spot Basic"
+  },
+  {
+    "id": 14299,
+    "name": "Rubi"
+  },
+  {
+    "id": 14307,
+    "name": "Marese"
+  },
+  {
+    "id": 14317,
+    "name": "Regatta"
+  },
+  {
+    "id": 14335,
+    "name": "Garconne"
+  },
+  {
+    "id": 14339,
+    "name": "Satellite"
+  },
+  {
+    "id": 14341,
+    "name": "Huit"
+  },
+  {
+    "id": 14357,
+    "name": "LRG"
+  },
+  {
+    "id": 14369,
+    "name": "Skipper"
+  },
+  {
+    "id": 14387,
+    "name": "Kohl"
+  },
+  {
+    "id": 14393,
+    "name": "kapri's"
+  },
+  {
+    "id": 14415,
+    "name": "Paul and Joe sister"
+  },
+  {
+    "id": 14425,
+    "name": "infinitif"
+  },
+  {
+    "id": 14427,
+    "name": "Simpsons"
+  },
+  {
+    "id": 14431,
+    "name": "Estelle"
+  },
+  {
+    "id": 14433,
+    "name": "allister"
+  },
+  {
+    "id": 14435,
+    "name": "Cama"
+  },
+  {
+    "id": 14439,
+    "name": "northway"
+  },
+  {
+    "id": 14449,
+    "name": "Anesia Paris"
+  },
+  {
+    "id": 14453,
+    "name": "Chauss'expo"
+  },
+  {
+    "id": 14455,
+    "name": "Scott"
+  },
+  {
+    "id": 14457,
+    "name": "O"
+  },
+  {
+    "id": 14459,
+    "name": "HUSH PUPPIES"
+  },
+  {
+    "id": 14463,
+    "name": "universel"
+  },
+  {
+    "id": 14465,
+    "name": "Flik Flak"
+  },
+  {
+    "id": 14477,
+    "name": "Ce jour à part"
+  },
+  {
+    "id": 14481,
+    "name": "tinster"
+  },
+  {
+    "id": 14491,
+    "name": "Nice Things"
+  },
+  {
+    "id": 14497,
+    "name": "First"
+  },
+  {
+    "id": 14501,
+    "name": "pinki"
+  },
+  {
+    "id": 14509,
+    "name": "Missguided"
+  },
+  {
+    "id": 14511,
+    "name": "Mephisto"
+  },
+  {
+    "id": 14521,
+    "name": "NVY"
+  },
+  {
+    "id": 14531,
+    "name": "Ritchie"
+  },
+  {
+    "id": 14557,
+    "name": "les envahisseur"
+  },
+  {
+    "id": 14559,
+    "name": "L'olive verte"
+  },
+  {
+    "id": 14571,
+    "name": "Blumarine"
+  },
+  {
+    "id": 14573,
+    "name": "Ovs industry"
+  },
+  {
+    "id": 14591,
+    "name": "Miss Lucci"
+  },
+  {
+    "id": 14597,
+    "name": "Le Chameau"
+  },
+  {
+    "id": 14605,
+    "name": "Amor-lux"
+  },
+  {
+    "id": 14609,
+    "name": "pygmée"
+  },
+  {
+    "id": 14615,
+    "name": "Atticus"
+  },
+  {
+    "id": 14627,
+    "name": "Zen Ethic"
+  },
+  {
+    "id": 14629,
+    "name": "MACHIN CHOSE"
+  },
+  {
+    "id": 14631,
+    "name": "Sirmione"
+  },
+  {
+    "id": 14635,
+    "name": "Adele Joris"
+  },
+  {
+    "id": 14637,
+    "name": "Eden Girl"
+  },
+  {
+    "id": 14645,
+    "name": "Abloom"
+  },
+  {
+    "id": 14647,
+    "name": "Julien d'orcel"
+  },
+  {
+    "id": 14663,
+    "name": "El Corte Inglés"
+  },
+  {
+    "id": 14665,
+    "name": "Cookie seven"
+  },
+  {
+    "id": 14667,
+    "name": "Toms"
+  },
+  {
+    "id": 14675,
+    "name": "Fabulous Fabs"
+  },
+  {
+    "id": 14677,
+    "name": "Il Piacere"
+  },
+  {
+    "id": 14681,
+    "name": "voyelle"
+  },
+  {
+    "id": 14685,
+    "name": "Police"
+  },
+  {
+    "id": 14693,
+    "name": "Saint Galant"
+  },
+  {
+    "id": 14697,
+    "name": "Tretorn"
+  },
+  {
+    "id": 14703,
+    "name": "Tanaïs"
+  },
+  {
+    "id": 14719,
+    "name": "pas marque"
+  },
+  {
+    "id": 14725,
+    "name": "Bever's"
+  },
+  {
+    "id": 14729,
+    "name": "Pardon"
+  },
+  {
+    "id": 14731,
+    "name": "Celebrity babe"
+  },
+  {
+    "id": 14733,
+    "name": "Dulce Rubio"
+  },
+  {
+    "id": 14735,
+    "name": "Cristian Lay"
+  },
+  {
+    "id": 14737,
+    "name": "Apepazza"
+  },
+  {
+    "id": 14741,
+    "name": "Split"
+  },
+  {
+    "id": 14749,
+    "name": "Chicoree"
+  },
+  {
+    "id": 14757,
+    "name": "Trucco"
+  },
+  {
+    "id": 14765,
+    "name": "Chicwish"
+  },
+  {
+    "id": 14771,
+    "name": "Phynes"
+  },
+  {
+    "id": 14775,
+    "name": "Esperance"
+  },
+  {
+    "id": 14781,
+    "name": "Ludovico"
+  },
+  {
+    "id": 14787,
+    "name": "JUSTOR"
+  },
+  {
+    "id": 14797,
+    "name": "Temt"
+  },
+  {
+    "id": 14799,
+    "name": "QED London"
+  },
+  {
+    "id": 14803,
+    "name": "Vintage Dressing"
+  },
+  {
+    "id": 14809,
+    "name": "AERIE"
+  },
+  {
+    "id": 14811,
+    "name": "Lindex"
+  },
+  {
+    "id": 14815,
+    "name": "Indian Rose"
+  },
+  {
+    "id": 14819,
+    "name": "rêve d'été"
+  },
+  {
+    "id": 14825,
+    "name": "Cartier"
+  },
+  {
+    "id": 14833,
+    "name": "Stars and Stripes"
+  },
+  {
+    "id": 14835,
+    "name": "Monsterpiece"
+  },
+  {
+    "id": 14847,
+    "name": "iona"
+  },
+  {
+    "id": 14855,
+    "name": "Joseph"
+  },
+  {
+    "id": 14859,
+    "name": "Mila Louise"
+  },
+  {
+    "id": 14867,
+    "name": "Boutique Indépendante"
+  },
+  {
+    "id": 14869,
+    "name": "Sacha London"
+  },
+  {
+    "id": 14873,
+    "name": "Pétillance"
+  },
+  {
+    "id": 14877,
+    "name": "Proposta"
+  },
+  {
+    "id": 14881,
+    "name": "Dare2be"
+  },
+  {
+    "id": 14897,
+    "name": "K."
+  },
+  {
+    "id": 14899,
+    "name": "babou"
+  },
+  {
+    "id": 14907,
+    "name": "Vie ta Vie"
+  },
+  {
+    "id": 14909,
+    "name": "deli shoes"
+  },
+  {
+    "id": 14911,
+    "name": "Hixsept"
+  },
+  {
+    "id": 14915,
+    "name": "Baby Monkey"
+  },
+  {
+    "id": 14917,
+    "name": "BT jeans"
+  },
+  {
+    "id": 14925,
+    "name": "Fait-Maison"
+  },
+  {
+    "id": 14927,
+    "name": "JC de Castelbajac"
+  },
+  {
+    "id": 14929,
+    "name": "Courir"
+  },
+  {
+    "id": 14939,
+    "name": "Canada Goose"
+  },
+  {
+    "id": 14941,
+    "name": "Necessary Evil"
+  },
+  {
+    "id": 14947,
+    "name": "Faith Connexion"
+  },
+  {
+    "id": 14951,
+    "name": "Fresh"
+  },
+  {
+    "id": 14957,
+    "name": "Loft design by"
+  },
+  {
+    "id": 14969,
+    "name": "Supreme"
+  },
+  {
+    "id": 14971,
+    "name": "Starfly"
+  },
+  {
+    "id": 14975,
+    "name": "Un autre ton"
+  },
+  {
+    "id": 14977,
+    "name": "Quater back"
+  },
+  {
+    "id": 14981,
+    "name": "Altesse"
+  },
+  {
+    "id": 14983,
+    "name": "3 suisse"
+  },
+  {
+    "id": 14987,
+    "name": "Lodi"
+  },
+  {
+    "id": 14991,
+    "name": "Scotch R'belle"
+  }
+]
