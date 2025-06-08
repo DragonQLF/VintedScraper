@@ -15,13 +15,11 @@ export const createProfile = async (
       name,
       searchType = 'ADVANCED',
       keywords,
-      tags,
       minPrice,
       maxPrice,
       size,
       brandId,
       condition,
-      minRating,
       autoActions,
       category,
       subcategory,
@@ -40,6 +38,7 @@ export const createProfile = async (
       season,
       style,
       isActive = true,
+      priority = 'MEDIUM',
     } = req.body;
 
     // Validate search type
@@ -50,6 +49,11 @@ export const createProfile = async (
     // For simple search, only keywords are required
     if (searchType === 'SIMPLE' && !keywords) {
       throw new AppError(400, 'Keywords are required for simple search');
+    }
+
+    // Validate priority
+    if (priority && !['LOW', 'MEDIUM', 'HIGH'].includes(priority)) {
+      throw new AppError(400, 'Invalid priority value. Must be LOW, MEDIUM, or HIGH');
     }
 
     // If brandId is provided, validate that it exists
@@ -66,13 +70,11 @@ export const createProfile = async (
       data: {
         name,
         keywords,
-        tags,
         minPrice,
         maxPrice,
         size,
         brandId: brandId || null,
         condition,
-        minRating,
         userId: req.user!.id,
         category,
         subcategory,
@@ -91,6 +93,7 @@ export const createProfile = async (
         season,
         style,
         isActive,
+        priority,
         autoActions: autoActions ? {
           create: {
             autoFavorite: autoActions.autoFavorite || false,
@@ -125,6 +128,10 @@ export const getProfiles = async (
       where: {
         userId: req.user!.id
       },
+      orderBy: [
+        { priority: 'desc' },
+        { createdAt: 'asc' }
+      ],
       include: {
         autoActions: true,
         brand: true,
@@ -192,16 +199,20 @@ export const updateProfile = async (
     const {
       name,
       keywords,
-      tags,
       minPrice,
       maxPrice,
       size,
       brandId,
       condition,
-      minRating,
       isActive,
-      autoActions
+      autoActions,
+      priority
     } = req.body;
+
+    // Validate priority if provided
+    if (priority && !['LOW', 'MEDIUM', 'HIGH'].includes(priority)) {
+      throw new AppError(400, 'Invalid priority value. Must be LOW, MEDIUM, or HIGH');
+    }
 
     // If brandId is provided, validate that it exists
     if (brandId) {
@@ -232,14 +243,13 @@ export const updateProfile = async (
       data: {
         name,
         keywords,
-        tags,
         minPrice,
         maxPrice,
         size,
         brandId: brandId || null,
         condition,
-        minRating,
         isActive,
+        priority,
         autoActions: autoActions ? {
           upsert: {
             create: {

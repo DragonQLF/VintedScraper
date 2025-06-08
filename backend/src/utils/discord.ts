@@ -2,6 +2,9 @@ import axios from 'axios';
 import { logger } from './logger'; // Assuming logger is in ./logger
 import { getScraperStatus } from '../scraper';
 import { sendStatusUpdate } from '../routes/scraper';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 interface DiscordWebhookMessage {
   title: string;
@@ -11,6 +14,9 @@ interface DiscordWebhookMessage {
   condition?: string;
   size?: string;
   brand?: string;
+  webhookUrl: string;
+  notificationType?: 'NEW_MATCH' | 'PRICE_DROP';
+  oldPrice?: number;
 }
 
 // In-memory queue for webhook notifications
@@ -56,7 +62,12 @@ const processWebhookQueue = async () => {
     if (!item) continue; // Should not happen if queue.length > 0, but good practice
 
     try {
-      await sendDiscordWebhook(process.env.DISCORD_WEBHOOK_URL as string, item);
+      if (!item.webhookUrl) {
+        logger.warn(`No webhook URL provided for item '${item.title}'. Skipping notification.`);
+        continue;
+      }
+
+      await sendDiscordWebhook(item.webhookUrl, item);
       logger.info(`Successfully sent webhook from queue for item: ${item.title}`);
       // Reduced delay between successful sends
       await new Promise(resolve => setTimeout(resolve, 100)); // 100ms delay
@@ -79,14 +90,17 @@ export async function sendDiscordWebhook(webhookUrl: string, item: DiscordWebhoo
 
   while (retries <= MAX_RETRIES) {
     try {
+      const isPriceDrop = item.notificationType === 'PRICE_DROP';
       const embed = {
         title: item.title,
         url: item.productUrl,
-        color: 0x00ff00, // Green color
+        color: isPriceDrop ? 0xff0000 : 0x00ff00, // Red for price drop, green for new match
         fields: [
           {
             name: 'Price',
-            value: `€${item.price.toFixed(2)}`,
+            value: isPriceDrop 
+              ? `~~€${item.oldPrice?.toFixed(2)}~~ → €${item.price.toFixed(2)}`
+              : `€${item.price.toFixed(2)}`,
             inline: true
           }
         ],
@@ -120,7 +134,9 @@ export async function sendDiscordWebhook(webhookUrl: string, item: DiscordWebhoo
       }
 
       await axios.post(webhookUrl, {
-        content: '<@&1380314012121829376> New item found!', // Using the provided role ID
+        content: isPriceDrop 
+          ? '<@&1380314012121829376> Price drop detected!'
+          : '<@&1380314012121829376> New item found!',
         embeds: [embed]
       });
 

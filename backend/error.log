@@ -5455,3 +5455,24 @@ The column `vinted_bot.Notification.groupId` does not exist in the current datab
 2025-06-06T19:20:37.470Z [31merror[39m: Failed to send webhook from queue for item: Fox updateStatus is not defined
 2025-06-06T19:26:59.786Z [31merror[39m: Scraper run failed:
 2025-06-06T19:27:19.697Z [31merror[39m: Scraper run failed:
+2025-06-07T22:28:28.422Z [31merror[39m: [400] Email already registered
+2025-06-07T22:32:06.296Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:07:00.997Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:07:01.007Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:07:49.299Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:07:49.300Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:07:54.296Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:08:03.166Z [31merror[39m: [401] Not authorized to access this route
+2025-06-07T23:08:03.172Z [31merror[39m: [401] Not authorized to access this route
+2025-06-08T14:16:50.053Z [31merror[39m: Unexpected error: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\nandi\Desktop\Vinted bot\backend\src\controllers\userController.ts:16:44
+
+  13 const { email, password, name } = req.body;
+  14 
+  15 // Check if user exists
+→ 16 const existingUser = await prisma.user.findUnique(
+Can't reach database server at `localhost:3307`
+
+Please make sure your database server is running at `localhost:3307`.
+2025-06-08T14:17:20.567Z [31merror[39m: [400] Email already registered

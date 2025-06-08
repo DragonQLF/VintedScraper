@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.pnpm/tsconfig.node.tsbuildinfo",
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "outDir": "dist",
+    "lib": ["ESNext"],
+    "noEmit": false // Ensure it emits JavaScript
+  },
+  "include": ["src/electron/main.js", "src/preload.ts"]
+} 

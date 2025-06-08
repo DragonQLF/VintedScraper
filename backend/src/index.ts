@@ -10,9 +10,23 @@ import searchProfileRoutes from './routes/searchProfileRoutes';
 import authRoutes from './routes/authRoutes';
 import scraperRoutes from './routes/scraper';
 import brandRoutes from './routes/brands';
+import memoryManager from './utils/memoryManager';
 
 // Load environment variables
 dotenv.config();
+
+// Initialize memory management
+memoryManager.setupErrorHandling();
+
+// Start periodic memory monitoring
+setInterval(() => {
+  memoryManager.monitorMemoryUsage();
+}, 5 * 60 * 1000); // Every 5 minutes
+
+// Start periodic cleanup
+setInterval(() => {
+  memoryManager.cleanupResources();
+}, 30 * 60 * 1000); // Every 30 minutes
 
 // Initialize Prisma client
 export const prisma = new PrismaClient();
@@ -39,7 +53,7 @@ app.use('/api/brands', brandRoutes);
 app.use(errorHandler);
 
 // Start server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);
   

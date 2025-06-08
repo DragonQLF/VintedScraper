@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
-import { useForm, Controller } from 'react-hook-form';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { api } from '../utils/api';
 import toast from 'react-hot-toast';
 import { useQuery } from '@tanstack/react-query';
 import Select from 'react-select';
+import { ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 // Define custom styles for react-select to support dark mode
 const customStyles = {
@@ -34,22 +34,22 @@ const customStyles = {
   }),
   menu: (provided: any) => ({
     ...provided,
-    backgroundColor: '#1f2937', // Use a hardcoded dark background color for menu
-    border: '1px solid var(--color-gray-700)', // Dark border for menu
+    backgroundColor: '#ffffff', // White background for menu
+    border: '1px solid var(--color-gray-200)', // Lighter border for menu
     zIndex: 9999, // Ensure menu is on top
     boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)', // Optional: add a subtle shadow
     opacity: 1, // Ensure opacity is not causing transparency
   }),
   menuList: (provided: any) => ({
     ...provided,
-    backgroundColor: 'var(--color-gray-800)', // Ensure menu list has dark background
+    backgroundColor: '#ffffff', // Ensure menu list has white background
   }),
   option: (provided: any, state: any) => ({
     ...provided,
-    backgroundColor: state.isSelected ? 'var(--color-primary-700)' : state.isFocused ? 'var(--color-gray-700)' : 'var(--color-gray-800)', // Dark background for options
-    color: state.isSelected ? 'var(--color-white)' : 'var(--color-gray-100)', // Dark text color for options
+    backgroundColor: state.isSelected ? '#e0e7ff' : state.isFocused ? '#f3f4f6' : '#ffffff', // Light backgrounds for options
+    color: '#1f2937', // Black text color for options
     '&:active': {
-      backgroundColor: 'var(--color-primary-800)', // Dark active background
+      backgroundColor: '#c7d2fe', // Slightly darker active background
     },
   }),
   // Add styles for the container to ensure a background is set
@@ -132,6 +132,7 @@ interface EditProfileModalProps {
       autoOfferPrice?: number;
       autoBuy: boolean;
     } | null;
+    priority?: 'LOW' | 'MEDIUM' | 'HIGH';
   } | null;
 }
 
@@ -166,6 +167,7 @@ interface FormData {
     autoOfferPrice?: number;
     autoBuy: boolean;
   };
+  priority: 'LOW' | 'MEDIUM' | 'HIGH';
 }
 
 interface BrandOption {
@@ -177,115 +179,101 @@ export default function EditProfileModal({ isOpen, onClose, profile }: EditProfi
   const queryClient = useQueryClient();
   const { data: brands } = useQuery<Brand[]>({ queryKey: ['brands'], queryFn: async () => (await api.get('/brands')).data });
 
-  const { register, handleSubmit, formState: { errors }, setValue, control } = useForm<FormData>({
-    defaultValues: {
-      name: profile?.name,
-      keywords: profile?.keywords,
-      category: profile?.category,
-      subcategory: profile?.subcategory,
-      brandId: profile?.brandId,
-      size: profile?.size,
-      minPrice: profile?.minPrice,
-      maxPrice: profile?.maxPrice,
-      condition: profile?.condition,
-      color: profile?.color,
-      material: profile?.material,
-      pattern: profile?.pattern,
-      shippingCountry: profile?.shippingCountry,
-      catalogId: profile?.catalogId,
-      catalog: profile?.catalog,
-      gender: profile?.gender,
-      status: profile?.status,
-      clothingSize: profile?.clothingSize,
-      shoeSize: profile?.shoeSize,
-      shoeSizeSystem: profile?.shoeSizeSystem,
-      clothingType: profile?.clothingType,
-      season: profile?.season,
-      style: profile?.style,
-      isActive: profile?.isActive ?? true,
-      autoActions: profile?.autoActions || {
-        autoFavorite: false,
-        autoOffer: false,
-        autoBuy: false,
-        autoOfferPrice: undefined,
-      }
-    }
-  });
-
-  React.useEffect(() => {
-    // Check if profile and brands data are loaded and if profile has a brandId
-    if (profile && profile.brandId !== null && profile.brandId !== undefined && brands) {
-      const selectedBrand = brands.find(brand => brand.id === profile.brandId);
-      if (selectedBrand) {
-        // Set the form value to the found brand's ID
-        setValue('brandId', selectedBrand.id);
-      } else {
-        // If brandId exists in profile but not found in brands list (e.g., data mismatch),
-        // optionally reset the value or log a warning.
-        // For now, we'll just ensure no value is set if the brand isn't found.
-        setValue('brandId', undefined);
-      }
-    } else if (!profile || profile.brandId === null || profile.brandId === undefined) {
-      // If creating a new profile or profile has no brandId, ensure the value is reset
-      setValue('brandId', undefined);
-    }
-  }, [profile, setValue, brands]);
-
-  const isEditing = !!profile;
-
   const createProfile = useMutation({
-    mutationFn: async (data: FormData) => {
-      const response = await api.post('/profiles', data);
-      return response.data.data.profile;
-    },
+    mutationFn: (newProfile: FormData) => api.post('/profiles', newProfile),
     onSuccess: () => {
-      toast.success('Perfil criado com sucesso!');
+      toast.success('Profile created successfully!');
       queryClient.invalidateQueries({ queryKey: ['profiles'] });
       onClose();
     },
-    onError: () => {
-      toast.error('Falha ao criar perfil.');
-    }
+    onError: (error: any) => {
+      toast.error(`Failed to create profile: ${error.response?.data?.message || error.message}`);
+    },
   });
 
   const updateProfile = useMutation({
-    mutationFn: async (data: FormData) => {
-      if (!profile?.id) {
-        throw new Error('Profile ID is missing for update.');
-      }
-      await api.put(`/profiles/${profile.id}`, data);
-    },
+    mutationFn: (updatedProfile: FormData) => api.put(`/profiles/${profile!.id}`, updatedProfile),
     onSuccess: () => {
-      toast.success('Perfil atualizado com sucesso!');
+      toast.success('Profile updated successfully!');
       queryClient.invalidateQueries({ queryKey: ['profiles'] });
       onClose();
     },
-    onError: () => {
-      toast.error('Falha ao atualizar perfil.');
-    }
+    onError: (error: any) => {
+      toast.error(`Failed to update profile: ${error.response?.data?.message || error.message}`);
+    },
   });
 
-  const onSubmit = (data: FormData) => {
-    const processedData: FormData = {
-      ...data,
-      minPrice: data.minPrice === '' || data.minPrice === null ? undefined : data.minPrice,
-      maxPrice: data.maxPrice === '' || data.maxPrice === null ? undefined : data.maxPrice,
+  const [formData, setFormData] = useState<FormData>(() => ({
+    name: profile?.name ?? '',
+    keywords: profile?.keywords ?? '',
+    category: profile?.category ?? '',
+    subcategory: profile?.subcategory ?? '',
+    brandId: profile?.brandId ?? undefined,
+    size: profile?.size ?? '',
+    minPrice: profile?.minPrice ?? undefined,
+    maxPrice: profile?.maxPrice ?? undefined,
+    condition: profile?.condition ?? '',
+    color: profile?.color ?? '',
+    material: profile?.material ?? '',
+    pattern: profile?.pattern ?? '',
+    shippingCountry: profile?.shippingCountry ?? '',
+    catalogId: profile?.catalogId ?? '',
+    catalog: profile?.catalog ?? '',
+    gender: profile?.gender ?? '',
+    status: profile?.status ?? 'active',
+    clothingSize: profile?.clothingSize ?? '',
+    shoeSize: profile?.shoeSize ?? '',
+    shoeSizeSystem: profile?.shoeSizeSystem ?? 'eu',
+    clothingType: profile?.clothingType ?? '',
+    season: profile?.season ?? '',
+    style: profile?.style ?? '',
+    isActive: profile?.isActive ?? true,
+    priority: profile?.priority ?? 'MEDIUM',
+    autoActions: {
+      autoFavorite: profile?.autoActions?.autoFavorite ?? false,
+      autoOffer: profile?.autoActions?.autoOffer ?? false,
+      autoBuy: profile?.autoActions?.autoBuy ?? false,
+      autoOfferPrice: profile?.autoActions?.autoOfferPrice ?? undefined
+    }
+  }));
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value, type } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : (value || '')
+    }));
+  };
+
+  const handleAutoActionChange = (name: string, value: boolean) => {
+    setFormData(prev => ({
+      ...prev,
       autoActions: {
-        autoFavorite: !!data.autoActions?.autoFavorite,
-        autoOffer: !!data.autoActions?.autoOffer,
-        autoBuy: !!data.autoActions?.autoBuy,
-        autoOfferPrice: data.autoActions?.autoOffer
-                          ? (data.autoActions.autoOfferPrice === '' || data.autoActions.autoOfferPrice === null ? undefined : data.autoActions.autoOfferPrice)
-                          : undefined,
+        ...prev.autoActions,
+        [name]: value
+      }
+    }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const processedData: FormData = {
+      ...formData,
+      minPrice: formData.minPrice === '' ? undefined : formData.minPrice,
+      maxPrice: formData.maxPrice === '' ? undefined : formData.maxPrice,
+      autoActions: {
+        autoFavorite: !!formData.autoActions?.autoFavorite,
+        autoOffer: !!formData.autoActions?.autoOffer,
+        autoBuy: !!formData.autoActions?.autoBuy,
+        autoOfferPrice: formData.autoActions?.autoOffer
+          ? (formData.autoActions.autoOfferPrice === '' ? undefined : formData.autoActions.autoOfferPrice)
+          : undefined,
       } as any,
-      isActive: !!data.isActive,
+      isActive: !!formData.isActive,
+      priority: formData.priority || 'MEDIUM',
     };
 
-    if (processedData.autoActions) {
-      processedData.autoActions.autoFavorite = !!processedData.autoActions.autoFavorite;
-      processedData.autoActions.autoOffer = !!processedData.autoActions.autoOffer;
-      processedData.autoActions.autoBuy = !!processedData.autoActions.autoBuy;
-    }
+    const isEditing = profile && profile.id;
 
     if (isEditing) {
       updateProfile.mutate(processedData);
@@ -294,9 +282,64 @@ export default function EditProfileModal({ isOpen, onClose, profile }: EditProfi
     }
   };
 
+  const brandOptions = brands?.map((brand: any) => ({
+    value: brand.id,
+    label: brand.name,
+  })) || [];
+
+  const selectedBrand = brandOptions.find(option => option.value === formData.brandId);
+
+  const isEditing = profile && profile.id;
+
+  const statusOptions = [
+    { value: 'active', label: 'Active' },
+    { value: 'paused', label: 'Paused' },
+  ];
+  const selectedStatus = statusOptions.find(option => option.value === formData.status);
+
+  const conditionOptions = [
+    { value: '', label: 'Select Condition' },
+    { value: 'new_with_tags', label: 'New with tags' },
+    { value: 'new_without_tags', label: 'New without tags' },
+    { value: 'very_good', label: 'Very Good' },
+    { value: 'good', label: 'Good' },
+    { value: 'satisfactory', label: 'Satisfactory' },
+  ];
+  const selectedCondition = conditionOptions.find(option => option.value === formData.condition);
+
+  const priorityOptions = [
+    { value: 'LOW', label: 'Low' },
+    { value: 'MEDIUM', label: 'Medium' },
+    { value: 'HIGH', label: 'High' },
+  ];
+  const selectedPriority = priorityOptions.find(option => option.value === formData.priority);
+
+  const shippingCountryOptions = [
+    { value: '', label: 'Select Country' },
+    { value: 'pt', label: 'Portugal' },
+  ];
+  const selectedShippingCountry = shippingCountryOptions.find(option => option.value === formData.shippingCountry);
+
+  const genderOptions = [
+    { value: '', label: 'Select Gender' },
+    { value: 'male', label: 'Male' },
+    { value: 'female', label: 'Female' },
+    { value: 'unisex', label: 'Unisex' },
+  ];
+  const selectedGender = genderOptions.find(option => option.value === formData.gender);
+
+  const shoeSizeSystemOptions = [
+    { value: '', label: 'Select System' },
+    { value: 'eu', label: 'EU' },
+    { value: 'us', label: 'US' },
+    { value: 'uk', label: 'UK' },
+  ];
+  const selectedShoeSizeSystem = shoeSizeSystemOptions.find(option => option.value === formData.shoeSizeSystem);
+
+
   return (
     <Transition appear show={isOpen} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={onClose}>
+      <Dialog as="div" className="relative z-50" onClose={onClose}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -306,7 +349,7 @@ export default function EditProfileModal({ isOpen, onClose, profile }: EditProfi
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-black bg-opacity-25" />
+          <div className="fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm" />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-y-auto">
@@ -320,367 +363,403 @@ export default function EditProfileModal({ isOpen, onClose, profile }: EditProfi
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-2xl transform overflow-hidden rounded-2xl bg-white dark:bg-gray-800 p-8 text-left align-middle shadow-xl transition-all">
+              <Dialog.Panel className="w-full max-w-2xl transform overflow-hidden rounded-3xl bg-white dark:bg-gray-900 p-8 text-left align-middle shadow-xl transition-all border border-gray-200 dark:border-gray-700 relative">
+                {/* Close Button */}
+                <button
+                  type="button"
+                  className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300 transition-colors"
+                  onClick={onClose}
+                >
+                  <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                </button>
+
                 <Dialog.Title
                   as="h3"
-                  className="text-2xl font-bold leading-6 text-gray-900 dark:text-gray-100 mb-6 border-b border-gray-200 dark:border-gray-700 pb-4"
+                  className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white mb-6 border-b border-gray-200 dark:border-gray-700 pb-4"
                 >
-                  {isEditing ? 'Editar Perfil de Pesquisa' : 'Criar Novo Perfil de Pesquisa'}
+                  {isEditing ? 'Edit Search Profile' : 'Create New Search Profile'}
                 </Dialog.Title>
-                <form onSubmit={handleSubmit(onSubmit)} className="mt-4 space-y-6">
+
+                <form onSubmit={handleSubmit} className="space-y-8">
+
+                  {/* Basic Details Section */}
+                  <div className="space-y-6">
+                    <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 border-b border-gray-200 dark:border-gray-700 pb-2">Basic Details</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Nome
-                      </label>
+                        <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Profile Name</label>
                       <input
                         type="text"
-                        {...register('name', { required: 'Nome é obrigatório' })}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
+                        id="name"
+                        name="name"
+                          value={formData.name}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        required
                       />
-                      {errors.name && (
-                        <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.name.message}</p>
-                      )}
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Palavras-chave
-                      </label>
-                      <input
-                        type="text"
-                        {...register('keywords')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                        placeholder="Inserir palavras-chave separadas por vírgulas"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Categoria
-                      </label>
-                      <select
-                        {...register('category')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 p-2"
-                      >
-                        <option value="">Selecionar Categoria</option>
-                        <option value="women">Mulher</option>
-                        <option value="men">Homem</option>
-                        <option value="kids">Criança</option>
-                        <option value="home">Casa</option>
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Condição
-                      </label>
-                      <select
-                        {...register('condition')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 p-2"
-                      >
-                        <option value="">Selecionar Condição</option>
-                        <option value="new_with_tags">Novo com etiquetas</option>
-                        <option value="new_without_tags">Novo sem etiquetas</option>
-                        <option value="very_good">Muito bom estado</option>
-                        <option value="good">Bom estado</option>
-                        <option value="satisfactory">Satisfatório</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Género
-                      </label>
-                      <select
-                        {...register('gender')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 p-2"
-                      >
-                        <option value="">Selecionar Género</option>
-                        <option value="women">Mulher</option>
-                        <option value="men">Homem</option>
-                        <option value="kids">Criança</option>
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        País de Envio
-                      </label>
-                      <select
-                        {...register('shippingCountry')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 p-2"
-                      >
-                        <option value="">Selecionar País</option>
-                        <option value="pt">Portugal</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Preço Mínimo
-                      </label>
-                      <input
-                        type="number"
-                        {...register('minPrice', { min: 0, valueAsNumber: true })}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                        step="0.01"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Preço Máximo
-                      </label>
-                      <input
-                        type="number"
-                        {...register('maxPrice', { min: 0, valueAsNumber: true })}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                        step="0.01"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Marca
-                      </label>
-                      <Controller
-                        name="brandId"
-                        control={control}
-                        render={({ field }) => (
-                          <Select
-                            {...field}
-                            options={brands?.map(brand => ({ value: brand.id, label: brand.name })) || []}
-                            isClearable
-                            placeholder="Select a brand"
-                            className="block w-full rounded-md shadow-sm sm:text-sm p-2"
-                            styles={customStyles}
-                            onChange={(option) => field.onChange(option ? option.value : null)}
-                            value={brands?.map(brand => ({ value: brand.id, label: brand.name })).find(option => option.value === field.value) || null}
-                          />
-                        )}
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Tamanho
-                      </label>
-                      <input
-                        type="text"
-                        {...register('size')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Cor
-                      </label>
-                      <input
-                        type="text"
-                        {...register('color')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Material
-                      </label>
-                      <input
-                        type="text"
-                        {...register('material')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Padrão
-                      </label>
-                      <input
-                        type="text"
-                        {...register('pattern')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        ID do Catálogo
-                      </label>
-                      <input
-                        type="text"
-                        {...register('catalogId')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Nome do Catálogo
-                      </label>
-                      <input
-                        type="text"
-                        {...register('catalog')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Tamanho de Roupa
-                      </label>
-                      <input
-                        type="text"
-                        {...register('clothingSize')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Tamanho de Calçado
-                      </label>
-                      <input
-                        type="text"
-                        {...register('shoeSize')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Sistema de Tamanho de Calçado
-                      </label>
-                      <input
-                        type="text"
-                        {...register('shoeSizeSystem')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                        placeholder="e.g., EU, US, UK"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Tipo de Roupa
-                      </label>
-                      <input
-                        type="text"
-                        {...register('clothingType')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Estação
-                      </label>
-                      <input
-                        type="text"
-                        {...register('season')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                        Estilo
-                      </label>
-                      <input
-                        type="text"
-                        {...register('style')}
-                        className="block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 p-2"
-                      />
-                    </div>
-
-                    <div className="flex items-center mt-6">
-                      <div className="relative">
-                        <input
-                          id="isActive"
-                          {...register('isActive')}
-                          type="checkbox"
-                          className="relative peer h-4 w-4 cursor-pointer appearance-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 checked:bg-indigo-600 checked:border-indigo-600 dark:checked:bg-indigo-500 dark:checked:border-indigo-500 transition-all duration-200"
-                        />
-                        <svg className="absolute top-0 left-0 h-4 w-4 text-white dark:text-gray-900 pointer-events-none opacity-0 peer-checked:opacity-100 transition-opacity duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                        </svg>
                       </div>
-                      <label htmlFor="isActive" className="ml-2 block text-sm text-gray-900 dark:text-gray-100">
-                        Active Profile
-                      </label>
+                      <div>
+                        <label htmlFor="keywords" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Keywords</label>
+                        <input
+                          type="text"
+                          id="keywords"
+                          name="keywords"
+                          value={formData.keywords}
+                          onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                          placeholder="e.g., vintage t-shirt, Nike shoes"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label htmlFor="priority" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Priority</label>
+                      <Select
+                        id="priority"
+                        name="priority"
+                        options={priorityOptions}
+                        value={selectedPriority}
+                        onChange={(option) => setFormData(prev => ({ ...prev, priority: option?.value || 'MEDIUM' }))}
+                        styles={customStyles}
+                        classNamePrefix="react-select"
+                        className="mt-1"
+                      />
+                      <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Higher priority profiles will be processed first.</p>
+                    </div>
+                    <div className="flex items-center">
+                      <input
+                        id="isActive"
+                        name="isActive"
+                        type="checkbox"
+                        checked={formData.isActive}
+                        onChange={handleInputChange}
+                        className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded dark:bg-gray-700 dark:border-gray-600 dark:checked:bg-primary-600 dark:focus:ring-primary-500"
+                      />
+                      <label htmlFor="isActive" className="ml-2 block text-sm text-gray-900 dark:text-gray-100">Active Profile</label>
+                    </div>
+                  </div>
+
+                  {/* Pricing & Sizing Section */}
+                  <div className="space-y-6 pt-8">
+                    <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 border-b border-gray-200 dark:border-gray-700 pb-2">Pricing & Sizing</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="minPrice" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Min Price</label>
+                      <input
+                        type="number"
+                        id="minPrice"
+                        name="minPrice"
+                        value={formData.minPrice || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        step="0.01"
+                      />
+                    </div>
+                    <div>
+                        <label htmlFor="maxPrice" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Max Price</label>
+                      <input
+                        type="number"
+                        id="maxPrice"
+                        name="maxPrice"
+                        value={formData.maxPrice || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        step="0.01"
+                      />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="size" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Size (Clothing/General)</label>
+                      <input
+                        type="text"
+                        id="size"
+                        name="size"
+                        value={formData.size || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                          placeholder="e.g., M, L, 42"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="clothingSize" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Clothing Size</label>
+                        <input
+                          type="text"
+                          id="clothingSize"
+                          name="clothingSize"
+                          value={formData.clothingSize || ''}
+                          onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                          placeholder="e.g., M, EU 40"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      <div>
+                        <label htmlFor="shoeSize" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Shoe Size</label>
+                        <input
+                          type="text"
+                          id="shoeSize"
+                          name="shoeSize"
+                          value={formData.shoeSize || ''}
+                          onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                          placeholder="e.g., 42, 10"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="shoeSizeSystem" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Shoe Size System</label>
+                        <Select
+                          id="shoeSizeSystem"
+                          name="shoeSizeSystem"
+                          options={shoeSizeSystemOptions}
+                          value={selectedShoeSizeSystem}
+                          onChange={(option) => setFormData(prev => ({ ...prev, shoeSizeSystem: option?.value || 'eu' }))}
+                          styles={customStyles}
+                          classNamePrefix="react-select"
+                          className="mt-1"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Additional Filters Section */}
+                  <div className="space-y-6 pt-8">
+                    <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 border-b border-gray-200 dark:border-gray-700 pb-2">Additional Filters</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="condition" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Condition</label>
+                        <Select
+                          id="condition"
+                          name="condition"
+                          options={conditionOptions}
+                          value={selectedCondition}
+                          onChange={(option) => setFormData(prev => ({ ...prev, condition: option?.value || '' }))}
+                          styles={customStyles}
+                          classNamePrefix="react-select"
+                          className="mt-1"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="brandId" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Brand</label>
+                        <Select
+                        id="brandId"
+                        name="brandId"
+                          options={brandOptions}
+                          value={selectedBrand}
+                          onChange={(option) => setFormData(prev => ({ ...prev, brandId: option?.value || undefined }))}
+                          isClearable
+                          placeholder="Select Brand"
+                          styles={customStyles}
+                          classNamePrefix="react-select"
+                          className="mt-1"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      <div>
+                        <label htmlFor="category" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Category</label>
+                        <input
+                          type="text"
+                          id="category"
+                          name="category"
+                          value={formData.category || ''}
+                          onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="subcategory" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Subcategory</label>
+                        <input
+                          type="text"
+                          id="subcategory"
+                          name="subcategory"
+                          value={formData.subcategory || ''}
+                          onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="color" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Color</label>
+                      <input
+                        type="text"
+                        id="color"
+                        name="color"
+                        value={formData.color || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                      />
+                    </div>
+                    <div>
+                        <label htmlFor="material" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Material</label>
+                      <input
+                        type="text"
+                        id="material"
+                        name="material"
+                        value={formData.material || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                      />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="pattern" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Pattern</label>
+                      <input
+                        type="text"
+                        id="pattern"
+                        name="pattern"
+                        value={formData.pattern || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="shippingCountry" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Shipping Country</label>
+                        <Select
+                          id="shippingCountry"
+                          name="shippingCountry"
+                          options={shippingCountryOptions}
+                          value={selectedShippingCountry}
+                          onChange={(option) => setFormData(prev => ({ ...prev, shippingCountry: option?.value || '' }))}
+                          styles={customStyles}
+                          classNamePrefix="react-select"
+                          className="mt-1"
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="catalogId" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Catalog ID</label>
+                      <input
+                        type="text"
+                        id="catalogId"
+                        name="catalogId"
+                        value={formData.catalogId || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                      />
+                    </div>
+                    <div>
+                        <label htmlFor="catalog" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Catalog Name</label>
+                      <input
+                        type="text"
+                        id="catalog"
+                        name="catalog"
+                        value={formData.catalog || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                      />
+                    </div>
+                    </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="gender" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Gender</label>
+                        <Select
+                          id="gender"
+                          name="gender"
+                          options={genderOptions}
+                          value={selectedGender}
+                          onChange={(option) => setFormData(prev => ({ ...prev, gender: option?.value || '' }))}
+                          styles={customStyles}
+                          classNamePrefix="react-select"
+                          className="mt-1"
+                      />
+                    </div>
+                    <div>
+                        <label htmlFor="clothingType" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Clothing Type</label>
+                      <input
+                        type="text"
+                        id="clothingType"
+                        name="clothingType"
+                        value={formData.clothingType || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label htmlFor="season" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Season</label>
+                      <input
+                        type="text"
+                        id="season"
+                        name="season"
+                        value={formData.season || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                      />
+                    </div>
+                    <div>
+                        <label htmlFor="style" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Style</label>
+                      <input
+                        type="text"
+                        id="style"
+                        name="style"
+                        value={formData.style || ''}
+                        onChange={handleInputChange}
+                          className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                        />
+                      </div>
                     </div>
                   </div>
 
                   {/* Auto Actions Section */}
-                  <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
-                    <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Ações Automáticas</h4>
+                  <div className="space-y-6 pt-8">
+                    <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 border-b border-gray-200 dark:border-gray-700 pb-2">Auto Actions</h4>
                     <div className="space-y-4">
                       <div className="relative flex items-start">
-                        <div className="flex items-center">
-                          <div className="relative">
-                            <input
-                              id="autoFavorite"
-                              aria-describedby="autoFavorite-description"
-                              {...register('autoActions.autoFavorite')}
-                              type="checkbox"
-                              className="relative peer h-4 w-4 cursor-pointer appearance-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 checked:bg-indigo-600 checked:border-indigo-600 dark:checked:bg-indigo-500 dark:checked:border-indigo-500 transition-all duration-200"
-                            />
-                            <svg className="absolute top-0 left-0 h-4 w-4 text-white dark:text-gray-900 pointer-events-none opacity-0 peer-checked:opacity-100 transition-opacity duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
-                          </div>
-                          <label htmlFor="autoFavorite" className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-100">Favoritar Automaticamente</label>
+                        <div className="flex h-6 items-center">
+                          <input
+                            id="autoFavorite"
+                            name="autoFavorite"
+                            type="checkbox"
+                            checked={formData.autoActions?.autoFavorite || false}
+                            onChange={(e) => handleAutoActionChange('autoFavorite', e.target.checked)}
+                            className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:checked:bg-primary-600 dark:focus:ring-primary-500"
+                          />
+                        </div>
+                        <div className="ml-3 text-sm leading-6">
+                          <label htmlFor="autoFavorite" className="font-medium text-gray-900 dark:text-gray-100">Favorite Automatically</label>
+                          <p id="autoFavorite-description" className="text-gray-500 dark:text-gray-400">Automatically favorite new matches found by this profile.</p>
                         </div>
                       </div>
 
                       <div className="relative flex items-start">
-                        <div className="flex items-center">
-                          <div className="relative">
+                        <div className="flex h-6 items-center">
                             <input
                               id="autoOffer"
-                              aria-describedby="autoOffer-description"
-                              {...register('autoActions.autoOffer')}
+                            name="autoOffer"
                               type="checkbox"
-                              className="relative peer h-4 w-4 cursor-pointer appearance-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 checked:bg-indigo-600 checked:border-indigo-600 dark:checked:bg-indigo-500 dark:checked:border-indigo-500 transition-all duration-200"
+                            checked={formData.autoActions?.autoOffer || false}
+                              onChange={(e) => handleAutoActionChange('autoOffer', e.target.checked)}
+                            className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:checked:bg-primary-600 dark:focus:ring-primary-500"
                             />
-                             <svg className="absolute top-0 left-0 h-4 w-4 text-white dark:text-gray-900 pointer-events-none opacity-0 peer-checked:opacity-100 transition-opacity duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
-                          </div>
-                          <label htmlFor="autoOffer" className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-100">Oferta Automática</label>
                         </div>
-                        <div className="ml-auto flex items-center">
+                        <div className="ml-3 text-sm leading-6 flex-grow">
+                          <label htmlFor="autoOffer" className="font-medium text-gray-900 dark:text-gray-100">Make Automatic Offer</label>
+                          <p id="autoOffer-description" className="text-gray-500 dark:text-gray-400">Automatically send an offer for new matches if the price is below the specified amount.</p>
+                          {formData.autoActions?.autoOffer && (
+                            <div className="mt-2">
                           <label htmlFor="autoOfferPrice" className="sr-only">Offer Price</label>
-                          <div className="relative mt-1 rounded-md shadow-sm">
+                              <div className="relative rounded-md shadow-sm">
                             <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                               <span className="text-gray-500 dark:text-gray-400 sm:text-sm">€</span>
                             </div>
                             <input
                               type="number"
-                              {...register('autoActions.autoOfferPrice', { valueAsNumber: true })}
                               id="autoOfferPrice"
-                              className="block w-full rounded-md border-gray-300 dark:border-gray-600 pl-7 pr-12 focus:border-indigo-600 focus:ring-indigo-600 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
+                              name="autoActions.autoOfferPrice"
+                              value={formData.autoActions?.autoOfferPrice || ''}
+                              onChange={(e) => setFormData(prev => ({
+                                ...prev,
+                                autoActions: {
+                                  ...prev.autoActions,
+                                  autoOfferPrice: e.target.value ? Number(e.target.value) : undefined
+                                }
+                              }))}
+                                  className="block w-full rounded-md border-gray-300 dark:border-gray-600 pl-7 pr-12 focus:border-primary-500 focus:ring-primary-500 sm:text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
                               placeholder="0.00"
                               aria-describedby="price-currency"
                               step="0.01"
@@ -689,44 +768,44 @@ export default function EditProfileModal({ isOpen, onClose, profile }: EditProfi
                               <span className="text-gray-500 dark:text-gray-400 sm:text-sm" id="price-currency">EUR</span>
                             </div>
                           </div>
+                            </div>
+                          )}
                         </div>
                       </div>
 
                       <div className="relative flex items-start">
-                        <div className="flex items-center h-5">
-                          <div className="relative">
+                        <div className="flex h-6 items-center">
                             <input
                               id="autoBuy"
-                              aria-describedby="autoBuy-description"
-                              {...register('autoActions.autoBuy')}
+                            name="autoBuy"
                               type="checkbox"
-                              className="relative peer h-4 w-4 cursor-pointer appearance-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 checked:bg-indigo-600 checked:border-indigo-600 dark:checked:bg-indigo-500 dark:checked:border-indigo-500 transition-all duration-200"
+                            checked={formData.autoActions?.autoBuy || false}
+                              onChange={(e) => handleAutoActionChange('autoBuy', e.target.checked)}
+                            className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:checked:bg-primary-600 dark:focus:ring-primary-500"
                             />
-                            <svg className="absolute top-0 left-0 h-4 w-4 text-white dark:text-gray-900 pointer-events-none opacity-0 peer-checked:opacity-100 transition-opacity duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
                           </div>
-                          <label htmlFor="autoBuy" className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-100">Comprar Automaticamente</label>
+                        <div className="ml-3 text-sm leading-6">
+                          <label htmlFor="autoBuy" className="font-medium text-gray-900 dark:text-gray-100">Attempt Automatic Buy</label>
+                          <p id="autoBuy-description" className="text-gray-500 dark:text-gray-400">Automatically attempt to buy new matches found by this profile.</p>
                         </div>
                       </div>
                     </div>
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="mt-8 flex justify-end space-x-4">
+                  <div className="mt-10 flex justify-end gap-x-4 pt-8 border-t border-gray-200 dark:border-gray-700">
                     <button
                       type="button"
-                      className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600"
+                      className="rounded-md bg-gray-50 dark:bg-gray-800 px-6 py-3 text-sm font-semibold text-gray-900 dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                       onClick={onClose}
                     >
-                      Cancelar
+                      Cancel
                     </button>
                     <button
                       type="submit"
-                      disabled={createProfile.isPending || updateProfile.isPending}
-                      className="px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50"
+                      className="inline-flex justify-center rounded-md bg-primary-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 transition-colors"
                     >
-                      {isEditing ? (updateProfile.isPending ? 'Guardando...' : 'Guardar Alterações') : (createProfile.isPending ? 'Criando...' : 'Criar Perfil')}
+                      {isEditing ? 'Save Changes' : 'Create Profile'}
                     </button>
                   </div>
                 </form>

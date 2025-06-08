@@ -1,20 +1,9 @@
 import { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
 import { prisma } from '../index';
 import { AppError } from '../middleware/errorHandler';
-import logger from '../utils/logger';
-
-const generateToken = (userId: string) => {
-  return jwt.sign(
-    { userId },
-    process.env.JWT_SECRET as string,
-    { 
-      expiresIn: process.env.JWT_EXPIRES_IN || '7d',
-      algorithm: 'HS256'
-    }
-  );
-};
+import { logger } from '../utils/logger';
+import { generateToken } from '../utils/authUtils';
 
 export const register = async (req: Request, res: Response) => {
   try {

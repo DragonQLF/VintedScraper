@@ -1,6 +1,30 @@
 version: '3.8'
 
 services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: vinted-bot-backend
+    restart: always
+    environment:
+      DATABASE_URL: "mysql://root:root@mysql:3306/vinted_bot"
+      PORT: 3002
+      NODE_ENV: production
+      JWT_SECRET: "vinted-bot-secure-jwt-secret-key-2024"
+      JWT_EXPIRES_IN: "7d"
+      VINTED_BASE_URL: "https://www.vinted.com"
+      VINTED_SEARCH_URL: "https://www.vinted.com/catalog"
+    ports:
+      - "3002:3002"
+    depends_on:
+      - mysql
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
   mysql:
     image: mysql:8.0
     container_name: vinted-bot-mysql

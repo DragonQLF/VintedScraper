@@ -5,7 +5,7 @@ import Layout from './components/Layout';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
-import SearchProfile from './pages/SearchProfile';
+import WebhookConfigPage from './pages/WebhookConfig';
 import NotFound from './pages/NotFound';
 
 function PrivateRoute({ children }: { children: React.ReactNode }) {
@@ -58,11 +58,11 @@ export default function App() {
         }
       />
       <Route
-        path="/profiles"
+        path="/config"
         element={
           <PrivateRoute>
             <Layout>
-              <SearchProfile />
+              <WebhookConfigPage />
             </Layout>
           </PrivateRoute>
         }

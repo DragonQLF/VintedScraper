@@ -1,0 +1,1 @@
+"use strict";const{contextBridge:o,ipcRenderer:e,shell:d}=require("electron");o.exposeInMainWorld("electron",{openExternal:i=>d.openExternal(i),minimizeWindow:()=>e.send("minimize-window"),maximizeWindow:()=>e.send("maximize-window"),closeWindow:()=>e.send("close-window"),showNotification:(i,n)=>e.send("show-notification",{title:i,body:n})});

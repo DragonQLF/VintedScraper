@@ -1,8 +1,10 @@
 import { Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
+import jwt, { SignOptions } from 'jsonwebtoken';
 import { prisma } from '../index';
 import { AppError } from '../middleware/errorHandler';
+import { logger } from '../utils/logger';
+import { generateToken } from '../utils/authUtils';
 
 export const register = async (
   req: Request,
@@ -41,11 +43,7 @@ export const register = async (
     });
 
     // Generate token
-    const token = jwt.sign(
-      { userId: user.id },
-      process.env.JWT_SECRET as string,
-      { expiresIn: process.env.JWT_EXPIRES_IN }
-    );
+    const token = generateToken(user.id);
 
     res.status(201).json({
       status: 'success',
@@ -83,11 +81,7 @@ export const login = async (
     }
 
     // Generate token
-    const token = jwt.sign(
-      { userId: user.id },
-      process.env.JWT_SECRET as string,
-      { expiresIn: process.env.JWT_EXPIRES_IN }
-    );
+    const token = generateToken(user.id);
 
     res.json({
       status: 'success',

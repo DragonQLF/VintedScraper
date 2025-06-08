@@ -28,11 +28,15 @@ export const getMatches = async (
       ...(condition && condition !== '' ? { condition: conditionMap[condition as string] } : {})
     };
 
-    const orderBy = {
-      ...(sortBy === 'newest' && { matchedAt: 'desc' }),
-      ...(sortBy === 'price-asc' && { price: 'asc' }),
-      ...(sortBy === 'price-desc' && { price: 'desc' })
-    };
+    let orderBy: any = {};
+
+    if (sortBy === 'newest') {
+      orderBy = { matchedAt: 'desc' };
+    } else if (sortBy === 'price-asc') {
+      orderBy = { price: 'asc' };
+    } else if (sortBy === 'price-desc') {
+      orderBy = { price: 'desc' };
+    }
 
     const matches = await prisma.match.findMany({
       where,

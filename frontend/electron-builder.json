@@ -1,0 +1,27 @@
+{
+  "appId": "com.vinted.bot",
+  "productName": "Vinted Bot",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "node_modules/**/*"
+  ],
+  "extraResources": [
+    {
+      "from": "dist/preload.ts",
+      "to": "preload.ts"
+    }
+  ],
+  "win": {
+    "target": [
+      "nsis"
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true
+  }
+} 

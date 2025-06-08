@@ -1,8 +1,6 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
-  provider = "prisma-client-js"
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
 }
 
 datasource db {
@@ -11,58 +9,63 @@ datasource db {
 }
 
 model User {
-  id            String         @id @default(uuid())
-  email         String         @unique
-  password      String
-  name          String?
-  createdAt     DateTime       @default(now())
-  updatedAt     DateTime       @updatedAt
+  id             String          @id @default(uuid())
+  email          String          @unique
+  password       String
+  name           String?
+  discordWebhookUrl String?
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  actions        Action[]
+  notifications  Notification[]
   searchProfiles SearchProfile[]
-  notifications Notification[]
-  actions       Action[]
 }
 
 model Brand {
-  id            Int             @id
-  name          String
+  id             Int             @id
+  name           String
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
   searchProfiles SearchProfile[]
-  createdAt     DateTime        @default(now())
-  updatedAt     DateTime        @updatedAt
 }
 
 model SearchProfile {
-  id              String    @id @default(uuid())
+  id              String      @id @default(uuid())
   name            String
   keywords        String?
-  category        String?
-  subcategory     String?
-  brandId         Int?
-  brand           Brand?    @relation(fields: [brandId], references: [id])
-  size            String?
   minPrice        Float?
   maxPrice        Float?
+  size            String?
   condition       String?
+  isActive        Boolean     @default(true)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  userId          String
+  catalog         String?
+  catalogId       String?
+  category        String?
+  clothingSize    String?
+  clothingType    String?
   color           String?
+  gender          String?
   material        String?
   pattern         String?
+  season          String?
   shippingCountry String?
-  catalogId       String?
-  catalog         String?
-  gender          String?
-  status          String    @default("active")
-  clothingSize    String?
   shoeSize        String?
   shoeSizeSystem  String?
-  clothingType    String?
-  season          String?
+  status          String      @default("active")
   style           String?
-  isActive        Boolean   @default(true)
+  subcategory     String?
+  brandId         Int?
+  priority        String      @default("MEDIUM")
   autoActions     AutoAction?
-  createdAt       DateTime  @default(now())
-  updatedAt       DateTime  @updatedAt
-  userId          String
-  user            User      @relation(fields: [userId], references: [id])
   matches         Match[]
+  brand           Brand?      @relation(fields: [brandId], references: [id])
+  user            User        @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([brandId])
 }
 
 model AutoAction {
@@ -76,29 +79,30 @@ model AutoAction {
 }
 
 model Match {
-  id              String        @id @default(uuid())
+  id              String         @id @default(uuid())
   listingId       String
   title           String
   price           Float
-  imageUrls       String        // JSON array of URLs
+  imageUrls       String
   productUrl      String
   size            String?
   brand           String?
   condition       String?
   sellerRating    Float?
-  totalPrice      Float?
-  likes           Int    @default(0)
-  status          String        @default("available") // available, sold, deleted
-  matchedAt       DateTime      @default(now())
   searchProfileId String
-  searchProfile   SearchProfile @relation(fields: [searchProfileId], references: [id], onDelete: Cascade)
-  notifications   Notification[]
+  createdAt       DateTime       @default(now())
+  status          String         @default("available")
+  updatedAt       DateTime       @updatedAt
+  likes           Int            @default(0)
+  totalPrice      Float?
+  matchedAt       DateTime       @default(now())
   actions         Action[]
+  searchProfile   SearchProfile  @relation(fields: [searchProfileId], references: [id], onDelete: Cascade)
+  notifications   Notification[]
   priceHistory    PriceHistory[]
-  createdAt       DateTime      @default(now())
-  updatedAt       DateTime      @updatedAt
 
   @@unique([listingId, searchProfileId])
+  @@index([searchProfileId], map: "Match_searchProfileId_fkey")
 }
 
 model PriceHistory {
@@ -113,25 +117,31 @@ model PriceHistory {
 
 model Notification {
   id        String   @id @default(uuid())
-  type      String   // "NEW_MATCH" | "PRICE_DROP" | "ITEM_SOLD" | "ITEM_DELETED" | "ACTION"
+  type      String
   message   String
-  details   String?  // JSON string of additional notification details
   isRead    Boolean  @default(false)
   createdAt DateTime @default(now())
   userId    String
-  user      User     @relation(fields: [userId], references: [id])
   matchId   String?
+  details   String?
   match     Match?   @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id])
+
+  @@index([matchId], map: "Notification_matchId_fkey")
+  @@index([userId], map: "Notification_userId_fkey")
 }
 
 model Action {
   id        String   @id @default(uuid())
-  type      String   // "FAVORITE" | "OFFER" | "BUY"
-  price     Float?
-  status    String   // "PENDING" | "COMPLETED" | "FAILED"
+  type      String
   createdAt DateTime @default(now())
   userId    String
-  user      User     @relation(fields: [userId], references: [id])
   matchId   String
+  price     Float?
+  status    String
   match     Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
-} 
+  user      User     @relation(fields: [userId], references: [id])
+
+  @@index([matchId], map: "Action_matchId_fkey")
+  @@index([userId], map: "Action_userId_fkey")
+}
