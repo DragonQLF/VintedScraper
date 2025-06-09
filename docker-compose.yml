@@ -33,7 +33,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: vinted_bot
     ports:
-      - "3307:3306"
+      - "3306:3306"
     command: --default-authentication-plugin=mysql_native_password
     volumes:
       - mysql_data:/var/lib/mysql
